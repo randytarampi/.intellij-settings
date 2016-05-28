@@ -33,6 +33,14 @@
   <component name="TeamCityHistory">
     <option name="HISTORY" value="https://teamcity.pulseenergy.com&amp;^%$#@randy.tarampi@#$%^&amp;http://teamcity.pulseenergy.com&amp;^%$#@randy.tarampi" />
   </component>
+  <component name="XcodeSettings">
+    <option name="selectedXcode" value="/Applications/Xcode.app/Contents/Developer" />
+    <option name="detectedXcodes">
+      <list>
+        <option value="/Applications/Xcode.app/Contents/Developer" />
+      </list>
+    </option>
+  </component>
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
     <recent_templates>
       <option name="RECENT_TEMPLATES">
