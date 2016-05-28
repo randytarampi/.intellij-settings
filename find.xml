@@ -1,0 +1,36 @@
+<application>
+  <component name="FindSettings">
+    <recentFileMasks>
+      <mask>*.html, *.jade</mask>
+      <mask>*.json, *.yaml</mask>
+      <mask>*.less, !*skins/*.less</mask>
+      <mask>it_IT</mask>
+      <mask>*tips.json</mask>
+      <mask>*.tips.js</mask>
+      <mask>it_IT.json</mask>
+      <mask>*.html</mask>
+      <mask>package.json</mask>
+      <mask>*.yaml</mask>
+      <mask>default.yaml</mask>
+      <mask>*.less</mask>
+      <mask>it_IT.yaml</mask>
+      <mask>it_IT.*</mask>
+      <mask>(package|bower).json</mask>
+      <mask>package.json,bower.json</mask>
+      <mask>default.json</mask>
+      <mask>*.json</mask>
+      <mask>(!qps_ploc).json</mask>
+      <mask>{default,bg,it_IT}.json</mask>
+      <mask>(default,bg,it_IT).json</mask>
+      <mask>default.json,bg.json,it_IT.json</mask>
+      <mask>!locales/*.{json,yaml}</mask>
+      <mask>locales/*.{json,yaml}</mask>
+      <mask>*.js,*.html,*.jade</mask>
+      <mask>*.js,*.json,*.yaml</mask>
+      <mask>locales/*</mask>
+      <mask>en.</mask>
+      <mask>en.json</mask>
+      <mask>en.json, it_IT.json, bg.json, ergon.json</mask>
+    </recentFileMasks>
+  </component>
+</application>
