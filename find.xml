@@ -1,8 +1,7 @@
 <application>
   <component name="FindSettings">
+    <option name="FILE_MASK" value="*.json,*.yaml" />
     <recentFileMasks>
-      <mask>*.html, *.jade</mask>
-      <mask>*.json, *.yaml</mask>
       <mask>*.less, !*skins/*.less</mask>
       <mask>it_IT</mask>
       <mask>*tips.json</mask>
@@ -31,6 +30,8 @@
       <mask>en.</mask>
       <mask>en.json</mask>
       <mask>en.json, it_IT.json, bg.json, ergon.json</mask>
+      <mask>locales/*.json, locales/*.yaml</mask>
+      <mask>*.json,*.yaml</mask>
     </recentFileMasks>
   </component>
 </application>
