@@ -1,6 +1,5 @@
 <application>
   <component name="FindSettings">
-    <option name="FILE_MASK" value="*.json,*.yaml" />
     <recentFileMasks>
       <mask>*.less, !*skins/*.less</mask>
       <mask>it_IT</mask>
