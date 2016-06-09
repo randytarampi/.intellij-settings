@@ -1,7 +1,4 @@
 <application>
-  <component name="CPPToolchains">
-    <option name="detectedVersion" value="4" />
-  </component>
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
   </component>
@@ -20,18 +17,22 @@
     <propertiesTableLayout />
   </component>
   <component name="NodeJsLocalInterpreters">
-    <local-interpreter path="/usr/local/Cellar/node/6.0.0/bin/node">
-      <version-cache version="6.0.0" last-modified="1462235231000" />
+    <local-interpreter path="/usr/local/Cellar/node/6.2.0/bin/node">
+      <version-cache version="6.2.0" last-modified="1463514794000" />
     </local-interpreter>
     <local-interpreter path="/usr/local/bin/node">
       <version-cache version="6.2.0" last-modified="1463514794000" />
+      <npm-package value="/usr/local/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/6.0.0/bin/node">
+      <version-cache last-modified="0" />
     </local-interpreter>
     <local-interpreter path="/usr/local/Cellar/node/5.7.1/bin/node">
       <version-cache last-modified="0" />
     </local-interpreter>
   </component>
   <component name="TeamCityHistory">
-    <option name="HISTORY" value="" />
+    <option name="HISTORY" value="https://teamcity.pulseenergy.com&amp;^%$#@randy.tarampi@#$%^&amp;http://teamcity.pulseenergy.com&amp;^%$#@randy.tarampi" />
   </component>
   <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
     <recent_templates>
