@@ -2,7 +2,6 @@
   <component name="FindSettings">
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="FILE_MASK" value="dus.yaml" />
     <recentFileMasks>
       <mask>it_IT</mask>
       <mask>*tips.json</mask>
