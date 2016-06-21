@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="localCaseSensitive" value="true" />
-    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <recentFileMasks>
       <mask>it_IT</mask>
       <mask>*tips.json</mask>
