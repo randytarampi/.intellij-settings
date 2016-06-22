@@ -1017,6 +1017,23 @@
         <root url="file:///opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/fission-0.5.0/lib" />
       </SOURCES>
     </library>
+    <library name="fog (v1.29.0, Chef DK: /opt/chefdk) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/bin" />
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/lib" />
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/tests" />
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/benchs" />
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/gemfiles" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/bin" />
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/lib" />
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/tests" />
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/benchs" />
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/fog-1.29.0/gemfiles" />
+      </SOURCES>
+    </library>
     <library name="fog (v1.33.0, Chef DK: /opt/chefdk) [gem]">
       <CLASSES>
         <root url="file:///opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/fog-1.33.0/bin" />
@@ -1848,6 +1865,15 @@
         <root url="file:///opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.20.0/templates" />
       </SOURCES>
     </library>
+    <library name="knife-ec2 (v0.12.0, Chef DK: /opt/chefdk) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/knife-ec2-0.12.0/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/.chefdk/gem/ruby/2.1.0/gems/knife-ec2-0.12.0/lib" />
+      </SOURCES>
+    </library>
     <library name="knife-spork (v1.6.1, Chef DK: /opt/chefdk) [gem]">
       <CLASSES>
         <root url="file:///opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/knife-spork-1.6.1/lib" />
@@ -2468,6 +2494,56 @@
         <root url="file:///opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/pry-stack_explorer-0.4.9.2/lib" />
       </SOURCES>
     </library>
+    <library name="Python 2.7.10 (/usr/bin/python) interpreter library">
+      <CLASSES>
+        <root url="file:///Library/Python/2.7/site-packages/pip-7.0.3-py2.7.egg" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
+        <root url="file:///Library/Python/2.7/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.1/python_stubs/348993582" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///Library/Python/2.7/site-packages/pip-7.0.3-py2.7.egg" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
+        <root url="file:///Library/Python/2.7/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.1/python_stubs/348993582" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+      </SOURCES>
+    </library>
+    <library name="Python 3.5.1 (/usr/local/bin/python3) interpreter library">
+      <CLASSES>
+        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5" />
+        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin" />
+        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/lib-dynload" />
+        <root url="file:///usr/local/lib/python3.5/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.1/python_stubs/1437855905" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5" />
+        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin" />
+        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/lib-dynload" />
+        <root url="file:///usr/local/lib/python3.5/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.1/python_stubs/1437855905" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+      </SOURCES>
+    </library>
     <library name="r-train (v0.10.4, Chef DK: /opt/chefdk) [gem]">
       <CLASSES>
         <root url="file:///opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/r-train-0.10.4/lib" />
@@ -2989,6 +3065,77 @@
       </SOURCES>
     </library>
     <library name="test-unit (v2.1.6.0, Chef DK: /opt/chefdk) [gem]">
+      <CLASSES>
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/dl" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/io" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/cgi" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/drb" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/irb" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/net" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rss" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/uri" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/date" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/json" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/racc" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rake" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rdoc" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/yaml" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/psych" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rexml" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rinda" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/shell" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/digest" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/fiddle" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/matrix" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/ripper" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/syslog" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/xmlrpc" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/openssl" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/webrick" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/minitest" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/optparse" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rbconfig" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rubygems" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/bigdecimal" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/x86_64-darwin13.0" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/dl" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/io" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/cgi" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/drb" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/irb" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/net" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rss" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/uri" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/date" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/json" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/racc" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rake" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rdoc" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/yaml" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/psych" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rexml" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rinda" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/shell" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/digest" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/fiddle" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/matrix" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/ripper" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/syslog" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/xmlrpc" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/openssl" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/webrick" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/minitest" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/optparse" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rbconfig" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/rubygems" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/bigdecimal" />
+        <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/x86_64-darwin13.0" />
+      </SOURCES>
+    </library>
+    <library name="test-unit (v2.1.8.0, Chef DK: /opt/chefdk) [gem]">
       <CLASSES>
         <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/dl" />
         <root url="file:///opt/chefdk/embedded/lib/ruby/2.1.0/io" />
