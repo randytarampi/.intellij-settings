@@ -1,7 +1,6 @@
 <application>
   <component name="FindSettings">
     <recentFileMasks>
-      <mask>*.tips.js</mask>
       <mask>it_IT.json</mask>
       <mask>package.json</mask>
       <mask>*.yaml</mask>
@@ -31,6 +30,7 @@
       <mask>.*</mask>
       <mask>it_IT.*</mask>
       <mask>*.html</mask>
+      <mask>*.json, *.yaml</mask>
     </recentFileMasks>
   </component>
 </application>
