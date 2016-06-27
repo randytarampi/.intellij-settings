@@ -1,6 +1,8 @@
 <application>
   <component name="FindSettings">
+    <option name="localCaseSensitive" value="true" />
     <option name="regularExpressions" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <recentFileMasks>
       <mask>it_IT.json</mask>
@@ -22,7 +24,6 @@
       <mask>*.js,*.json,*.yaml</mask>
       <mask>locales/*</mask>
       <mask>en.</mask>
-      <mask>en.json</mask>
       <mask>en.json, it_IT.json, bg.json, ergon.json</mask>
       <mask>locales/*.json, locales/*.yaml</mask>
       <mask>*.json,*.yaml</mask>
@@ -33,6 +34,7 @@
       <mask>*.html</mask>
       <mask>*.json, *.yaml</mask>
       <mask>*.json</mask>
+      <mask>en.json</mask>
     </recentFileMasks>
   </component>
 </application>
