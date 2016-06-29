@@ -36,6 +36,7 @@
       </entry>
       <entry key="CommitDialog">
         <PlaceSettings>
+          <option name="READ_ONLY_LOCK" value="false" />
           <option name="EXPAND_BY_DEFAULT" value="false" />
         </PlaceSettings>
       </entry>
