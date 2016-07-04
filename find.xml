@@ -2,8 +2,8 @@
   <component name="FindSettings">
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="FILE_MASK" value="!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*" />
     <recentFileMasks>
-      <mask>default.yaml</mask>
       <mask>*.less</mask>
       <mask>it_IT.yaml</mask>
       <mask>(package|bower).json</mask>
@@ -33,6 +33,7 @@
       <mask>en.json, en.js, en.yaml</mask>
       <mask>package.json</mask>
       <mask>it_IT.*</mask>
+      <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
     </recentFileMasks>
   </component>
 </application>
