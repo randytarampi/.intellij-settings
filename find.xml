@@ -1,5 +1,7 @@
 <application>
   <component name="FindSettings">
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <recentFileMasks>
       <mask>default.yaml</mask>
       <mask>*.less</mask>
@@ -23,7 +25,6 @@
       <mask>dus.yaml</mask>
       <mask>it_IT</mask>
       <mask>.*</mask>
-      <mask>it_IT.*</mask>
       <mask>*.html</mask>
       <mask>*.json, *.yaml</mask>
       <mask>*.json</mask>
@@ -31,6 +32,7 @@
       <mask>it_IT.json</mask>
       <mask>en.json, en.js, en.yaml</mask>
       <mask>package.json</mask>
+      <mask>it_IT.*</mask>
     </recentFileMasks>
   </component>
 </application>
