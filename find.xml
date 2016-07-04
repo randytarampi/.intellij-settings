@@ -1,26 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
-    <option name="localRegularExpressions" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <recentFileMasks>
-      <mask>*.less, !*skins/*.less</mask>
-      <mask>it_IT</mask>
-      <mask>*tips.json</mask>
-      <mask>*.tips.js</mask>
-      <mask>it_IT.json</mask>
-      <mask>*.html</mask>
-      <mask>package.json</mask>
-      <mask>*.yaml</mask>
       <mask>default.yaml</mask>
       <mask>*.less</mask>
       <mask>it_IT.yaml</mask>
-      <mask>it_IT.*</mask>
       <mask>(package|bower).json</mask>
       <mask>package.json,bower.json</mask>
       <mask>default.json</mask>
-      <mask>*.json</mask>
       <mask>(!qps_ploc).json</mask>
       <mask>{default,bg,it_IT}.json</mask>
       <mask>(default,bg,it_IT).json</mask>
@@ -31,10 +17,20 @@
       <mask>*.js,*.json,*.yaml</mask>
       <mask>locales/*</mask>
       <mask>en.</mask>
-      <mask>en.json</mask>
       <mask>en.json, it_IT.json, bg.json, ergon.json</mask>
       <mask>locales/*.json, locales/*.yaml</mask>
       <mask>*.json,*.yaml</mask>
+      <mask>dus.yaml</mask>
+      <mask>it_IT</mask>
+      <mask>.*</mask>
+      <mask>it_IT.*</mask>
+      <mask>*.html</mask>
+      <mask>*.json, *.yaml</mask>
+      <mask>*.json</mask>
+      <mask>en.json</mask>
+      <mask>it_IT.json</mask>
+      <mask>en.json, en.js, en.yaml</mask>
+      <mask>package.json</mask>
     </recentFileMasks>
   </component>
 </application>

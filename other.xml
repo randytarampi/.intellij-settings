@@ -1,4 +1,7 @@
 <application>
+  <component name="CPPToolchains">
+    <option name="detectedVersion" value="4" />
+  </component>
   <component name="CodeStyleSchemes">
     <option name="CURRENT_SCHEME_NAME" value="Default" />
   </component>
@@ -17,18 +20,32 @@
     <propertiesTableLayout />
   </component>
   <component name="NodeJsLocalInterpreters">
-    <local-interpreter path="/usr/local/Cellar/node/6.2.0/bin/node">
-      <version-cache version="6.2.0" last-modified="1463514794000" />
-    </local-interpreter>
     <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="6.2.0" last-modified="1463514794000" />
+      <version-cache last-modified="0" />
       <npm-package value="/usr/local/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v6.2.2/bin/node">
+      <version-cache version="6.2.2" last-modified="1466174063000" />
+      <npm-package value="$USER_HOME$/.nvm/versions/node/v6.2.2/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v6.2.0/bin/node">
+      <version-cache last-modified="0" />
+      <npm-package value="$USER_HOME$/.nvm/versions/node/v6.2.0/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/6.2.0/bin/node">
+      <version-cache last-modified="0" />
     </local-interpreter>
     <local-interpreter path="/usr/local/Cellar/node/6.0.0/bin/node">
       <version-cache last-modified="0" />
     </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v5.11.0/bin/node">
+      <version-cache version="5.11.0" last-modified="1461260217000" />
+    </local-interpreter>
     <local-interpreter path="/usr/local/Cellar/node/5.7.1/bin/node">
       <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.4.3/bin/node">
+      <version-cache version="4.4.3" last-modified="1460489554000" />
     </local-interpreter>
   </component>
   <component name="TeamCityHistory">
