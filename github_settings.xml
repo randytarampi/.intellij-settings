@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="GithubSettings">
     <option name="LOGIN" value="randytarampi" />
     <option name="AUTH_TYPE" value="BASIC" />
+    <option name="VALID_GIT_AUTH" value="false" />
   </component>
 </application>
-
