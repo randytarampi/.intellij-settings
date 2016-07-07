@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
+    <option name="FILE_MASK" value="*.yaml" />
     <recentFileMasks>
-      <mask>(package|bower).json</mask>
       <mask>package.json,bower.json</mask>
       <mask>default.json</mask>
       <mask>(!qps_ploc).json</mask>
@@ -31,6 +31,7 @@
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>.js</mask>
       <mask>*.js</mask>
+      <mask>*.yaml</mask>
     </recentFileMasks>
   </component>
 </application>
