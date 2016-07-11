@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="FILE_MASK" value="it_IT.*" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="FILE_MASK" value="responsive-*.less" />
     <recentFileMasks>
-      <mask>default.json</mask>
       <mask>(!qps_ploc).json</mask>
       <mask>{default,bg,it_IT}.json</mask>
       <mask>(default,bg,it_IT).json</mask>
@@ -32,6 +33,7 @@
       <mask>*.yaml</mask>
       <mask>it_IT.yaml</mask>
       <mask>it_IT.*</mask>
+      <mask>responsive-*.less</mask>
     </recentFileMasks>
   </component>
 </application>
