@@ -1,5 +1,6 @@
 <application>
   <component name="FindSettings">
+    <option name="FILE_MASK" value="it_IT.yaml" />
     <recentFileMasks>
       <mask>(!qps_ploc).json</mask>
       <mask>{default,bg,it_IT}.json</mask>
@@ -20,17 +21,17 @@
       <mask>*.json, *.yaml</mask>
       <mask>*.json</mask>
       <mask>en.json</mask>
-      <mask>it_IT.json</mask>
       <mask>en.json, en.js, en.yaml</mask>
       <mask>package.json</mask>
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>.js</mask>
       <mask>*.js</mask>
       <mask>*.yaml</mask>
-      <mask>it_IT.yaml</mask>
       <mask>it_IT.*</mask>
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>it_IT</mask>
+      <mask>it_IT.json</mask>
+      <mask>it_IT.yaml</mask>
     </recentFileMasks>
   </component>
 </application>
