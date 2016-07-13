@@ -17,7 +17,6 @@
       <mask>locales/*.json, locales/*.yaml</mask>
       <mask>*.json,*.yaml</mask>
       <mask>dus.yaml</mask>
-      <mask>it_IT</mask>
       <mask>.*</mask>
       <mask>*.html</mask>
       <mask>*.json, *.yaml</mask>
@@ -33,6 +32,7 @@
       <mask>it_IT.yaml</mask>
       <mask>it_IT.*</mask>
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
+      <mask>it_IT</mask>
     </recentFileMasks>
   </component>
 </application>
