@@ -1,5 +1,6 @@
 <application>
   <component name="FindSettings">
+    <option name="FILE_MASK" value="it_IT.yaml" />
     <recentFileMasks>
       <mask>(!qps_ploc).json</mask>
       <mask>{default,bg,it_IT}.json</mask>
