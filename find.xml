@@ -1,7 +1,5 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="FILE_MASK" value="it_IT.yaml" />
     <recentFileMasks>
       <mask>(!qps_ploc).json</mask>
