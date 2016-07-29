@@ -2,9 +2,11 @@
   <component name="FindSettings">
     <option name="customScope" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
     <option name="defaultScopeName" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
+    <option name="FILE_MASK" value="*.jade" />
     <recentFileMasks>
-      <mask>(!qps_ploc).json</mask>
       <mask>{default,bg,it_IT}.json</mask>
       <mask>(default,bg,it_IT).json</mask>
       <mask>default.json,bg.json,it_IT.json</mask>
@@ -34,6 +36,7 @@
       <mask>it_IT.yaml</mask>
       <mask>it_IT.*</mask>
       <mask>package.json</mask>
+      <mask>*.jade</mask>
     </recentFileMasks>
   </component>
 </application>
