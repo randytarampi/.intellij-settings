@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
     <option name="defaultScopeName" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
     <recentFileMasks>
       <mask>{default,bg,it_IT}.json</mask>
