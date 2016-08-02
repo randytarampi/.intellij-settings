@@ -35,7 +35,7 @@
       <version-cache version="6.0.0" last-modified="1461700228000" />
     </local-interpreter>
     <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="6.0.0" last-modified="1461700228000" />
+      <version-cache version="6.2.2" last-modified="1466174571000" />
       <npm-package value="/usr/local/lib/node_modules/npm" />
     </local-interpreter>
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v5.11.0/bin/node">
