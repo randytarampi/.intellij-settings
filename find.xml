@@ -3,8 +3,8 @@
     <option name="customScope" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
     <option name="defaultScopeName" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
     <option name="SEARCH_SCOPE" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
+    <option name="FILE_MASK" value="default" />
     <recentFileMasks>
-      <mask>{default,bg,it_IT}.json</mask>
       <mask>(default,bg,it_IT).json</mask>
       <mask>default.json,bg.json,it_IT.json</mask>
       <mask>!locales/*.{json,yaml}</mask>
@@ -34,6 +34,7 @@
       <mask>it_IT.*</mask>
       <mask>package.json</mask>
       <mask>*.jade</mask>
+      <mask>default</mask>
     </recentFileMasks>
   </component>
 </application>
