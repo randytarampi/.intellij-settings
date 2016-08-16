@@ -1,11 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
     <option name="defaultScopeName" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
-    <option name="FILE_MASK" value="*.yaml" />
     <recentFileMasks>
       <mask>(default,bg,it_IT).json</mask>
       <mask>default.json,bg.json,it_IT.json</mask>
