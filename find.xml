@@ -1,10 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
     <option name="defaultScopeName" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="File '/Users/randy.tarampi/Desktop/AXPO_CUSTOMER_20160713_021443.csv'" />
+    <option name="FILE_MASK" value="*.yaml" />
     <recentFileMasks>
       <mask>(default,bg,it_IT).json</mask>
       <mask>default.json,bg.json,it_IT.json</mask>
@@ -21,13 +22,11 @@
       <mask>.*</mask>
       <mask>*.html</mask>
       <mask>*.json, *.yaml</mask>
-      <mask>*.json</mask>
       <mask>en.json</mask>
       <mask>en.json, en.js, en.yaml</mask>
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>.js</mask>
       <mask>*.js</mask>
-      <mask>*.yaml</mask>
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>it_IT</mask>
       <mask>it_IT.json</mask>
@@ -36,6 +35,8 @@
       <mask>package.json</mask>
       <mask>*.jade</mask>
       <mask>default</mask>
+      <mask>*.json</mask>
+      <mask>*.yaml</mask>
     </recentFileMasks>
   </component>
 </application>
