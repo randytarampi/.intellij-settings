@@ -2490,7 +2490,6 @@
         <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
         <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
         <root url="file:///Library/Python/2.7/site-packages" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.1/python_stubs/348993582" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </CLASSES>
       <JAVADOC />
@@ -2505,24 +2504,17 @@
         <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
         <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
         <root url="file:///Library/Python/2.7/site-packages" />
-        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.1/python_stubs/348993582" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </SOURCES>
     </library>
     <library name="Python 3.5.1 (/usr/local/bin/python3) interpreter library">
       <CLASSES>
-        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5" />
-        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin" />
-        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/lib-dynload" />
         <root url="file:///usr/local/lib/python3.5/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.1/python_stubs/1437855905" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5" />
-        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin" />
-        <root url="file:///usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/lib-dynload" />
         <root url="file:///usr/local/lib/python3.5/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.1/python_stubs/1437855905" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
