@@ -5,7 +5,9 @@
     <show-plugin-conflict-dialog value="true" />
   </component>
   <component name="NodeJsLocalInterpreters">
-    <local-interpreter path="/usr/local/bin/node" />
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="6.5.0" last-modified="1472225243000" />
+    </local-interpreter>
     <local-interpreter path="/usr/local/Cellar/node/6.2.2/bin/node" />
   </component>
   <component name="TeamCityHistory">
