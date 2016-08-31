@@ -1,11 +1,11 @@
 <application>
-  <component name="ApplicationShared">
-    <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="NONE" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showPreviewTab="yes" showModifiedHtmlTab="false" showUnmodifiedHtmlTab="false" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizeScrollPosition="false">
+  <component name="Markdown Navigator">
+    <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showPreviewTab="yes" showModifiedHtmlTab="false" showUnmodifiedHtmlTab="false" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizeScrollPosition="false" highlightPreviewType="LINE" highlightFadeOut="5" highlightOnTyping="true">
       <PanelProvider>
-        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.panel" providerName="Default - Swing" />
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.panel" providerName="JavaFX WebView" />
       </PanelProvider>
     </PreviewSettings>
-    <ParserSettings parsingTimeout="1000">
+    <ParserSettings>
       <PegdownExtensions>
         <option name="ABBREVIATIONS" value="false" />
         <option name="ANCHORLINKS" value="true" />
@@ -29,16 +29,20 @@
         <option name="WIKILINKS" value="true" />
       </PegdownExtensions>
       <ParserOptions>
-        <option name="EMOJI_SHORTCUTS" value="true" />
+        <option name="DUMMY" value="false" />
+        <option name="EMOJI_SHORTCUTS" value="false" />
+        <option name="FLEXMARK_FRONT_MATTER" value="false" />
+        <option name="GFM_TABLE_RENDERING" value="false" />
         <option name="GITBOOK_URL_ENCODING" value="false" />
         <option name="GITHUB_EMOJI_URL" value="false" />
         <option name="GITHUB_WIKI_LINKS" value="true" />
         <option name="JEKYLL_FRONT_MATTER" value="false" />
+        <option name="SIM_TOC_BLANK_LINE_SPACER" value="false" />
       </ParserOptions>
     </ParserSettings>
     <HtmlSettings headerTopEnabled="false" headerBottomEnabled="false" bodyTopEnabled="false" bodyBottomEnabled="false" embedUrlContent="false">
       <GeneratorProvider>
-        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.generator" providerName="Default Swing HTML Generator" />
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.generator" providerName="JavaFx HTML Generator" />
       </GeneratorProvider>
       <headerTop />
       <headerBottom />
@@ -47,7 +51,7 @@
     </HtmlSettings>
     <CssSettings previewScheme="UI_SCHEME" cssUri="" isCssUriEnabled="false" isCssTextEnabled="false" isDynamicPageWidth="true">
       <StylesheetProvider>
-        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.css" providerName="Default Swing Stylesheet" />
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.css" providerName="Default JavaFx Stylesheet" />
       </StylesheetProvider>
       <ScriptProviders />
       <cssText />
