@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Project 'randytarampi.github.io'" />
     <option name="defaultScopeName" value="Project 'randytarampi.github.io'" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'randytarampi.github.io'" />
     <recentFileMasks>
       <mask>default.json,bg.json,it_IT.json</mask>
