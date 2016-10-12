@@ -53,6 +53,11 @@
     </case-options>
     <formatting-settings enabled="false" />
   </DBN-PSQL>
+  <Python>
+    <option name="USE_CONTINUATION_INDENT_FOR_ARGUMENTS" value="true" />
+    <option name="OPTIMIZE_IMPORTS_SORT_NAMES_IN_FROM_IMPORTS" value="true" />
+    <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
+  </Python>
   <DBN-SQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
