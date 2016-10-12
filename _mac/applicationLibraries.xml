@@ -2520,6 +2520,29 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
       </SOURCES>
     </library>
+    <library name="Python 3.5.2 virtualenv at ~/Development/me.blog/venv interpreter library">
+      <CLASSES>
+        <root url="file://$USER_HOME$/Development/me.blog/venv/lib/python3.5" />
+        <root url="file://$USER_HOME$/Development/me.blog/venv/lib/python3.5/plat-darwin" />
+        <root url="file://$USER_HOME$/Development/me.blog/venv/lib/python3.5/lib-dynload" />
+        <root url="file:///usr/local/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/lib/python3.5" />
+        <root url="file:///usr/local/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin" />
+        <root url="file://$USER_HOME$/Development/me.blog/venv/lib/python3.5/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.2/python_stubs/-122821650" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/Development/me.blog/venv/lib/python3.5" />
+        <root url="file://$USER_HOME$/Development/me.blog/venv/lib/python3.5/plat-darwin" />
+        <root url="file://$USER_HOME$/Development/me.blog/venv/lib/python3.5/lib-dynload" />
+        <root url="file:///usr/local/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/lib/python3.5" />
+        <root url="file:///usr/local/Cellar/python3/3.5.2_3/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin" />
+        <root url="file://$USER_HOME$/Development/me.blog/venv/lib/python3.5/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2016.2/python_stubs/-122821650" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+      </SOURCES>
+    </library>
     <library name="r-train (v0.10.4, Chef DK: /opt/chefdk) [gem]">
       <CLASSES>
         <root url="file:///opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/r-train-0.10.4/lib" />
