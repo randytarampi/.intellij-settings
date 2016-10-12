@@ -7,8 +7,8 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'randytarampi.github.io'" />
+    <option name="FILE_MASK" value="!venv/*.py" />
     <recentFileMasks>
-      <mask>default.json,bg.json,it_IT.json</mask>
       <mask>!locales/*.{json,yaml}</mask>
       <mask>locales/*.{json,yaml}</mask>
       <mask>*.js,*.html,*.jade</mask>
@@ -38,6 +38,7 @@
       <mask>*.json</mask>
       <mask>*.yaml</mask>
       <mask>*.less</mask>
+      <mask>!venv/*.py</mask>
     </recentFileMasks>
   </component>
 </application>
