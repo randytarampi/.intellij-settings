@@ -138,12 +138,6 @@
       <option name="SMART_TABS" value="true" />
     </indentOptions>
   </codeStyleSettings>
-  <codeStyleSettings language="Python">
-    <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
-      <option name="SMART_TABS" value="true" />
-    </indentOptions>
-  </codeStyleSettings>
   <codeStyleSettings language="RHTML">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
