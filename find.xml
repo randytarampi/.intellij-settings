@@ -1,17 +1,12 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Project 'randytarampi.github.io'" />
     <option name="defaultScopeName" value="Project 'randytarampi.github.io'" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'randytarampi.github.io'" />
+    <option name="FILE_MASK" value="!node_modules/**, !dist/**, !coverage/**, !*.py" />
     <recentFileMasks>
-      <mask>!locales/*.{json,yaml}</mask>
-      <mask>locales/*.{json,yaml}</mask>
-      <mask>*.js,*.html,*.jade</mask>
-      <mask>*.js,*.json,*.yaml</mask>
-      <mask>locales/*</mask>
-      <mask>en.</mask>
-      <mask>en.json, it_IT.json, bg.json, ergon.json</mask>
-      <mask>locales/*.json, locales/*.yaml</mask>
       <mask>*.json,*.yaml</mask>
       <mask>dus.yaml</mask>
       <mask>.*</mask>
@@ -34,6 +29,14 @@
       <mask>*.yaml</mask>
       <mask>*.less</mask>
       <mask>!venv/*.py</mask>
+      <mask>!node_modules/**, !coverage**, !*.py</mask>
+      <mask>!node_modules/**, !coverage*/**, !*.py</mask>
+      <mask>!node_modules/**, !dist/**, !coverage**/**, !*.py</mask>
+      <mask>!node_modules/**, !dist/**, !coverage*, !coverage/**, !*.py</mask>
+      <mask>!node_modules/**, !dist/**, !coverage*/**, !*.py</mask>
+      <mask>!node_modules/**, !dist/**, !coverage/**, !coverage*, !*.py</mask>
+      <mask>!*.py, !node_modules/**, !dist/**, !coverage/**, !coverage*</mask>
+      <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
     </recentFileMasks>
   </component>
 </application>
