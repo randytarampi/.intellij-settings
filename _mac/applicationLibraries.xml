@@ -1,6 +1,6 @@
 <application>
   <component name="libraryTable">
-    <library name="Python 3.5.2 virtualenv at ~/Development/me.blog/venv interpreter library">
+    <library name="Python 3.6.0 virtualenv at ~/Development/me.blog/venv interpreter library">
       <CLASSES>
         <root url="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
         <root url="file:///usr/local/Cellar/python3/3.6.0/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload" />

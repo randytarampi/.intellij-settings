@@ -3,6 +3,7 @@
     <option name="customScope" value="Project 'randytarampi.github.io'" />
     <option name="defaultScopeName" value="Project 'randytarampi.github.io'" />
     <option name="SEARCH_SCOPE" value="Project 'randytarampi.github.io'" />
+    <option name="FILE_MASK" value="!venv/*.py" />
     <recentFileMasks>
       <mask>!locales/*.{json,yaml}</mask>
       <mask>locales/*.{json,yaml}</mask>
