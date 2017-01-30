@@ -7,7 +7,6 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'randytarampi.github.io'" />
-    <option name="FILE_MASK" value="!node_modules/**, !dist/**, !coverage/**, !*.py" />
     <recentFileMasks>
       <mask>*.json,*.yaml</mask>
       <mask>dus.yaml</mask>
