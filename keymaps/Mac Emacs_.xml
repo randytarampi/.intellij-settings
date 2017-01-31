@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac Emacs+" parent="Emacs+">
+<keymap version="1" name="Mac Emacs+">
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
