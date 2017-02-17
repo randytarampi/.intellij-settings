@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'randytarampi.github.io'" />
-    <option name="defaultScopeName" value="Project 'randytarampi.github.io'" />
+    <option name="customScope" value="Module 'fetch-home'" />
+    <option name="defaultScopeName" value="Module 'fetch-home'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'randytarampi.github.io'" />
+    <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
     <recentFileMasks>
       <mask>*.json,*.yaml</mask>
       <mask>dus.yaml</mask>
