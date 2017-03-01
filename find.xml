@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Module 'fetch-home'" />
     <option name="defaultScopeName" value="Module 'fetch-home'" />
+    <option name="preserveCase" value="true" />
+    <option name="PRESERVE_CASE_REPLACE" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
     <recentFileMasks>
       <mask>*.json,*.yaml</mask>
