@@ -4,10 +4,8 @@
     <option name="defaultScopeName" value="Module 'fetch-home'" />
     <option name="localCaseSensitive" value="true" />
     <option name="preserveCase" value="true" />
-    <option name="regularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="PRESERVE_CASE_REPLACE" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
     <recentFileMasks>
       <mask>*.json,*.yaml</mask>
