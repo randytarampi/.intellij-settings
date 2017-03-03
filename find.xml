@@ -5,8 +5,8 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
+    <option name="FILE_MASK" value="*.jsx" />
     <recentFileMasks>
-      <mask>*.json,*.yaml</mask>
       <mask>dus.yaml</mask>
       <mask>.*</mask>
       <mask>*.html</mask>
@@ -36,6 +36,7 @@
       <mask>!node_modules/**, !dist/**, !coverage/**, !coverage*, !*.py</mask>
       <mask>!*.py, !node_modules/**, !dist/**, !coverage/**, !coverage*</mask>
       <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
+      <mask>*.jsx</mask>
     </recentFileMasks>
   </component>
 </application>
