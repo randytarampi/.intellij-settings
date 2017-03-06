@@ -1,13 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Module 'fetch-home'" />
     <option name="defaultScopeName" value="Module 'fetch-home'" />
     <option name="localCaseSensitive" value="true" />
-    <option name="regularExpressions" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
     <recentFileMasks>
       <mask>.*</mask>
