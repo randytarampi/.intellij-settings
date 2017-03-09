@@ -14,6 +14,7 @@
       <mapping pattern="layout" type="HTML" />
       <mapping pattern="alerterTest" type="HTML" />
       <mapping pattern="www" type="JavaScript" />
+      <mapping pattern="buyerProfileService" type="JavaScript" />
       <mapping pattern="authenticationService" type="JavaScript" />
       <mapping pattern=".sequelizerc" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
