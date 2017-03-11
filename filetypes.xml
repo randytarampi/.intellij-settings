@@ -13,6 +13,7 @@
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern="layout" type="HTML" />
       <mapping pattern="alerterTest" type="HTML" />
+      <mapping pattern=".nycrc" type="JSON" />
       <mapping pattern="www" type="JavaScript" />
       <mapping pattern="buyerProfileService" type="JavaScript" />
       <mapping pattern="authenticationService" type="JavaScript" />
