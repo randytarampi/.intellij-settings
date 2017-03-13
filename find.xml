@@ -2,7 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Module 'fetch-home'" />
     <option name="defaultScopeName" value="Module 'fetch-home'" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>.*</mask>
       <mask>*.html</mask>
@@ -11,7 +14,6 @@
       <mask>en.json, en.js, en.yaml</mask>
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>.js</mask>
-      <mask>*.js</mask>
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>it_IT</mask>
       <mask>it_IT.json</mask>
@@ -34,6 +36,7 @@
       <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
       <mask>*.scss</mask>
       <mask>*.jsx</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
