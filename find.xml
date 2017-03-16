@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Module 'fetch-home'" />
     <option name="defaultScopeName" value="Module 'fetch-home'" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
     <recentFileMasks>
       <mask>.*</mask>
