@@ -5,7 +5,6 @@
     <option name="defaultScopeName" value="Module 'fetch-home'" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
-    <option name="FILE_MASK" value="package.json" />
     <recentFileMasks>
       <mask>.*</mask>
       <mask>*.html</mask>
