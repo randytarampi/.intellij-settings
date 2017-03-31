@@ -5,8 +5,8 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.jsx" />
     <recentFileMasks>
-      <mask>.*</mask>
       <mask>*.html</mask>
       <mask>*.json, *.yaml</mask>
       <mask>en.json</mask>
@@ -33,9 +33,10 @@
       <mask>!*.py, !node_modules/**, !dist/**, !coverage/**, !coverage*</mask>
       <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
       <mask>*.scss</mask>
-      <mask>*.jsx</mask>
-      <mask>*.js</mask>
       <mask>package.json</mask>
+      <mask>*</mask>
+      <mask>*.js</mask>
+      <mask>*.jsx</mask>
     </recentFileMasks>
   </component>
 </application>
