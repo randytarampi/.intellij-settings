@@ -4,9 +4,6 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>en.json</mask>
-      <mask>en.json, en.js, en.yaml</mask>
-      <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>.js</mask>
       <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
       <mask>it_IT</mask>
@@ -27,13 +24,16 @@
       <mask>!node_modules/**, !dist/**, !coverage/**, !coverage*, !*.py</mask>
       <mask>!*.py, !node_modules/**, !dist/**, !coverage/**, !coverage*</mask>
       <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
-      <mask>*.scss</mask>
       <mask>package.json</mask>
-      <mask>*</mask>
       <mask>*.</mask>
       <mask>*.j</mask>
       <mask>*.js</mask>
       <mask>*.jsx</mask>
+      <mask>*</mask>
+      <mask>*.s</mask>
+      <mask>*.sc</mask>
+      <mask>*.scs</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
