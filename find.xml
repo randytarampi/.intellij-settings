@@ -3,11 +3,8 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
-      <mask>.js</mask>
-      <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
-      <mask>it_IT</mask>
-      <mask>it_IT.json</mask>
       <mask>it_IT.yaml</mask>
       <mask>it_IT.*</mask>
       <mask>*.jade</mask>
@@ -26,10 +23,14 @@
       <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
       <mask>package.json</mask>
       <mask>*.</mask>
+      <mask>*</mask>
       <mask>*.j</mask>
       <mask>*.js</mask>
       <mask>*.jsx</mask>
-      <mask>*</mask>
+      <mask>*.h</mask>
+      <mask>*.ht</mask>
+      <mask>*.htm</mask>
+      <mask>*.html</mask>
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
