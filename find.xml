@@ -4,15 +4,6 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>it_IT.yaml</mask>
-      <mask>it_IT.*</mask>
-      <mask>*.jade</mask>
-      <mask>default</mask>
-      <mask>*.json</mask>
-      <mask>*.yaml</mask>
-      <mask>*.less</mask>
-      <mask>!venv/*.py</mask>
-      <mask>!node_modules/**, !coverage**, !*.py</mask>
       <mask>!node_modules/**, !coverage*/**, !*.py</mask>
       <mask>!node_modules/**, !dist/**, !coverage**/**, !*.py</mask>
       <mask>!node_modules/**, !dist/**, !coverage*, !coverage/**, !*.py</mask>
@@ -34,6 +25,15 @@
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
+      <mask>.</mask>
+      <mask>.e</mask>
+      <mask>.es</mask>
+      <mask>.esl</mask>
+      <mask>.eslin</mask>
+      <mask>.eslint</mask>
+      <mask>.eslintr</mask>
+      <mask>.eslintrc</mask>
+      <mask>.eslintrc*</mask>
     </recentFileMasks>
   </component>
 </application>
