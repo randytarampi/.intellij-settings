@@ -2,14 +2,11 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.hbs" />
     <recentFileMasks>
-      <mask>!node_modules/**, !coverage*/**, !*.py</mask>
-      <mask>!node_modules/**, !dist/**, !coverage**/**, !*.py</mask>
-      <mask>!node_modules/**, !dist/**, !coverage*, !coverage/**, !*.py</mask>
-      <mask>!node_modules/**, !dist/**, !coverage*/**, !*.py</mask>
-      <mask>!node_modules/**, !dist/**, !coverage/**, !coverage*, !*.py</mask>
-      <mask>!*.py, !node_modules/**, !dist/**, !coverage/**, !coverage*</mask>
       <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
       <mask>package.json</mask>
       <mask>*.</mask>
@@ -25,7 +22,6 @@
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
-      <mask>.</mask>
       <mask>.e</mask>
       <mask>.es</mask>
       <mask>.esl</mask>
@@ -34,6 +30,13 @@
       <mask>.eslintr</mask>
       <mask>.eslintrc</mask>
       <mask>.eslintrc*</mask>
+      <mask>.*</mask>
+      <mask>.</mask>
+      <mask>.h</mask>
+      <mask>.hb</mask>
+      <mask>.hbs*</mask>
+      <mask>.hbs</mask>
+      <mask>*.hbs</mask>
     </recentFileMasks>
   </component>
 </application>
