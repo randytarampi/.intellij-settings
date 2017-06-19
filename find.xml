@@ -3,16 +3,14 @@
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
+    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
-      <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
-      <mask>package.json</mask>
       <mask>*.</mask>
       <mask>*</mask>
       <mask>*.h</mask>
       <mask>*.ht</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
-      <mask>*.s</mask>
       <mask>.e</mask>
       <mask>.es</mask>
       <mask>.esl</mask>
@@ -28,12 +26,15 @@
       <mask>.hbs*</mask>
       <mask>.hbs</mask>
       <mask>*.hbs</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
-      <mask>*.scss</mask>
       <mask>*.j</mask>
       <mask>*.js</mask>
       <mask>*.jsx</mask>
+      <mask>*.sas</mask>
+      <mask>*.sa</mask>
+      <mask>*.s</mask>
+      <mask>*.sc</mask>
+      <mask>*.scs</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
