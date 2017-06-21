@@ -3,6 +3,7 @@
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
+    <option name="FILE_MASK" value="*.jsx" />
     <recentFileMasks>
       <mask>*.</mask>
       <mask>*</mask>
@@ -25,15 +26,15 @@
       <mask>.hbs*</mask>
       <mask>.hbs</mask>
       <mask>*.hbs</mask>
-      <mask>*.j</mask>
-      <mask>*.js</mask>
-      <mask>*.jsx</mask>
       <mask>*.sas</mask>
       <mask>*.sa</mask>
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
+      <mask>*.jsx</mask>
     </recentFileMasks>
   </component>
 </application>
