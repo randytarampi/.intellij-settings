@@ -5,22 +5,11 @@
     <option name="SEARCH_SCOPE" value="Changed Files" />
     <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
-      <mask>*.</mask>
-      <mask>*</mask>
-      <mask>*.h</mask>
-      <mask>*.ht</mask>
-      <mask>*.htm</mask>
-      <mask>*.html</mask>
-      <mask>.e</mask>
-      <mask>.es</mask>
-      <mask>.esl</mask>
-      <mask>.eslin</mask>
       <mask>.eslint</mask>
       <mask>.eslintr</mask>
       <mask>.eslintrc</mask>
       <mask>.eslintrc*</mask>
       <mask>.*</mask>
-      <mask>.</mask>
       <mask>.h</mask>
       <mask>.hb</mask>
       <mask>.hbs*</mask>
@@ -28,12 +17,23 @@
       <mask>*.hbs</mask>
       <mask>*.sas</mask>
       <mask>*.sa</mask>
-      <mask>*.j</mask>
-      <mask>*.jsx</mask>
-      <mask>*.js</mask>
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
+      <mask>*.jsx</mask>
+      <mask>b</mask>
+      <mask>bu</mask>
+      <mask>but</mask>
+      <mask>button</mask>
+      <mask>.</mask>
+      <mask>.s</mask>
+      <mask>.sc</mask>
+      <mask>.scs</mask>
+      <mask>.scss</mask>
       <mask>*.scss</mask>
     </recentFileMasks>
   </component>
