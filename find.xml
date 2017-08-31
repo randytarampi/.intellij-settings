@@ -23,9 +23,6 @@
       <mask>*.scs</mask>
       <mask>*</mask>
       <mask>*.</mask>
-      <mask>*.j</mask>
-      <mask>*.js</mask>
-      <mask>*.jsx</mask>
       <mask>b</mask>
       <mask>bu</mask>
       <mask>but</mask>
@@ -36,6 +33,9 @@
       <mask>.scs</mask>
       <mask>.scss</mask>
       <mask>*.scss</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
+      <mask>*.jsx</mask>
     </recentFileMasks>
   </component>
 </application>
