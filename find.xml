@@ -4,15 +4,6 @@
     <option name="defaultScopeName" value="Changed Files" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
     <recentFileMasks>
-      <mask>.eslint</mask>
-      <mask>.eslintr</mask>
-      <mask>.eslintrc</mask>
-      <mask>.eslintrc*</mask>
-      <mask>.*</mask>
-      <mask>.h</mask>
-      <mask>.hb</mask>
-      <mask>.hbs*</mask>
-      <mask>.hbs</mask>
       <mask>*.hbs</mask>
       <mask>*.sas</mask>
       <mask>*.sa</mask>
@@ -34,6 +25,15 @@
       <mask>*.j</mask>
       <mask>*.js</mask>
       <mask>*.jsx</mask>
+      <mask>I</mask>
+      <mask>In</mask>
+      <mask>Inpu</mask>
+      <mask>Input</mask>
+      <mask>Input*.jsx</mask>
+      <mask>Input*.js</mask>
+      <mask>Input*.j</mask>
+      <mask>Input*.</mask>
+      <mask>Input*</mask>
     </recentFileMasks>
   </component>
 </application>
