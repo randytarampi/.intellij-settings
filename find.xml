@@ -10,8 +10,6 @@
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>b</mask>
       <mask>bu</mask>
       <mask>but</mask>
@@ -22,9 +20,6 @@
       <mask>.scs</mask>
       <mask>.scss</mask>
       <mask>*.scss</mask>
-      <mask>*.j</mask>
-      <mask>*.js</mask>
-      <mask>*.jsx</mask>
       <mask>I</mask>
       <mask>In</mask>
       <mask>Inpu</mask>
@@ -34,6 +29,11 @@
       <mask>Input*.j</mask>
       <mask>Input*.</mask>
       <mask>Input*</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
+      <mask>*.jsx</mask>
     </recentFileMasks>
   </component>
 </application>
