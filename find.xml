@@ -2,7 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.hbs</mask>
       <mask>*.sas</mask>
@@ -32,8 +35,8 @@
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.j</mask>
-      <mask>*.js</mask>
       <mask>*.jsx</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
