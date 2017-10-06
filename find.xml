@@ -5,11 +5,9 @@
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
+    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
       <mask>*.sa</mask>
-      <mask>*.s</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
       <mask>b</mask>
       <mask>bu</mask>
       <mask>but</mask>
@@ -24,17 +22,20 @@
       <mask>Input*.</mask>
       <mask>Input*</mask>
       <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.j</mask>
-      <mask>*.jsx</mask>
       <mask>*].js</mask>
-      <mask>*.js</mask>
       <mask>.js</mask>
       <mask>.</mask>
       <mask>.s</mask>
       <mask>.sc</mask>
       <mask>.scs</mask>
       <mask>.scss</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
+      <mask>*.jsx</mask>
+      <mask>*.s</mask>
+      <mask>*.sc</mask>
+      <mask>*.scs</mask>
       <mask>*.scss</mask>
     </recentFileMasks>
   </component>
