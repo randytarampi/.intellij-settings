@@ -4,6 +4,7 @@
     <option name="defaultScopeName" value="Changed Files" />
     <option name="preserveCase" value="true" />
     <option name="PRESERVE_CASE_REPLACE" value="true" />
+    <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
     <recentFileMasks>
       <mask>*.sa</mask>
