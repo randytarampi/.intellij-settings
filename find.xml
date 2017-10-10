@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
     <recentFileMasks>
