@@ -7,15 +7,6 @@
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
     <recentFileMasks>
-      <mask>*.sa</mask>
-      <mask>b</mask>
-      <mask>bu</mask>
-      <mask>but</mask>
-      <mask>button</mask>
-      <mask>I</mask>
-      <mask>In</mask>
-      <mask>Inpu</mask>
-      <mask>Input</mask>
       <mask>Input*.jsx</mask>
       <mask>Input*.js</mask>
       <mask>Input*.j</mask>
@@ -37,6 +28,15 @@
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
+      <mask>val</mask>
+      <mask>vali</mask>
+      <mask>valida</mask>
+      <mask>validat</mask>
+      <mask>validato</mask>
+      <mask>validator</mask>
+      <mask>validator.</mask>
+      <mask>validator.j</mask>
+      <mask>validator.js</mask>
     </recentFileMasks>
   </component>
 </application>
