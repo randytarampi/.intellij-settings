@@ -15,6 +15,7 @@
       <mapping pattern="alerterTest" type="HTML" />
       <mapping pattern=".nycrc" type="JSON" />
       <mapping pattern="www" type="JavaScript" />
+      <mapping pattern="clearListedVehicleFromLoanCalculatorForm" type="JavaScript" />
       <mapping pattern="vehicleInformation" type="JavaScript" />
       <mapping pattern="buyerProfileService" type="JavaScript" />
       <mapping pattern="authenticationService" type="JavaScript" />
