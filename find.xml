@@ -4,9 +4,6 @@
     <option name="defaultScopeName" value="Changed Files" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
     <recentFileMasks>
-      <mask>Input*.jsx</mask>
-      <mask>Input*.js</mask>
-      <mask>Input*.j</mask>
       <mask>Input*.</mask>
       <mask>Input*</mask>
       <mask>*.j</mask>
@@ -18,7 +15,6 @@
       <mask>.scs</mask>
       <mask>.scss</mask>
       <mask>*.js</mask>
-      <mask>*.jsx</mask>
       <mask>val</mask>
       <mask>vali</mask>
       <mask>valida</mask>
@@ -34,6 +30,10 @@
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
+      <mask>j</mask>
+      <mask>js</mask>
+      <mask>jsx</mask>
+      <mask>*.jsx</mask>
     </recentFileMasks>
   </component>
 </application>
