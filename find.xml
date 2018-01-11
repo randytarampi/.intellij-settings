@@ -3,7 +3,6 @@
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
-    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
       <mask>.</mask>
       <mask>.s</mask>
