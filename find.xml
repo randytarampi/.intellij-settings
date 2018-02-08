@@ -5,8 +5,8 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*Modal.jsx" />
     <recentFileMasks>
-      <mask>.s</mask>
       <mask>.sc</mask>
       <mask>.scs</mask>
       <mask>.scss</mask>
@@ -36,6 +36,7 @@
       <mask>*.jsx</mask>
       <mask>*.js?</mask>
       <mask>*.js</mask>
+      <mask>*Modal.jsx</mask>
     </recentFileMasks>
   </component>
 </application>
