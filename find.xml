@@ -26,7 +26,6 @@
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
-      <mask>*.scss</mask>
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.j</mask>
@@ -34,6 +33,7 @@
       <mask>*.js?</mask>
       <mask>*.js</mask>
       <mask>*Modal.jsx</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
