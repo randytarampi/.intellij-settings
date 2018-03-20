@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'fetch-home'" />
-    <option name="defaultScopeName" value="Module 'fetch-home'" />
-    <option name="SEARCH_SCOPE" value="Module 'fetch-home'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
       <mask>.sc</mask>
       <mask>.scs</mask>
