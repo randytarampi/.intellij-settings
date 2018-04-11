@@ -1,39 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>.sc</mask>
-      <mask>.scs</mask>
-      <mask>.scss</mask>
-      <mask>val</mask>
-      <mask>vali</mask>
-      <mask>valida</mask>
-      <mask>validat</mask>
-      <mask>validato</mask>
-      <mask>validator</mask>
-      <mask>validator.</mask>
-      <mask>validator.j</mask>
-      <mask>validator.js</mask>
-      <mask>j</mask>
-      <mask>js</mask>
-      <mask>jsx</mask>
-      <mask>*.h</mask>
-      <mask>*.hb</mask>
-      <mask>*.hbs</mask>
-      <mask>x</mask>
-      <mask>*.s</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
-      <mask>*.j</mask>
-      <mask>*.js?</mask>
-      <mask>*Modal.jsx</mask>
-      <mask>*.jsx</mask>
-      <mask>*.js</mask>
-      <mask>*.scss</mask>
-    </recentFileMasks>
   </component>
 </application>
