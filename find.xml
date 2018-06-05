@@ -14,5 +14,6 @@
     <mask>*.scss</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
+    <mask>package.json</mask>
   </component>
 </application>
