@@ -16,5 +16,6 @@
     <mask>*.jsx</mask>
     <mask>package.json</mask>
     <mask>*.yml</mask>
+    <mask>.eslintrc.yaml</mask>
   </component>
 </application>
