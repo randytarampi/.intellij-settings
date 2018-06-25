@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.jsx" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -16,7 +17,7 @@
     <mask>package.json</mask>
     <mask>*.yml</mask>
     <mask>.eslintrc.yaml</mask>
-    <mask>*.jsx</mask>
     <mask>package-lock.json</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
