@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="gulpfile*" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -12,11 +13,12 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.scss</mask>
-    <mask>*.js</mask>
     <mask>package.json</mask>
     <mask>*.yml</mask>
     <mask>.eslintrc.yaml</mask>
     <mask>package-lock.json</mask>
     <mask>*.jsx</mask>
+    <mask>*.js</mask>
+    <mask>gulpfile*</mask>
   </component>
 </application>
