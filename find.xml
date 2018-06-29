@@ -2,7 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.jsx" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -16,8 +19,8 @@
     <mask>*.yml</mask>
     <mask>.eslintrc.yaml</mask>
     <mask>package-lock.json</mask>
-    <mask>*.jsx</mask>
     <mask>gulpfile*</mask>
     <mask>*.js</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
