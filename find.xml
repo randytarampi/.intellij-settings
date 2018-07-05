@@ -12,12 +12,13 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.scss</mask>
-    <mask>package.json</mask>
     <mask>*.yml</mask>
     <mask>.eslintrc.yaml</mask>
     <mask>package-lock.json</mask>
     <mask>gulpfile*</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
+    <mask>package.json</mask>
+    <mask>.travis.yml</mask>
   </component>
 </application>
