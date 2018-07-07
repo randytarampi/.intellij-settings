@@ -20,5 +20,6 @@
     <mask>*.jsx</mask>
     <mask>.travis.yml</mask>
     <mask>package.json</mask>
+    <mask>webpack*</mask>
   </component>
 </application>
