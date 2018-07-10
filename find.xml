@@ -21,5 +21,8 @@
     <mask>.travis.yml</mask>
     <mask>package.json</mask>
     <mask>webpack*</mask>
+    <mask>default.yml</mask>
+    <mask>layout.pug</mask>
+    <mask>prd.yml</mask>
   </component>
 </application>
