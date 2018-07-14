@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
@@ -21,10 +19,10 @@
     <mask>*.js</mask>
     <mask>*.jsx</mask>
     <mask>.travis.yml</mask>
-    <mask>package.json</mask>
     <mask>webpack*</mask>
     <mask>default.yml</mask>
     <mask>layout.pug</mask>
     <mask>prd.yml</mask>
+    <mask>package.json</mask>
   </component>
 </application>
