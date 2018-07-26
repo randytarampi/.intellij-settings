@@ -11,8 +11,8 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
-      <mapping pattern="layout" type="HTML" />
       <mapping pattern="alerterTest" type="HTML" />
+      <mapping pattern="layout" type="HTML" />
       <mapping pattern=".nycrc" type="JSON" />
       <mapping pattern="www" type="JavaScript" />
       <mapping pattern="clearListedVehicleFromLoanCalculatorForm" type="JavaScript" />
@@ -25,6 +25,7 @@
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="vars" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
