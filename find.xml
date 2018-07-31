@@ -1,7 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
@@ -11,7 +13,6 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.scss</mask>
     <mask>*.yml</mask>
     <mask>.eslintrc.yaml</mask>
     <mask>package-lock.json</mask>
@@ -29,5 +30,7 @@
     <mask>!gulp*</mask>
     <mask>!gulp*,!*.config*</mask>
     <mask>gulpfile.js</mask>
+    <mask>*.hbs</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
