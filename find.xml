@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.jsx" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -15,7 +16,6 @@
     <mask>.eslintrc.yaml</mask>
     <mask>package-lock.json</mask>
     <mask>gulpfile*</mask>
-    <mask>*.jsx</mask>
     <mask>default.yml</mask>
     <mask>layout.pug</mask>
     <mask>prd.yml</mask>
@@ -32,5 +32,6 @@
     <mask>*.babelrc</mask>
     <mask>webpack*</mask>
     <mask>.babelrc</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
