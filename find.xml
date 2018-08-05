@@ -3,37 +3,34 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>!locales/*.{json,yaml}</mask>
-      <mask>locales/*.{json,yaml}</mask>
-      <mask>*.js,*.html,*.jade</mask>
-      <mask>*.js,*.json,*.yaml</mask>
-      <mask>locales/*</mask>
-      <mask>en.</mask>
-      <mask>en.json, it_IT.json, bg.json, ergon.json</mask>
-      <mask>locales/*.json, locales/*.yaml</mask>
-      <mask>*.json,*.yaml</mask>
-      <mask>dus.yaml</mask>
-      <mask>.*</mask>
-      <mask>*.html</mask>
-      <mask>*.json, *.yaml</mask>
-      <mask>en.json</mask>
-      <mask>en.json, en.js, en.yaml</mask>
-      <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
-      <mask>.js</mask>
-      <mask>*.js</mask>
-      <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
-      <mask>it_IT</mask>
-      <mask>it_IT.json</mask>
-      <mask>it_IT.yaml</mask>
-      <mask>it_IT.*</mask>
-      <mask>package.json</mask>
-      <mask>*.jade</mask>
-      <mask>default</mask>
-      <mask>*.json</mask>
-      <mask>*.yaml</mask>
-      <mask>*.less</mask>
-      <mask>!venv/*.py</mask>
-    </recentFileMasks>
+    <mask>*.properties</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.xml</mask>
+    <mask>*.java</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+    <mask>*.yml</mask>
+    <mask>.eslintrc.yaml</mask>
+    <mask>package-lock.json</mask>
+    <mask>gulpfile*</mask>
+    <mask>default.yml</mask>
+    <mask>layout.pug</mask>
+    <mask>prd.yml</mask>
+    <mask>.gitignore</mask>
+    <mask>.travis.yml</mask>
+    <mask>package.json</mask>
+    <mask>!gulp*.js*</mask>
+    <mask>!gulp*</mask>
+    <mask>!gulp*,!*.config*</mask>
+    <mask>gulpfile.js</mask>
+    <mask>*.hbs</mask>
+    <mask>*.scss</mask>
+    <mask>*.babelrc</mask>
+    <mask>webpack*</mask>
+    <mask>.babelrc</mask>
+    <mask>*.jsx</mask>
+    <mask>*.js</mask>
   </component>
 </application>
