@@ -26,11 +26,12 @@
     <mask>!gulp*,!*.config*</mask>
     <mask>gulpfile.js</mask>
     <mask>*.hbs</mask>
-    <mask>*.scss</mask>
     <mask>*.babelrc</mask>
     <mask>webpack*</mask>
     <mask>.babelrc</mask>
     <mask>*.jsx</mask>
     <mask>*.js</mask>
+    <mask>*.scss</mask>
+    <mask>.nycrc</mask>
   </component>
 </application>
