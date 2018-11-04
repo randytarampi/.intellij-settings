@@ -77,9 +77,9 @@
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
     <debuggers>
-      <debugger id="javascript">
+      <debugger id="ObjectiveC">
         <configuration>
-          <custom-object-presentation enabled="true" />
+          <option name="VALUES_FILTER_ENABLED" value="false" />
         </configuration>
       </debugger>
       <debugger id="kotlin_debugger">
