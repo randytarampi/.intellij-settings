@@ -5,15 +5,14 @@
       <mapping pattern="alerterTest" type="HTML" />
       <mapping pattern="layout" type="HTML" />
       <mapping pattern=".nycrc" type="JSON" />
-      <mapping pattern="vehicleInformation" type="JavaScript" />
-      <mapping pattern="buyerProfileService" type="JavaScript" />
+      <mapping pattern="20170823172221-add-soft-credit-pull-consent-to-buyer-profiles" type="JavaScript" />
       <mapping pattern="authenticationService" type="JavaScript" />
       <mapping pattern="clearListedVehicleFromLoanCalculatorForm" type="JavaScript" />
+      <mapping pattern="buyerProfileService" type="JavaScript" />
       <mapping pattern="www" type="JavaScript" />
-      <mapping pattern="20170823172221-add-soft-credit-pull-consent-to-buyer-profiles" type="JavaScript" />
+      <mapping pattern="vehicleInformation" type="JavaScript" />
       <mapping pattern="CNAME" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern=".sequelizerc" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
