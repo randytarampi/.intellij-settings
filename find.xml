@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.scss" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -31,9 +32,9 @@
     <mask>webpack*</mask>
     <mask>.babelrc</mask>
     <mask>*.jsx</mask>
-    <mask>*.scss</mask>
     <mask>.nycrc</mask>
     <mask>*.pug</mask>
     <mask>*.js</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
