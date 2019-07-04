@@ -19,7 +19,6 @@
     <mask>prd.yml</mask>
     <mask>.gitignore</mask>
     <mask>.travis.yml</mask>
-    <mask>package.json</mask>
     <mask>!gulp*.js*</mask>
     <mask>!gulp*</mask>
     <mask>!gulp*,!*.config*</mask>
@@ -33,5 +32,6 @@
     <mask>*.pug</mask>
     <mask>*.js</mask>
     <mask>*.scss</mask>
+    <mask>package.json</mask>
   </component>
 </application>
