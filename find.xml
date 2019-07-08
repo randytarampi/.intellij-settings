@@ -27,11 +27,11 @@
     <mask>*.babelrc</mask>
     <mask>webpack*</mask>
     <mask>.babelrc</mask>
-    <mask>*.jsx</mask>
     <mask>.nycrc</mask>
     <mask>*.pug</mask>
     <mask>*.js</mask>
     <mask>*.scss</mask>
     <mask>package.json</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
