@@ -30,10 +30,10 @@
     <mask>.babelrc</mask>
     <mask>.nycrc</mask>
     <mask>*.pug</mask>
-    <mask>*.scss</mask>
     <mask>package.json</mask>
     <mask>*.js</mask>
     <mask>*.json</mask>
     <mask>*.jsx</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
