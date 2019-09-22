@@ -2,11 +2,9 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
-    <mask>*.html</mask>
-    <mask>*.jsp</mask>
-    <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.css</mask>
@@ -20,7 +18,6 @@
     <mask>prd.yml</mask>
     <mask>.gitignore</mask>
     <mask>.travis.yml</mask>
-    <mask>package.json</mask>
     <mask>!gulp*.js*</mask>
     <mask>!gulp*</mask>
     <mask>!gulp*,!*.config*</mask>
@@ -29,10 +26,14 @@
     <mask>*.babelrc</mask>
     <mask>webpack*</mask>
     <mask>.babelrc</mask>
-    <mask>*.jsx</mask>
-    <mask>*.scss</mask>
     <mask>.nycrc</mask>
     <mask>*.pug</mask>
+    <mask>package.json</mask>
+    <mask>*.json</mask>
+    <mask>*.scss</mask>
+    <mask>*.sh</mask>
+    <mask>*.js?</mask>
     <mask>*.js</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>

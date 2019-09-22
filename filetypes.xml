@@ -1,32 +1,19 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="alerterTest" type="HTML" />
-      <mapping pattern="layout" type="HTML" />
-      <mapping pattern=".nycrc" type="JSON" />
-      <mapping pattern="20170823172221-add-soft-credit-pull-consent-to-buyer-profiles" type="JavaScript" />
-      <mapping pattern="authenticationService" type="JavaScript" />
-      <mapping pattern="clearListedVehicleFromLoanCalculatorForm" type="JavaScript" />
-      <mapping pattern="buyerProfileService" type="JavaScript" />
-      <mapping pattern="www" type="JavaScript" />
-      <mapping pattern="vehicleInformation" type="JavaScript" />
-      <mapping pattern="CNAME" type="PLAIN_TEXT" />
-      <mapping pattern=".env.test" type="PLAIN_TEXT" />
-      <mapping pattern=".sequelizerc" type="PLAIN_TEXT" />
-      <mapping ext="example" type="PLAIN_TEXT" />
-      <mapping ext="info" type="PLAIN_TEXT" />
-      <mapping ext="vars" type="PLAIN_TEXT" />
-      <mapping ext="fnc" type="DBN-PSQL" />
-      <mapping ext="pkb" type="DBN-PSQL" />
-      <mapping ext="pkg" type="DBN-PSQL" />
-      <mapping ext="pks" type="DBN-PSQL" />
-      <mapping ext="prc" type="DBN-PSQL" />
-      <mapping ext="tpb" type="DBN-PSQL" />
-      <mapping ext="tpe" type="DBN-PSQL" />
-      <mapping ext="tps" type="DBN-PSQL" />
-      <mapping ext="trg" type="DBN-PSQL" />
-      <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="buildwoof" type="PLAIN_TEXT" />
+      <mapping pattern="build" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
     </extensionMap>
   </component>
 </application>
