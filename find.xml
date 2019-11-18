@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="Directory '~/Development/frontend/deploy [frontend-deploy]'" />
+    <option name="defaultScopeName" value="Directory '~/Development/frontend/deploy [frontend-deploy]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="Directory '~/Development/frontend/deploy [frontend-deploy]'" />
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
