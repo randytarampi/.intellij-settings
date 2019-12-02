@@ -1,4 +1,7 @@
 <application>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="SHOW_METHOD_SEPARATORS" value="true" />
+  </component>
   <component name="DefaultFont">
     <option name="FONT_FAMILY" value="Liga Meslo LG M" />
     <option name="USE_LIGATURES" value="true" />
