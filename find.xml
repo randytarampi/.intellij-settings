@@ -3,8 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.as</mask>
-    <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.yml</mask>
     <mask>.eslintrc.yaml</mask>
@@ -30,8 +28,10 @@
     <mask>*.scss</mask>
     <mask>*.sh</mask>
     <mask>*.js?</mask>
-    <mask>*.js</mask>
     <mask>*.jsx</mask>
     <mask>*.y*</mask>
+    <mask>*.js</mask>
+    <mask>*.test.js</mask>
+    <mask>*.test.js*</mask>
   </component>
 </application>
