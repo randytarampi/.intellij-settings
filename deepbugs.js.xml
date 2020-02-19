@@ -1,0 +1,7 @@
+<application>
+  <component name="DeepBugsJS">
+    <option name="binOperatorThreshold" value="0.8" />
+    <option name="binOperandThreshold" value="0.8" />
+    <option name="swappedArgsThreshold" value="0.8" />
+  </component>
+</application>
