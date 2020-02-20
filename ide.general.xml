@@ -10,7 +10,7 @@
     <entry key="suppress.focus.stealing.auto.request.focus" value="false" />
     <entry key="BSP.system.in.process" value="true" />
     <entry key="SBT.system.in.process" value="true" />
-    <entry key="vcs.annotations.preload" value="true" />
     <entry key="BSP.experimental.feature.enabled" value="false" />
+    <entry key="vcs.annotations.preload" value="true" />
   </component>
 </application>
