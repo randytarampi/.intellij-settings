@@ -1,5 +1,6 @@
 <application>
   <component name="IlluminatedCloudSettings">
     <option name="promptOverrideSaveAllAction" value="false" />
+    <option name="selectedTabIndex" value="1" />
   </component>
 </application>
