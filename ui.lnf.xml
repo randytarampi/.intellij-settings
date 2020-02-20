@@ -5,5 +5,6 @@
   <component name="UISettings">
     <option name="CONSOLE_CYCLE_BUFFER_SIZE_KB" value="25600" />
     <option name="OVERRIDE_CONSOLE_CYCLE_BUFFER_SIZE" value="true" />
+    <option name="SHOW_INPLACE_COMMENTS" value="true" />
   </component>
 </application>
