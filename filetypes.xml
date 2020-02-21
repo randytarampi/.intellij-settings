@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping ext="html" approved="true" type="HTML" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
