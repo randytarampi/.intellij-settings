@@ -3,8 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.mxml</mask>
-    <mask>*.yml</mask>
     <mask>.eslintrc.yaml</mask>
     <mask>package-lock.json</mask>
     <mask>gulpfile*</mask>
@@ -33,5 +31,7 @@
     <mask>*.js</mask>
     <mask>*.test.js</mask>
     <mask>*.test.js*</mask>
+    <mask>*config*</mask>
+    <mask>*.test.jsx</mask>
   </component>
 </application>
