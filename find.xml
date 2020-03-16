@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>.eslintrc.yaml</mask>
+    <option name="FILE_MASK" value="*.yml" />
     <mask>package-lock.json</mask>
     <mask>gulpfile*</mask>
     <mask>default.yml</mask>
@@ -33,5 +33,6 @@
     <mask>*.test.js*</mask>
     <mask>*config*</mask>
     <mask>*.test.jsx</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
