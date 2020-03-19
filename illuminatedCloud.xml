@@ -27,7 +27,7 @@
     </option>
     <option name="promptOverrideSaveAllAction" value="false" />
     <option name="selectedConnectionIndex" value="2" />
-    <option name="selectedTabIndex" value="4" />
+    <option name="selectedTabIndex" value="1" />
     <option name="sfdxExecutablePath" value="/usr/local/lib/sfdx/bin/sfdx" />
     <option name="skippedUnitTestPolicy" value="FAIL" />
   </component>
