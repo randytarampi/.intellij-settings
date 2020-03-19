@@ -1,6 +1,34 @@
 <application>
   <component name="IlluminatedCloudSettings">
+    <option name="alwaysCollectCodeCoverage" value="true" />
+    <option name="alwaysRunUnitTestsAsync" value="true" />
+    <option name="connectionConfigs">
+      <list>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="prod" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="username" value="it+api@smunch.co" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="sandbox" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="loginUrl" value="https://test.salesforce.com/" />
+          <option name="organizationType" value="SANDBOX" />
+          <option name="username" value="it+api@smunch.co.sandbox" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="staging" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="loginUrl" value="https://test.salesforce.com/" />
+          <option name="organizationType" value="SANDBOX" />
+          <option name="username" value="it+api@smunch.co.staging" />
+        </IlluminatedCloudConnectionConfig>
+      </list>
+    </option>
     <option name="promptOverrideSaveAllAction" value="false" />
-    <option name="selectedTabIndex" value="1" />
+    <option name="selectedConnectionIndex" value="2" />
+    <option name="selectedTabIndex" value="4" />
+    <option name="sfdxExecutablePath" value="/usr/local/lib/sfdx/bin/sfdx" />
+    <option name="skippedUnitTestPolicy" value="FAIL" />
   </component>
 </application>
