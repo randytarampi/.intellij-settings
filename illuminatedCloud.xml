@@ -50,7 +50,7 @@
       </list>
     </option>
     <option name="promptOverrideSaveAllAction" value="false" />
-    <option name="selectedConnectionIndex" value="1" />
+    <option name="selectedConnectionIndex" value="5" />
     <option name="selectedTabIndex" value="1" />
     <option name="sfdxExecutablePath" value="/usr/local/lib/sfdx/bin/sfdx" />
     <option name="skippedUnitTestPolicy" value="FAIL" />
