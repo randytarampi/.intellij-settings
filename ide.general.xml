@@ -14,5 +14,6 @@
     <entry key="suppress.focus.stealing.linux" value="true" />
     <entry key="suppress.focus.stealing.disable.auto.request.focus" value="true" />
     <entry key="suppress.focus.stealing.active.window.checks" value="true" />
+    <entry key="vcs.annotations.preload" value="true" />
   </component>
 </application>
