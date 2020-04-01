@@ -5,6 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.jsx" />
     <mask>package-lock.json</mask>
     <mask>gulpfile*</mask>
     <mask>default.yml</mask>
@@ -27,7 +28,6 @@
     <mask>*.scss</mask>
     <mask>*.sh</mask>
     <mask>*.js?</mask>
-    <mask>*.jsx</mask>
     <mask>*.y*</mask>
     <mask>*.js</mask>
     <mask>*.test.js</mask>
@@ -35,5 +35,6 @@
     <mask>*config*</mask>
     <mask>*.test.jsx</mask>
     <mask>*.yml</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
