@@ -1,5 +1,31 @@
 <application>
   <component name="IlluminatedCloudSfdxCache">
+    <option name="orgDisplayResponses">
+      <map>
+        <entry key="randy">
+          <value>
+            <OrgDisplayResponseCacheEntry>
+              <option name="orgDisplayResponse">
+                <SfdxForceOrgDisplayResponse>
+                  <option name="result">
+                    <SfdxForceOrgDisplayResult>
+                      <option name="accessToken" value="00D9E0000009Ehk!AQsAQCPkTQ48j4lNkvCQIraSvMs.iKS05RLPhe5cvZKbTksgrcEwuWBAaSNdf5KWNAIaJdIN.h4ppIP2VE80TN4SHj0n7Xo9" />
+                      <option name="alias" value="randy" />
+                      <option name="clientId" value="PlatformCLI" />
+                      <option name="connectedStatus" value="Connected" />
+                      <option name="id" value="00D9E0000009EhkUAE" />
+                      <option name="instanceUrl" value="https://smunch--randy.my.salesforce.com" />
+                      <option name="username" value="it+api@smunch.co.randy" />
+                    </SfdxForceOrgDisplayResult>
+                  </option>
+                </SfdxForceOrgDisplayResponse>
+              </option>
+              <option name="orgDisplayResponseLastPopulated" value="1586172141448" />
+            </OrgDisplayResponseCacheEntry>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="orgListResponse">
       <SfdxForceOrgListResponse>
         <option name="result">
