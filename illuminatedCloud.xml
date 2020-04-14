@@ -63,7 +63,6 @@
     </option>
     <option name="promptOverrideSaveAllAction" value="false" />
     <option name="selectedConnectionIndex" value="3" />
-    <option name="selectedTabIndex" value="1" />
     <option name="sfdxAllowDeployRetrieveDelete" value="true" />
     <option name="sfdxExecutablePath" value="/usr/local/bin/sfdx" />
     <option name="skippedUnitTestPolicy" value="FAIL" />
