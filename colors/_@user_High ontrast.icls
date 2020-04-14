@@ -3,7 +3,7 @@
     <property name="created">2020-02-17T23:37:43</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">3.5.3.0</property>
-    <property name="modified">2020-02-20T19:10:52</property>
+    <property name="modified">2020-04-14T09:10:20</property>
     <property name="originalScheme">High сontrast</property>
   </metaInfo>
   <colors>
@@ -41,7 +41,6 @@
     <option name="MODIFIED_LINES_COLOR" value="1aabff" />
     <option name="NOTIFICATION_BACKGROUND" value="80" />
     <option name="QUESTION_HINT" value="5380" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="383838" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="b4c738" />
     <option name="RIGHT_MARGIN_COLOR" value="808080" />
     <option name="SELECTED_INDENT_GUIDE" value="999999" />
@@ -217,7 +216,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="" />
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="aaff" />
@@ -470,7 +469,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -567,7 +566,7 @@
       </value>
     </option>
     <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="KOTLIN_BACKING_FIELD_VARIABLE">
       <value />
     </option>
