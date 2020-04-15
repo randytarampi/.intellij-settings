@@ -4,7 +4,7 @@
     <property name="created">2020-04-14T14:45:04</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-04-14T16:50:05</property>
+    <property name="modified">2020-04-15T16:17:26</property>
     <property name="originalScheme">Visual Studio Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -264,7 +264,7 @@
         <option name="BACKGROUND" value="3c1f1f" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JAVA_KEYWORD" baseAttributes="" />
     <option name="LOG_DEBUG_OUTPUT">
       <value>
         <option name="FOREGROUND" value="999999" />
@@ -310,7 +310,7 @@
         <option name="FOREGROUND" value="a9a9a9" />
       </value>
     </option>
-    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PY.KEYWORD" baseAttributes="" />
     <option name="REFERENCE_HYPERLINK_COLOR">
       <value>
         <option name="EFFECT_COLOR" value="ff" />
@@ -495,7 +495,7 @@
         <option name="BACKGROUND" value="78140a" />
       </value>
     </option>
-    <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="VELOCITY_KEYWORD" baseAttributes="" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ffb700" />
@@ -515,6 +515,6 @@
         <option name="ERROR_STRIPE_COLOR" value="ff0000" />
       </value>
     </option>
-    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.KEYWORD" baseAttributes="" />
   </attributes>
 </scheme>
