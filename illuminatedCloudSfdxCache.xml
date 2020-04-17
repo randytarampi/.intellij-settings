@@ -68,7 +68,7 @@
                   <option name="alias" value="escobar" />
                   <option name="connectedStatus" value="Connected" />
                   <option name="instanceUrl" value="https://smunch--escobar.my.salesforce.com" />
-                  <option name="lastUsed" value="1587108831627" />
+                  <option name="lastUsed" value="1587108841382" />
                   <option name="loginUrl" value="https://test.salesforce.com/" />
                   <option name="orgId" value="00D0Q0000008ihhUAA" />
                   <option name="username" value="it+api@smunch.co.escobar" />
@@ -79,17 +79,17 @@
                   <option name="connectedStatus" value="Connected" />
                   <option name="instanceUrl" value="https://smunch.my.salesforce.com" />
                   <option name="isDevHub" value="true" />
-                  <option name="lastUsed" value="1587108831627" />
+                  <option name="lastUsed" value="1587108841382" />
                   <option name="loginUrl" value="https://login.salesforce.com/" />
                   <option name="orgId" value="00D0N000001NmbfUAC" />
                   <option name="username" value="it+api@smunch.co" />
                 </SfdxForceOrg>
                 <SfdxForceOrg>
-                  <option name="accessToken" value="c2b2b1f4680d3e8f34a77e1f03b643cdd8f9d1fb6f52121c7c815f5c2cc81853f2443499bd6791bd772f915400f4e810608d22dda752a798e26f84016875d7d2a97caa88344a4c50abe46d531840bb7f58d6a8e74fcb1fb3ae923d23b5cd0826ceae0c3d628ee4d6b4cf7bd4bca9857680e776142c37:938ffc6507fe770fd79924ed58161709" />
+                  <option name="accessToken" value="96eb403ca79679d19f6f7e26c1aec3bd4e3ede1944a56f49224752275df3e5ee3fac1fbcd7075eac61edba5a3a36aaa66cf7cd8c329788b2bc9cf7db7c91fa1913b836236ac4092cdef584c6a62990fe15d6e258ad528d2efd9e081172107fd568eed55e42f5630a037d82fa8a2c04b4ad3870881fbc:28bd28a594f9aa31753dd486dee4dfee" />
                   <option name="alias" value="randy" />
                   <option name="connectedStatus" value="Connected" />
                   <option name="instanceUrl" value="https://smunch--randy.my.salesforce.com" />
-                  <option name="lastUsed" value="1587107445272" />
+                  <option name="lastUsed" value="1587134012519" />
                   <option name="loginUrl" value="https://test.salesforce.com/" />
                   <option name="orgId" value="00D9E0000009EhkUAE" />
                   <option name="username" value="it+api@smunch.co.randy" />
@@ -119,7 +119,7 @@
                   <option name="alias" value="staging" />
                   <option name="connectedStatus" value="Connected" />
                   <option name="instanceUrl" value="https://smunch--staging.my.salesforce.com" />
-                  <option name="lastUsed" value="1587108832422" />
+                  <option name="lastUsed" value="1587108841777" />
                   <option name="loginUrl" value="https://test.salesforce.com/" />
                   <option name="orgId" value="00D9E00000098z6UAA" />
                   <option name="username" value="it+api@smunch.co.staging" />
@@ -130,6 +130,6 @@
         </option>
       </SfdxForceOrgListResponse>
     </option>
-    <option name="orgListResponseLastPopulated" value="1587108843279" />
+    <option name="orgListResponseLastPopulated" value="1587135212210" />
   </component>
 </application>
