@@ -5,7 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>gulpfile*</mask>
+    <option name="FILE_MASK" value="!.env*" />
     <mask>default.yml</mask>
     <mask>layout.pug</mask>
     <mask>prd.yml</mask>
@@ -35,5 +35,6 @@
     <mask>*.yml</mask>
     <mask>.git*.yml</mask>
     <mask>package.json</mask>
+    <mask>!.env*</mask>
   </component>
 </application>
