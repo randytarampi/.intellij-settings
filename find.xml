@@ -29,9 +29,9 @@
     <mask>*config*</mask>
     <mask>*.test.jsx</mask>
     <mask>*.jsx</mask>
-    <mask>*.yml</mask>
     <mask>.git*.yml</mask>
     <mask>package.json</mask>
     <mask>!.env*</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
