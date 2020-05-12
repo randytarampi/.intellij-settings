@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>default.yml</mask>
+    <option name="FILE_MASK" value="*stories*" />
     <mask>layout.pug</mask>
     <mask>prd.yml</mask>
     <mask>.gitignore</mask>
@@ -33,5 +33,6 @@
     <mask>!.env*</mask>
     <mask>*.yml</mask>
     <mask>*.jsx</mask>
+    <mask>*stories*</mask>
   </component>
 </application>
