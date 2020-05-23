@@ -4,7 +4,7 @@
     <property name="created">2020-04-14T14:45:04</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-04-14T16:50:05</property>
+    <property name="modified">2020-05-23T12:11:10</property>
     <property name="originalScheme">Rider Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -2366,7 +2366,7 @@
         <option name="FOREGROUND" value="6b2fba" />
       </value>
     </option>
-    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.KEYWORD" baseAttributes="" />
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="248700" />
