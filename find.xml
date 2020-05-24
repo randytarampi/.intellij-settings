@@ -2,9 +2,9 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>gulpfile*</mask>
-    <mask>default.yml</mask>
     <mask>layout.pug</mask>
     <mask>prd.yml</mask>
     <mask>.gitignore</mask>
@@ -29,9 +29,11 @@
     <mask>*.test.js*</mask>
     <mask>*config*</mask>
     <mask>*.test.jsx</mask>
-    <mask>*.jsx</mask>
-    <mask>*.yml</mask>
     <mask>.git*.yml</mask>
     <mask>package.json</mask>
+    <mask>!.env*</mask>
+    <mask>*.yml</mask>
+    <mask>*stories*</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
