@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="package.json" />
     <mask>prd.yml</mask>
     <mask>.gitignore</mask>
     <mask>.travis.yml</mask>
@@ -27,11 +28,11 @@
     <mask>*config*</mask>
     <mask>*.test.jsx</mask>
     <mask>.git*.yml</mask>
-    <mask>package.json</mask>
     <mask>!.env*</mask>
-    <mask>*.yml</mask>
     <mask>*stories*</mask>
     <mask>*.svg</mask>
     <mask>*.jsx</mask>
+    <mask>*.yml</mask>
+    <mask>package.json</mask>
   </component>
 </application>
