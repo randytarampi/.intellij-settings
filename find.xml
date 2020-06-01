@@ -7,8 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
-    <option name="FILE_MASK" value="*.js" />
-    <mask>.gitignore</mask>
+    <option name="FILE_MASK" value="README.md" />
     <mask>.travis.yml</mask>
     <mask>!gulp*.js*</mask>
     <mask>!gulp*</mask>
@@ -38,5 +37,6 @@
     <mask>package.json</mask>
     <mask>!colors.js</mask>
     <mask>*.js</mask>
+    <mask>README.md</mask>
   </component>
 </application>
