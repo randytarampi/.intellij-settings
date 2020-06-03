@@ -1,8 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.yml" />
     <mask>.travis.yml</mask>
     <mask>!gulp*.js*</mask>
     <mask>!gulp*</mask>
@@ -27,11 +30,11 @@
     <mask>*stories*</mask>
     <mask>*.svg</mask>
     <mask>*.jsx</mask>
-    <mask>*.yml</mask>
     <mask>package.json</mask>
     <mask>!colors.js</mask>
     <mask>*.js</mask>
     <mask>README.md</mask>
     <mask>*.test.js</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
