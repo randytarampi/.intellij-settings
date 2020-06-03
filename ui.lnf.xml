@@ -4,6 +4,7 @@
   </component>
   <component name="UISettings">
     <option name="compactTreeIndents" value="true" />
+    <option name="CONSOLE_CYCLE_BUFFER_SIZE_KB" value="25600" />
     <option name="EDITOR_TAB_LIMIT" value="16" />
     <option name="OVERRIDE_CONSOLE_CYCLE_BUFFER_SIZE" value="true" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
