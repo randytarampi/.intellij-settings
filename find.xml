@@ -3,15 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.mxml</mask>
-    <mask>*.yml</mask>
-    <mask>.eslintrc.yaml</mask>
-    <mask>package-lock.json</mask>
-    <mask>gulpfile*</mask>
-    <mask>default.yml</mask>
-    <mask>layout.pug</mask>
-    <mask>prd.yml</mask>
-    <mask>.gitignore</mask>
     <mask>.travis.yml</mask>
     <mask>!gulp*.js*</mask>
     <mask>!gulp*</mask>
@@ -23,15 +14,24 @@
     <mask>.babelrc</mask>
     <mask>.nycrc</mask>
     <mask>*.pug</mask>
-    <mask>package.json</mask>
     <mask>*.json</mask>
     <mask>*.scss</mask>
     <mask>*.sh</mask>
     <mask>*.js?</mask>
-    <mask>*.jsx</mask>
     <mask>*.y*</mask>
-    <mask>*.js</mask>
-    <mask>*.test.js</mask>
     <mask>*.test.js*</mask>
+    <mask>*config*</mask>
+    <mask>*.test.jsx</mask>
+    <mask>.git*.yml</mask>
+    <mask>!.env*</mask>
+    <mask>*stories*</mask>
+    <mask>*.svg</mask>
+    <mask>*.jsx</mask>
+    <mask>package.json</mask>
+    <mask>!colors.js</mask>
+    <mask>*.js</mask>
+    <mask>README.md</mask>
+    <mask>*.test.js</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
