@@ -4,6 +4,7 @@
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="searchInBackground" value="true" />
     <option name="showTipsOnStartup" value="false" />
+    <option name="supportScreenReaders" value="true" />
   </component>
   <component name="Registry">
     <entry key="suppress.focus.stealing" value="true" />
@@ -12,8 +13,8 @@
     <entry key="SBT.system.in.process" value="true" />
     <entry key="BSP.experimental.feature.enabled" value="false" />
     <entry key="suppress.focus.stealing.linux" value="true" />
-    <entry key="vcs.annotations.preload" value="true" />
     <entry key="suppress.focus.stealing.disable.auto.request.focus" value="true" />
     <entry key="suppress.focus.stealing.active.window.checks" value="true" />
+    <entry key="vcs.annotations.preload" value="true" />
   </component>
 </application>
