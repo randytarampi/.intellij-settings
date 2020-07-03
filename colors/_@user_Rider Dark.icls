@@ -4,7 +4,7 @@
     <property name="created">2020-04-14T14:45:04</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-06-26T20:38:38</property>
+    <property name="modified">2020-07-03T19:38:27</property>
     <property name="originalScheme">Rider Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -903,7 +903,7 @@
         <option name="BACKGROUND" value="232e46" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="" />
+    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JS.BADCHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="ff5647" />
