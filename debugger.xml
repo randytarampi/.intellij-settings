@@ -555,6 +555,11 @@
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
+    <filter>
+      <option name="PATTERN" value="kotlin.*" />
+      <option name="ENABLED" value="true" />
+      <option name="INCLUDE" value="true" />
+    </filter>
   </component>
   <component name="XDebuggerSettings">
     <data-views />
@@ -562,11 +567,6 @@
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
     <debuggers>
-      <debugger id="ObjectiveC">
-        <configuration>
-          <option name="VALUES_FILTER_ENABLED" value="false" />
-        </configuration>
-      </debugger>
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
