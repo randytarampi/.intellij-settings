@@ -3,7 +3,7 @@
     <property name="created">2020-04-14T14:45:04</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-08-11T14:09:15</property>
+    <property name="modified">2020-08-12T18:30:47</property>
     <property name="originalScheme">Dark purple</property>
   </metaInfo>
   <colors>
@@ -187,7 +187,7 @@
         <option name="FOREGROUND" value="4dacf0" />
       </value>
     </option>
-    <option name="CSS.IMPORTANT" baseAttributes="" />
+    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="e67e5c" />
@@ -198,7 +198,7 @@
         <option name="FOREGROUND" value="e67e5c" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="" />
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="50afde" />
