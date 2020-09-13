@@ -2,17 +2,19 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <removed_mapping ext="html" approved="true" type="HTML" />
-      <removed_mapping pattern="composer.lock" type="JSON" />
+      <mapping ext="webp" type="Image" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="phpunit.xml.dist" type="XML" />
+      <mapping pattern="build" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="phpunit.xml.dist" type="XML" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="composer.lock" type="JSON" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="html" approved="true" type="HTML" />
