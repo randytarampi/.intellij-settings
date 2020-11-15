@@ -658,17 +658,6 @@
           <custom-object-presentation />
         </configuration>
       </debugger>
-      <debugger id="kotlin_debugger">
-        <configuration>
-          <option name="filterForStdlibAlreadyAdded" value="true" />
-        </configuration>
-      </debugger>
-      <debugger id="Rust">
-        <configuration>
-          <option name="downloadAutomatically" value="true" />
-          <option name="lldbPath" value="$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.2/intellij-rust/lldb" />
-        </configuration>
-      </debugger>
     </debuggers>
   </component>
 </application>
