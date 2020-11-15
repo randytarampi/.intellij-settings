@@ -640,11 +640,6 @@
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
-    <filter>
-      <option name="PATTERN" value="kotlin.*" />
-      <option name="ENABLED" value="true" />
-      <option name="INCLUDE" value="true" />
-    </filter>
   </component>
   <component name="NodeRendererSettings">
     <Renderer ID="ClassRenderer">
@@ -657,5 +652,12 @@
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
       <scroll-to-center>true</scroll-to-center>
     </general>
+    <debuggers>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+    </debuggers>
   </component>
 </application>
