@@ -8,7 +8,7 @@
     <option name="SECONDARY_FONT_FAMILY" value=".AppleSystemUIFontMonospaced" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <option name="lastViewedProviderKeyId" value="ts.enum.hints" />
   </component>
   <component name="LiveEditOptions" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" useJBChromeExtension="true" />
   <component name="TodoConfiguration">
