@@ -5,7 +5,7 @@
   <component name="DefaultFont">
     <option name="FONT_FAMILY" value="Liga Meslo LG M DZ" />
     <option name="USE_LIGATURES" value="true" />
-    <option name="SECONDARY_FONT_FAMILY" value=".AppleSystemUIFontMonospaced" />
+    <option name="SECONDARY_FONT_FAMILY" value="JetBrains Mono" />
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="ts.enum.hints" />
