@@ -1,18 +1,24 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
+      <mapping pattern=".rvmrc" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
+      <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
+      <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
+      <mapping pattern="Puppetfile" type="Ruby" />
       <mapping pattern=".analysis_options" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="html" approved="true" type="HTML" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="psd" approved="true" type="Image" />
