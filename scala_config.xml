@@ -4,5 +4,6 @@
   </component>
   <component name="ScalaApplicationSettings">
     <option name="ASK_USE_LATEST_PLUGIN_BUILDS" value="false" />
+    <option name="SUGGEST_IN_EDITOR_DOC_RENDERING" value="false" />
   </component>
 </application>
