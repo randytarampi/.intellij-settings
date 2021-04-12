@@ -1,0 +1,6 @@
+<application>
+  <component name="Projector">
+    <option name="host" value="0.0.0.0" />
+    <option name="port" value="8887" />
+  </component>
+</application>
