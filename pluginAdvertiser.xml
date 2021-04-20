@@ -187,6 +187,11 @@
                       <FeaturePluginData displayName="Django tests" pluginName="Python" pluginId="Pythonid" />
                     </value>
                   </entry>
+                  <entry key="ELM_TEST_RUN_CONFIGURATION">
+                    <value>
+                      <FeaturePluginData displayName="Elm Test" pluginName="Elm" pluginId="org.elm.klazuka" />
+                    </value>
+                  </entry>
                   <entry key="FirefoxRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
