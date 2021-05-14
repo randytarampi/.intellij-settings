@@ -1,14 +1,14 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <removed_mapping ext="csv" type="CSV file" />
-      <mapping ext="csv" type="CSV/TSV" />
+      <mapping ext="csv" type="CSV file" />
+      <removed_mapping ext="csv" type="CSV/TSV" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
+      <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
       <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
       <mapping pattern="Puppetfile" type="Ruby" />
