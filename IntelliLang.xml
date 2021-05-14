@@ -74,6 +74,14 @@
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("query").withParameterCount(2).definedInClass("jodd.db.DbQuery"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(2, psiMethod().withName("DbQuery").withParameterCount(3).definedInClass("jodd.db.DbQuery"))]]></place>
     </injection>
+    <injection language="JSONPath" injector-id="java">
+      <display-name>JsonAsserter (com.jayway.jsonpath)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertEquals").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertNotDefined").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertNotNull").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertNull").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("assertThat").definedInClass("com.jayway.jsonassert.JsonAsserter"))]]></place>
+    </injection>
     <injection language="http-reference" injector-id="java">
       <display-name>OkHttp (okhttp3)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("parse", "get", "newBuilder").withParameters("java.lang.String").definedInClass("okhttp3.HttpUrl"))]]></place>
@@ -341,10 +349,21 @@
       <place><![CDATA[psiMethod().withName("xpath").withParameters().definedInClass("org.openqa.selenium.support.FindBy")]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("xpath").withParameters("java.lang.String").definedInClass("org.openqa.selenium.By"))]]></place>
     </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Session.createNativeQuery (org.hibernate)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.StatelessSession"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.reactive.stage.Stage.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.reactive.stage.Stage.StatelessSession"))]]></place>
+    </injection>
     <injection language="HQL" injector-id="java">
       <display-name>Session.createQuery (org.hibernate)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.Session"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.StatelessSession"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.StatelessSession"))]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>SmallRye Axle SqlClient (io.vertx.axle.sqlclient)</display-name>
@@ -449,6 +468,15 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query", "prepare", "preparedQuery", "preparedBatch", "rxQuery", "rxPreparedQuery", "rxPreparedBatch").definedInClass("io.vertx.reactivex.sqlclient.Pool"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query", "prepare", "preparedQuery", "preparedBatch", "rxQuery", "rxPreparedQuery", "rxPreparedBatch").definedInClass("io.vertx.reactivex.sqlclient.SqlClient"))]]></place>
     </injection>
+    <injection language="JSONPath" injector-id="java">
+      <display-name>WriteContext (com.jayway.jsonpath)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("add").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("delete").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("map").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("put").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("renameKey").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("set").definedInClass("com.jayway.jsonpath.WriteContext"))]]></place>
+    </injection>
     <injection language="SQL" injector-id="java">
       <display-name>jOOQ (org.jooq.DSLContext)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batch").withParameters("java.lang.String", "java.lang.Object[]...").definedInClass("org.jooq.DSLContext"))]]></place>
@@ -473,6 +501,101 @@
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toPattern").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
     </injection>
+    <injection language="SQL" injector-id="python">
+      <display-name>&quot;SQL select/delete/insert/update/create&quot;</display-name>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((ALTER|DROP)\\s+INDEX\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((ALTER|DROP)\\s+VIEW\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((ALTER|TRUNCATE)\\s+TABLE\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((BEGIN)|(START TRANSACTION))(\\s[^\n\r]+)?;")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((CREATE|DROP)\\s+DATABASE\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*((CREATE|DROP)\\s+EXTENSION\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(ALTER\\s+EXTENSION\\s.+?\\s(UPDATE|(SET SCHEMA)|ADD|DROP))")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(ALTER\\s+SEQUENCE\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(BEGIN\\s+TRAN(SACTION)?\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(BEGIN\\s.+\\sEND;?$)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(COPY\\s.+?\\s(FROM|TO)\\s.+;$)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+((TEMP(ORARY)?|(GLOBAL\\s+TEMPORARY))\\s+)?TABLE\\s.+?\\(.+?\\))")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(OR\\s+REPLACE\\s+)?FUNCTION\\s.+?\\sRETURNS?\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(OR\\s+REPLACE\\s+)?PROC(EDURE)?\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(OR\\s+REPLACE\\s+)?TRIGGER\\s.+?\\sON\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(OR\\s+REPLACE\\s+)?VIEW\\s.+?\\sAS\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(CREATE\\s+(UNIQUE\\s+)?INDEX\\s.+?\\sON\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(DELETE\\s+(\\*\\s+)?FROM\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(DROP\\s+TABLE\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(INSERT\\s+((OR\\s+)?IGNORE\\s+)?INTO\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(REPLACE\\s+INTO\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(SELECT\\s.+?\\sFROM\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(UPDATE\\s.+?\\sSET\\s.+)")]]></place>
+      <place><![CDATA[pyStringLiteralMatches("^(\\s*((((--|#)[^\n\r]*)|(/\\*([^*])+\\*+/))(\r\n|\n|\r))+)?\\s*(WITH\\s.+?\\sAS\\s.+)")]]></place>
+    </injection>
+    <injection language="CSS" injector-id="python">
+      <display-name>Selenium CSS (selene)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyModuleFunctionArgument("by", 0, "bys"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyModuleFunctionArgument("by_css", 0, "bys"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyModuleFunctionArgument("css", 0, "by"))]]></place>
+    </injection>
+    <injection language="CSS" injector-id="python">
+      <display-name>Selenium CSS (selenium.webdriver)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_element_by_css_selector", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_elements_by_css_selector", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_element_by_css_selector", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_elements_by_css_selector", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+    </injection>
+    <injection language="selenium-class" injector-id="python">
+      <display-name>Selenium Element Class (selenium.webdriver)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_element_by_class_name", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_elements_by_class_name", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_element_by_class_name", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_elements_by_class_name", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+    </injection>
+    <injection language="selenium-id" injector-id="python">
+      <display-name>Selenium Element ID (selenium.webdriver)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_element_by_id", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_elements_by_id", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_element_by_id", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_elements_by_id", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+    </injection>
+    <injection language="selenium-name" injector-id="python">
+      <display-name>Selenium Element Name (selenium.webdriver)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_element_by_name", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_elements_by_name", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_element_by_name", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_elements_by_name", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+    </injection>
+    <injection language="selenium-html-tag" injector-id="python">
+      <display-name>Selenium HTML Tag (selenium.webdriver)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_element_by_tag_name", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_elements_by_tag_name", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_element_by_tag_name", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_elements_by_tag_name", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+    </injection>
+    <injection language="JavaScript" injector-id="python">
+      <display-name>Selenium JavaScript (selene)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("execute_script", 0, "selene.core.entity.Element"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyModuleFunctionArgument("execute_script", 0, "browser"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyModuleFunctionArgument("js_returned", 1, "have"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyModuleFunctionArgument("js_returned", 1, "not_"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyModuleFunctionArgument("js_returned_true", 0, "have"))]]></place>
+    </injection>
+    <injection language="JavaScript" injector-id="python">
+      <display-name>Selenium JavaScript (selenium.webdriver)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("execute_async_script", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("execute_script", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+    </injection>
+    <injection language="XPath" injector-id="python">
+      <display-name>Selenium XPath (selenium.webdriver)</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_element_by_xpath", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyArgument("find_elements_by_xpath", 0))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_element_by_xpath", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("find_elements_by_xpath", 0, "selenium.webdriver.remote.webdriver.WebDriver"))]]></place>
+    </injection>
+    <injection language="SQLite" injector-id="python">
+      <display-name>sqlite3</display-name>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("execute", 0, "_sqlite3.Connection"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("execute", 0, "_sqlite3.Cursor"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("executemany", 0, "_sqlite3.Connection"))]]></place>
+      <place><![CDATA[pyLiteralExpression().and(pyMethodArgument("executemany", 0, "_sqlite3.Cursor"))]]></place>
+    </injection>
     <injection language="JavaScript" injector-id="ruby">
       <display-name>Heredoc JavaScript</display-name>
       <place><![CDATA[heredocElement("JAVASCRIPT")]]></place>
@@ -482,6 +605,11 @@
       <display-name>Heredoc Ruby</display-name>
       <place><![CDATA[heredocElement("RB")]]></place>
       <place><![CDATA[heredocElement("RUBY")]]></place>
+    </injection>
+    <injection language="JavaScript" injector-id="scala">
+      <display-name>Selenium JavaScript (org.scalatest.selenium)</display-name>
+      <place><![CDATA[scalaLiteral().callArgument(0, psiMethod().withName("executeAsyncScript").definedInClass("org.scalatest.selenium.WebBrowser"))]]></place>
+      <place><![CDATA[scalaLiteral().callArgument(0, psiMethod().withName("executeScript").definedInClass("org.scalatest.selenium.WebBrowser"))]]></place>
     </injection>
     <injection language="JSON" injector-id="sql">
       <display-name>ClickHouse JSON</display-name>
