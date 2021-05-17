@@ -697,6 +697,11 @@
                       <FeaturePluginData displayName="Run Study Tests" pluginName="com.jetbrains.edu" pluginId="com.jetbrains.edu" />
                     </value>
                   </entry>
+                  <entry key="cloudfoundry-deploy">
+                    <value>
+                      <FeaturePluginData displayName="CloudFoundry Deployment" pluginName="IDEA CORE" pluginId="com.intellij" bundled="true" />
+                    </value>
+                  </entry>
                   <entry key="com.intellij.dmserver.run.DMServerRunConfigurationType:id">
                     <value>
                       <FeaturePluginData displayName="Spring dmServer" pluginName="Virgo/dmServer" pluginId="com.intellij.dmserver" />
