@@ -5,8 +5,8 @@
         <RSerializableInterpreter>
           <option name="name" value="Suggested" />
           <option name="path" value="/usr/local/bin/R" />
-          <option name="timestamp" value="1593882713606" />
-          <option name="version" value="4.0.2" />
+          <option name="timestamp" value="1621069450000" />
+          <option name="version" value="4.0.5" />
         </RSerializableInterpreter>
       </list>
     </option>
