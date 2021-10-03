@@ -4,8 +4,10 @@
   </component>
   <component name="UISettings">
     <option name="EDITOR_AA_TYPE" value="Greyscale" />
+    <option name="FULL_PATHS_IN_TITLE_BAR" value="true" />
     <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
-    <option name="smoothScrolling" value="false" />
+    <option name="showTreeIndentGuides" value="true" />
+    <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
