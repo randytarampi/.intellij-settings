@@ -25,13 +25,13 @@
     <mask>*.js</mask>
     <mask>README.md</mask>
     <mask>*.test.js</mask>
-    <mask>*.yml</mask>
+    <mask>!*.env*</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>!*.env*</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
