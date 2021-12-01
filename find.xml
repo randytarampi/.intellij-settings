@@ -19,7 +19,6 @@
     <mask>*stories*</mask>
     <mask>*.svg</mask>
     <mask>*.jsx</mask>
-    <mask>package.json</mask>
     <mask>!colors.js</mask>
     <mask>*.js</mask>
     <mask>README.md</mask>
@@ -33,5 +32,6 @@
     <mask>*.java</mask>
     <mask>*.yml</mask>
     <mask>!*.env.*</mask>
+    <mask>package.json</mask>
   </component>
 </application>
