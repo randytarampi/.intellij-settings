@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>.nycrc</mask>
     <mask>*.pug</mask>
     <mask>*.json</mask>
     <mask>*.scss</mask>
@@ -33,5 +32,6 @@
     <mask>!*.env.*</mask>
     <mask>package.json</mask>
     <mask>*.ts*</mask>
+    <mask>*.mdx</mask>
   </component>
 </application>
