@@ -27,11 +27,11 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>!*.env.*</mask>
-    <mask>package.json</mask>
     <mask>*.ts*</mask>
     <mask>*.mdx</mask>
     <mask>*.yml</mask>
     <mask>*.graphql</mask>
     <mask>tsconfig.*</mask>
+    <mask>package.json</mask>
   </component>
 </application>
