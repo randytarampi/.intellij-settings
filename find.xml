@@ -3,10 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>.babelrc</mask>
-    <mask>.nycrc</mask>
-    <mask>*.pug</mask>
-    <mask>*.json</mask>
     <mask>*.scss</mask>
     <mask>*.sh</mask>
     <mask>*.js?</mask>
@@ -30,8 +26,12 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>*.yml</mask>
     <mask>!*.env.*</mask>
+    <mask>*.ts*</mask>
+    <mask>*.mdx</mask>
+    <mask>*.yml</mask>
+    <mask>*.graphql</mask>
+    <mask>tsconfig.*</mask>
     <mask>package.json</mask>
   </component>
 </application>

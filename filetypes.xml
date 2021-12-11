@@ -7,9 +7,9 @@
       <mapping ext="jupyter-kts" type="Kotlin" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing.local" type="PLAIN_TEXT" />
+      <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
-      <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
       <mapping pattern="Puppetfile" type="Ruby" />
       <removed_mapping pattern="Kptfile" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
@@ -27,6 +27,7 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
