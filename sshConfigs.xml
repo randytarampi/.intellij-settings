@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="bastion.development.thedeed.app" id="07003196-9c71-4155-8000-e45e1296cfee" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</application>
