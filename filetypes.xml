@@ -7,9 +7,10 @@
       <mapping ext="jupyter-kts" type="Kotlin" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing.local" type="PLAIN_TEXT" />
+      <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
-      <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
+      <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="Puppetfile" type="Ruby" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
