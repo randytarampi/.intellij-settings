@@ -3,8 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.scss</mask>
-    <mask>*.sh</mask>
     <mask>*.js?</mask>
     <mask>*.y*</mask>
     <mask>*.test.js*</mask>
@@ -16,7 +14,6 @@
     <mask>*.svg</mask>
     <mask>*.jsx</mask>
     <mask>!colors.js</mask>
-    <mask>*.js</mask>
     <mask>README.md</mask>
     <mask>*.test.js</mask>
     <mask>!*.env*</mask>
@@ -33,5 +30,8 @@
     <mask>*.graphql</mask>
     <mask>tsconfig.*</mask>
     <mask>package.json</mask>
+    <mask>*.js</mask>
+    <mask>!package.json</mask>
+    <mask>*.js,*.ts</mask>
   </component>
 </application>
