@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.y*</mask>
     <mask>*.test.js*</mask>
     <mask>*config*</mask>
     <mask>*.test.jsx</mask>
@@ -33,5 +32,6 @@
     <mask>*.mdx</mask>
     <mask>*.yml</mask>
     <mask>*.ts</mask>
+    <mask>selectors.*</mask>
   </component>
 </application>
