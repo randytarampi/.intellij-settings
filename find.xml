@@ -3,11 +3,11 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!.env*" />
     <mask>*.test.js*</mask>
     <mask>*config*</mask>
     <mask>*.test.jsx</mask>
     <mask>.git*.yml</mask>
-    <mask>!.env*</mask>
     <mask>*stories*</mask>
     <mask>*.svg</mask>
     <mask>*.jsx</mask>
@@ -33,5 +33,6 @@
     <mask>*.yml</mask>
     <mask>*.ts</mask>
     <mask>selectors.*</mask>
+    <mask>!.env*</mask>
   </component>
 </application>
