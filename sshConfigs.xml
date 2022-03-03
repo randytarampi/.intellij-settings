@@ -20,6 +20,9 @@
       <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-a2.production.thedeed.app" id="932ae3eb-cf30-4c7a-8b48-d45296630157" port="22" customName="ec2-user@api-a2.production.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
         <option name="customName" value="ec2-user@api-a2.production.thedeed.app:22" />
       </sshConfig>
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-b2.production.thedeed.app" id="f377bb3b-344d-4535-bf51-f37297d85e39" port="22" customName="ec2-user@api-b2.production.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
+        <option name="customName" value="ec2-user@api-b2.production.thedeed.app:22" />
+      </sshConfig>
     </configs>
   </component>
 </application>
