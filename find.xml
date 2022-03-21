@@ -7,7 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="!.env*" />
+    <option name="FILE_MASK" value="*.yml" />
     <mask>*.test.js*</mask>
     <mask>*config*</mask>
     <mask>*.test.jsx</mask>
@@ -34,9 +34,9 @@
     <mask>!package.json</mask>
     <mask>*.js,*.ts</mask>
     <mask>*.mdx</mask>
-    <mask>*.yml</mask>
     <mask>*.ts</mask>
     <mask>selectors.*</mask>
     <mask>!.env*</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
