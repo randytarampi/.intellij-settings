@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*config*</mask>
+    <option name="FILE_MASK" value="serverless.yml" />
     <mask>*.test.jsx</mask>
     <mask>.git*.yml</mask>
     <mask>*stories*</mask>
@@ -33,5 +33,6 @@
     <mask>!.env*</mask>
     <mask>serverless*.yml</mask>
     <mask>*.yml</mask>
+    <mask>serverless.yml</mask>
   </component>
 </application>
