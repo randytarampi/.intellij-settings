@@ -29,9 +29,9 @@
     <mask>*.mdx</mask>
     <mask>*.ts</mask>
     <mask>selectors.*</mask>
-    <mask>!.env*</mask>
     <mask>serverless*.yml</mask>
     <mask>*.yml</mask>
     <mask>serverless.yml</mask>
+    <mask>!.env*</mask>
   </component>
 </application>
