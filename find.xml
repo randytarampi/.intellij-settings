@@ -31,7 +31,7 @@
     <mask>*.yml</mask>
     <mask>serverless.yml</mask>
     <mask>!.env*</mask>
-    <mask>serverless*.yml</mask>
     <mask>!serverless*.yml,!.env*</mask>
+    <mask>serverless*.yml</mask>
   </component>
 </application>
