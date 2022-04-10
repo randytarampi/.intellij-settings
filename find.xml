@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>.git*.yml</mask>
+    <option name="FILE_MASK" value="deploy*.yml" />
     <mask>*stories*</mask>
     <mask>*.svg</mask>
     <mask>*.jsx</mask>
@@ -33,5 +33,6 @@
     <mask>serverless.yml</mask>
     <mask>!serverless*.yml,!.env*</mask>
     <mask>serverless*.yml</mask>
+    <mask>deploy*.yml</mask>
   </component>
 </application>
