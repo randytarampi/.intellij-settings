@@ -27,11 +27,11 @@
     <mask>*.mdx</mask>
     <mask>*.ts</mask>
     <mask>selectors.*</mask>
-    <mask>*.yml</mask>
     <mask>!.env*</mask>
     <mask>serverless.yml</mask>
     <mask>!serverless*.yml,!.env*</mask>
     <mask>serverless*.yml</mask>
     <mask>deploy*.yml</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
