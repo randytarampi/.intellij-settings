@@ -7,13 +7,11 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="jupyter-kts" type="Kotlin" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
+      <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing.local" type="PLAIN_TEXT" />
+      <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
-      <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
-      <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
-      <mapping pattern=".env.demo" type="RbenvGemsets" />
-      <mapping pattern="Puppetfile" type="Ruby" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cfg" approved="true" type="NimConfig" />
@@ -34,6 +32,8 @@
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern="Kptfile" approved="true" type="YAML" />
       <mapping ext="plantuml" type="PlantUML file" />
+      <mapping pattern=".env.demo" type="RbenvGemsets" />
+      <mapping pattern="Puppetfile" type="Ruby" />
     </extensionMap>
   </component>
 </application>
