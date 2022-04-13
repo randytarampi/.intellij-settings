@@ -4,9 +4,7 @@
       <map>
         <entry key="AWSCloudFormation">
           <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="Dart">
@@ -84,7 +82,6 @@
                   <option value="org.jetbrains.plugins.less" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -96,7 +93,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -130,7 +126,6 @@
                   <option value="com.intellij.modules.xml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -150,15 +145,12 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
         <entry key="com.jetbrains.plugins.jade">
           <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="com.jetbrains.plugins.yeoman">
@@ -170,7 +162,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -182,7 +173,6 @@
                   <option value="com.intellij.modules.ultimate" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -194,7 +184,6 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -324,7 +313,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
