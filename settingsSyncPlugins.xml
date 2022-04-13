@@ -2130,9 +2130,7 @@
         </entry>
         <entry key="org.jetbrains.plugins.go">
           <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="org.jetbrains.plugins.go-template">
