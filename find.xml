@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.svg</mask>
+    <option name="FILE_MASK" value="*.sh" />
     <mask>*.jsx</mask>
     <mask>!colors.js</mask>
     <mask>README.md</mask>
@@ -33,5 +33,6 @@
     <mask>!.env*</mask>
     <mask>Dockerfile</mask>
     <mask>*.yml</mask>
+    <mask>*.sh</mask>
   </component>
 </application>
