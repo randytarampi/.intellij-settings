@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>README.md</mask>
+    <option name="FILE_MASK" value="*.web.jsx,*.web.tsx" />
     <mask>*.test.js</mask>
     <mask>!*.env*</mask>
     <mask>*.css</mask>
@@ -33,5 +33,6 @@
     <mask>*.yml</mask>
     <mask>*.java,*.h,*.cpp</mask>
     <mask>*.jsx,*.tsx</mask>
+    <mask>*.web.jsx,*.web.tsx</mask>
   </component>
 </application>
