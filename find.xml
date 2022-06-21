@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="package.json" />
     <mask>*.test.js</mask>
     <mask>!*.env*</mask>
     <mask>*.css</mask>
@@ -15,7 +16,6 @@
     <mask>*.ts*</mask>
     <mask>*.graphql</mask>
     <mask>tsconfig.*</mask>
-    <mask>package.json</mask>
     <mask>*.js</mask>
     <mask>!package.json</mask>
     <mask>*.js,*.ts</mask>
@@ -33,5 +33,6 @@
     <mask>*.java,*.h,*.cpp</mask>
     <mask>*.jsx,*.tsx</mask>
     <mask>*.web.jsx,*.web.tsx</mask>
+    <mask>package.json</mask>
   </component>
 </application>
