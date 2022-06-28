@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="serverless.yml" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -19,7 +20,6 @@
     <mask>*.mdx</mask>
     <mask>*.ts</mask>
     <mask>selectors.*</mask>
-    <mask>serverless.yml</mask>
     <mask>!serverless*.yml,!.env*</mask>
     <mask>serverless*.yml</mask>
     <mask>deploy*.yml</mask>
@@ -33,5 +33,6 @@
     <mask>package.json</mask>
     <mask>*.local</mask>
     <mask>!.env.*.local</mask>
+    <mask>serverless.yml</mask>
   </component>
 </application>
