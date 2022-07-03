@@ -1,7 +1,7 @@
 <application>
   <component name="Projector">
-    <option name="autostart" value="false" />
+    <option name="autostart" value="true" />
     <option name="host" value="0.0.0.0" />
-    <option name="port" value="8887" />
+    <option name="secureConnection" value="true" />
   </component>
 </application>

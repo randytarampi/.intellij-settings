@@ -93,6 +93,11 @@
       <scroll-to-center>true</scroll-to-center>
     </general>
     <debuggers>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
+        </configuration>
+      </debugger>
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />

@@ -6,6 +6,7 @@
     <option name="FULL_PATHS_IN_TITLE_BAR" value="true" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="showTreeIndentGuides" value="true" />
+    <option name="smoothScrolling" value="false" />
     <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
