@@ -5,6 +5,7 @@
     <option name="preserveCase" value="true" />
     <option name="PRESERVE_CASE_REPLACE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
@@ -18,7 +19,6 @@
     <mask>!package.json</mask>
     <mask>*.js,*.ts</mask>
     <mask>*.mdx</mask>
-    <mask>*.ts</mask>
     <mask>selectors.*</mask>
     <mask>!serverless*.yml,!.env*</mask>
     <mask>serverless*.yml</mask>
@@ -35,5 +35,6 @@
     <mask>!.env.*.local</mask>
     <mask>serverless.yml</mask>
     <mask>!.env.test</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
