@@ -2,9 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="preserveCase" value="true" />
-    <option name="PRESERVE_CASE_REPLACE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="package.json" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
@@ -29,11 +28,11 @@
     <mask>*.java,*.h,*.cpp</mask>
     <mask>*.jsx,*.tsx</mask>
     <mask>*.web.jsx,*.web.tsx</mask>
-    <mask>package.json</mask>
     <mask>*.local</mask>
     <mask>!.env.*.local</mask>
     <mask>serverless.yml</mask>
     <mask>!.env.test</mask>
     <mask>*.ts</mask>
+    <mask>package.json</mask>
   </component>
 </application>
