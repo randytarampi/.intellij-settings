@@ -101,7 +101,6 @@
                   <option value="com.intellij.modules.python" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -195,7 +194,6 @@
                   <option value="com.intellij.modules.vcs" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -251,6 +249,17 @@
             <PluginData />
           </value>
         </entry>
+        <entry key="PlantUML integration">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="Pythonid">
           <value>
             <PluginData>
@@ -290,6 +299,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="SerialPortMonitor">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="SnakeCharm">
           <value>
             <PluginData>
@@ -300,7 +320,6 @@
                   <option value="org.jetbrains.plugins.yaml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -433,6 +452,7 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -600,6 +620,11 @@
                 </set>
               </option>
             </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.grazie.pro">
+          <value>
+            <PluginData />
           </value>
         </entry>
         <entry key="com.intellij.gwt">
@@ -780,6 +805,18 @@
             <PluginData />
           </value>
         </entry>
+        <entry key="com.intellij.plugins.colorful.darcula.colorscheme">
+          <value>
+            <PluginData>
+              <option name="category" value="UI" />
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.plugins.eclipsekeymap">
           <value>
             <PluginData>
@@ -788,7 +825,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -800,7 +836,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -812,7 +847,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -838,7 +872,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -861,7 +894,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -873,7 +905,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -885,7 +916,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -897,7 +927,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -909,7 +938,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -921,7 +949,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -933,7 +960,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -962,7 +988,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -974,7 +999,17 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.queryComplexity">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.sql" />
+                </set>
+              </option>
             </PluginData>
           </value>
         </entry>
@@ -1032,6 +1067,30 @@
             <PluginData />
           </value>
         </entry>
+        <entry key="com.intellij.spring.batch">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.webflow">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.ws">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.javaee" />
+                  <option value="com.intellij.microservices.jvm" />
+                  <option value="com.intellij.spring" />
+                  <option value="com.jetbrains.jax.ws" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.struts2">
           <value>
             <PluginData />
@@ -1059,7 +1118,6 @@
                   <option value="com.intellij.properties" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -1268,6 +1326,11 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.jetbrains.jax.ws">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
         <entry key="com.jetbrains.kaggle">
           <value>
             <PluginData>
@@ -1458,7 +1521,6 @@
                   <option value="com.jetbrains.php" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -1613,6 +1675,35 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.kn.diagrams.generator.generator">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.java" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.microsoft.tooling.msservices.intellij.azure">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.gradle" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="org.jetbrains.idea.maven" />
+                  <option value="org.jetbrains.plugins.gradle" />
+                  <option value="org.jetbrains.plugins.terminal" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.redhat.devtools.intellij.telemetry">
           <value>
             <PluginData>
@@ -1634,7 +1725,6 @@
                   <option value="com.intellij.properties" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -1660,6 +1750,20 @@
                   <option value="JavaScriptDebugger" />
                   <option value="com.intellij.css" />
                   <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="dev.blachut.svelte.lang">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.css" />
+                  <option value="com.intellij.modules.lang" />
+                  <option value="com.intellij.modules.xml" />
                 </set>
               </option>
             </PluginData>
@@ -1703,9 +1807,7 @@
         </entry>
         <entry key="intellij.recommenders">
           <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="io.flutter">
@@ -1747,6 +1849,17 @@
                 <set>
                   <option value="com.intellij.modules.lang" />
                   <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="izhangzhihao.rainbow.brackets">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
                 </set>
               </option>
             </PluginData>
@@ -1895,7 +2008,6 @@
                   <option value="org.jetbrains.plugins.yaml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -1922,6 +2034,11 @@
                 </set>
               </option>
             </PluginData>
+          </value>
+        </entry>
+        <entry key="org.intellij.grails">
+          <value>
+            <PluginData />
           </value>
         </entry>
         <entry key="org.intellij.plugins.hcl">
@@ -2075,6 +2192,19 @@
             <PluginData />
           </value>
         </entry>
+        <entry key="org.jetbrains.kotlin-js-inspection-pack-plugin">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.java" />
+                  <option value="com.intellij.modules.platform" />
+                  <option value="org.jetbrains.kotlin" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.jetbrains.plugins.go">
           <value>
             <PluginData />
@@ -2092,6 +2222,21 @@
                 <set>
                   <option value="com.intellij.modules.lang" />
                   <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.kotlin.jupyter">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="Pythonid" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="org.jetbrains.kotlin" />
                 </set>
               </option>
             </PluginData>
@@ -2268,9 +2413,7 @@
         </entry>
         <entry key="training">
           <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="training.git">
@@ -2283,7 +2426,6 @@
                   <option value="training" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -2312,7 +2454,6 @@
                   <option value="org.jetbrains.plugins.yaml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
