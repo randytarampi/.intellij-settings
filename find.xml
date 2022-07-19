@@ -3,7 +3,7 @@
     <option name="customScope" value="All Changed Files" />
     <option name="defaultScopeName" value="All Changed Files" />
     <option name="SEARCH_SCOPE" value="All Changed Files" />
-    <mask>*.html</mask>
+    <option name="FILE_MASK" value="*.tsx" />
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
@@ -33,5 +33,6 @@
     <mask>!.env.test</mask>
     <mask>*.ts</mask>
     <mask>package.json</mask>
+    <mask>*.tsx</mask>
   </component>
 </application>
