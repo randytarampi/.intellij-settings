@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Changed Files" />
     <option name="defaultScopeName" value="All Changed Files" />
+    <option name="preserveCase" value="true" />
+    <option name="PRESERVE_CASE_REPLACE" value="true" />
     <option name="SEARCH_SCOPE" value="All Changed Files" />
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
