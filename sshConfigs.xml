@@ -32,6 +32,9 @@
       <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="cms.development.thedeed.app" id="7bdf41fa-f7ed-4e67-b07d-be24fc027c2d" port="22" customName="ec2-user@cms.development.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
         <option name="customName" value="ec2-user@cms.development.thedeed.app:22" />
       </sshConfig>
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ec2-3-143-152-7.us-east-2.compute.amazonaws.com" id="ecb5ef36-d5cd-466d-8dd0-8836d991246d" port="22" customName="ec2-user@ec2-3-143-152-7.us-east-2.compute.amazonaws.com:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
+        <option name="customName" value="ec2-user@ec2-3-143-152-7.us-east-2.compute.amazonaws.com:22" />
+      </sshConfig>
     </configs>
   </component>
 </application>
