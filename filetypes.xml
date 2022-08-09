@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern=".env*" type="AUTO_DETECTED" />
-      <mapping ext="gson" type="Groovy" />
-      <mapping pattern=".prettierrc" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
@@ -15,7 +13,14 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
-      <mapping ext="qrc" type="XML" />
+      <mapping pattern=".env.demo" type="RbenvGemsets" />
+      <mapping pattern="Puppetfile" type="Ruby" />
+      <mapping pattern="Puppetfile" type="Ruby" />
+      <mapping ext="bpmn" type="XML" />
+      <mapping ext="xjb" type="XML" />
+      <mapping ext="wsdd" type="XML" />
+      <mapping pattern="pubspec.lock" type="YAML" />
+      <mapping pattern=".analysis_options" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cfg" approved="true" type="NimConfig" />
@@ -34,8 +39,6 @@
       <removed_mapping pattern=".analysis_options" approved="true" type="YAML" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern="Kptfile" approved="true" type="YAML" />
-      <mapping pattern=".env.demo" type="RbenvGemsets" />
-      <mapping pattern="Puppetfile" type="Ruby" />
     </extensionMap>
   </component>
 </application>
