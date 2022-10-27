@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>!*.env.*</mask>
     <mask>*.ts*</mask>
     <mask>*.graphql</mask>
     <mask>tsconfig.*</mask>
@@ -33,5 +32,6 @@
     <mask>*sh</mask>
     <mask>*yml</mask>
     <mask>*ts</mask>
+    <mask>*serverless*</mask>
   </component>
 </application>
