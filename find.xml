@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="package.json" />
     <mask>*.ts*</mask>
     <mask>*.graphql</mask>
     <mask>tsconfig.*</mask>
@@ -26,12 +27,12 @@
     <mask>serverless.yml</mask>
     <mask>!.env.test</mask>
     <mask>*.ts</mask>
-    <mask>package.json</mask>
     <mask>*.tsx</mask>
     <mask>*.test.ts</mask>
     <mask>*sh</mask>
     <mask>*yml</mask>
     <mask>*ts</mask>
     <mask>*serverless*</mask>
+    <mask>package.json</mask>
   </component>
 </application>
