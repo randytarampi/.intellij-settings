@@ -30,8 +30,8 @@
     <mask>*.test.ts</mask>
     <mask>*sh</mask>
     <mask>*yml</mask>
-    <mask>*ts</mask>
     <mask>*serverless*</mask>
     <mask>package.json</mask>
+    <mask>*ts</mask>
   </component>
 </application>
