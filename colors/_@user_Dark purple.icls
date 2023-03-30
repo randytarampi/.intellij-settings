@@ -3,7 +3,7 @@
     <property name="created">2020-04-14T14:45:04</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2022-03-11T17:40:27</property>
+    <property name="modified">2020-11-15T19:37:48</property>
     <property name="originalScheme">Dark purple</property>
   </metaInfo>
   <colors>
@@ -56,7 +56,7 @@
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value />
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="dd3962" />
@@ -227,8 +227,8 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="" />
-    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="" />
+    <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
+    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FOREGROUND" value="80809e" />
@@ -454,7 +454,7 @@
         <option name="FOREGROUND" value="4dacf0" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="" />
+    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -496,32 +496,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="363743" />
+        <option name="BACKGROUND" value="2d2d28" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="343c40" />
+        <option name="BACKGROUND" value="242d2c" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="3a3c3f" />
+        <option name="BACKGROUND" value="2d2435" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="3f393d" />
-      </value>
-    </option>
-    <option name="INDENT_RAINBOW_COLOR_5">
-      <value>
-        <option name="BACKGROUND" value="3f343b" />
-      </value>
-    </option>
-    <option name="INDENT_RAINBOW_COLOR_6">
-      <value>
-        <option name="BACKGROUND" value="3f3038" />
+        <option name="BACKGROUND" value="212c34" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_ERROR">
@@ -559,7 +549,7 @@
         <option name="BACKGROUND" value="666666" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="KOTLIN_ANNOTATION">
       <value>
         <option name="FOREGROUND" value="e0967b" />
@@ -603,7 +593,7 @@
         <option name="BACKGROUND" value="153811" />
       </value>
     </option>
-    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="" />
+    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="LESS_VARIABLE">
       <value />
     </option>
@@ -679,7 +669,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
+    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="REGEXP.CHAR_CLASS">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />

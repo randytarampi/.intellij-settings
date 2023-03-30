@@ -1,39 +1,27 @@
 <application>
   <component name="SshConfigs">
     <configs>
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="bastion.development.thedeed.app" id="07003196-9c71-4155-8000-e45e1296cfee" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api.development.thedeed.app" id="3c501415-a78b-44c5-887a-679ad85d5084" port="22" customName="ec2-user@api.development.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
+        <option name="customName" value="ec2-user@api.development.thedeed.app:22" />
+      </sshConfig>
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api.testing.thedeed.app" id="605463c9-7751-4f10-beaf-13913ef48bd8" port="22" customName="ec2-user@api.testing.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
+        <option name="customName" value="ec2-user@api.testing.thedeed.app:22" />
+      </sshConfig>
       <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-a.production.thedeed.app" id="6b0db317-52e0-41ae-96b6-86ff5a1b2f1c" port="22" customName="ec2-user@api-a.production.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
         <option name="customName" value="ec2-user@api-a.production.thedeed.app:22" />
-      </sshConfig>
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-a.testing.thedeed.app" id="605463c9-7751-4f10-beaf-13913ef48bd8" port="22" customName="ec2-user@api-a.testing.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="ec2-user@api-a.testing.thedeed.app:22" />
-      </sshConfig>
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-a2.production.thedeed.app" id="932ae3eb-cf30-4c7a-8b48-d45296630157" port="22" customName="ec2-user@api-a2.production.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="ec2-user@api-a2.production.thedeed.app:22" />
       </sshConfig>
       <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-b.production.thedeed.app" id="f3a25110-50ea-4294-995c-3ec2352b63a1" port="22" customName="ec2-user@api-b.production.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
         <option name="customName" value="ec2-user@api-b.production.thedeed.app:22" />
       </sshConfig>
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-b.testing.thedeed.app" id="2e0dbe97-ffbd-4a29-9305-1c9a28269eb9" port="22" customName="ec2-user@api-b.testing.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="ec2-user@api-b.testing.thedeed.app:22" />
-      </sshConfig>
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-b2.production.thedeed.app" id="f377bb3b-344d-4535-bf51-f37297d85e39" port="22" customName="ec2-user@api-b2.production.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="ec2-user@api-b2.production.thedeed.app:22" />
-      </sshConfig>
       <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-f.local.thedeed.app" id="28026d05-fa72-43ca-8c0e-83959f444c65" port="22" customName="ec2-user@api-f.local.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
         <option name="customName" value="ec2-user@api-f.local.thedeed.app:22" />
       </sshConfig>
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api.development.thedeed.app" id="3c501415-a78b-44c5-887a-679ad85d5084" port="22" customName="ec2-user@api.development.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="ec2-user@api.development.thedeed.app:22" />
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-a2.production.thedeed.app" id="932ae3eb-cf30-4c7a-8b48-d45296630157" port="22" customName="ec2-user@api-a2.production.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
+        <option name="customName" value="ec2-user@api-a2.production.thedeed.app:22" />
       </sshConfig>
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="bastion.development.thedeed.app" id="07003196-9c71-4155-8000-e45e1296cfee" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="cms.development.thedeed.app" id="7bdf41fa-f7ed-4e67-b07d-be24fc027c2d" port="22" customName="ec2-user@cms.development.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="ec2-user@cms.development.thedeed.app:22" />
-      </sshConfig>
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="cms.testing.thedeed.app" id="693fc6a8-5e93-43d1-9268-509e85afe6ad" port="22" customName="ec2-user@cms.testing.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="ec2-user@cms.testing.thedeed.app:22" />
-      </sshConfig>
-      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ec2-3-143-152-7.us-east-2.compute.amazonaws.com" id="ecb5ef36-d5cd-466d-8dd0-8836d991246d" port="22" customName="ec2-user@ec2-3-143-152-7.us-east-2.compute.amazonaws.com:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="ec2-user@ec2-3-143-152-7.us-east-2.compute.amazonaws.com:22" />
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="api-b2.production.thedeed.app" id="f377bb3b-344d-4535-bf51-f37297d85e39" port="22" customName="ec2-user@api-b2.production.thedeed.app:22" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
+        <option name="customName" value="ec2-user@api-b2.production.thedeed.app:22" />
       </sshConfig>
     </configs>
   </component>

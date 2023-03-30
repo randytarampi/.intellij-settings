@@ -1,0 +1,14 @@
+<application>
+  <component name="Azure Toolkit for IntelliJ">
+    <option name="properties">
+      <map>
+        <entry key="account.auth_method_detail" value="" />
+        <entry key="account.azure_environment" value="Azure" />
+        <entry key="account.subscriptions_json" value="" />
+        <entry key="guidance.guidance_shown" value="true" />
+        <entry key="telemetry.telemetry_allow_telemetry" value="true" />
+        <entry key="telemetry.telemetry_plugin_version" value="3.66.0-2022.1" />
+      </map>
+    </option>
+  </component>
+</application>

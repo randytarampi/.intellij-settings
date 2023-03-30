@@ -1,37 +1,39 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.test.js*</mask>
+    <mask>*config*</mask>
+    <mask>*.test.jsx</mask>
+    <mask>.git*.yml</mask>
+    <mask>*stories*</mask>
+    <mask>*.svg</mask>
+    <mask>*.jsx</mask>
+    <mask>!colors.js</mask>
+    <mask>README.md</mask>
+    <mask>*.test.js</mask>
+    <mask>!*.env*</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
+    <mask>*.java</mask>
+    <mask>!*.env.*</mask>
+    <mask>*.ts*</mask>
+    <mask>*.graphql</mask>
     <mask>tsconfig.*</mask>
+    <mask>package.json</mask>
     <mask>*.js</mask>
     <mask>!package.json</mask>
     <mask>*.js,*.ts</mask>
     <mask>*.mdx</mask>
-    <mask>selectors.*</mask>
-    <mask>!serverless*.yml,!.env*</mask>
-    <mask>serverless*.yml</mask>
-    <mask>deploy*.yml</mask>
-    <mask>!.env*</mask>
-    <mask>Dockerfile</mask>
-    <mask>*.sh</mask>
     <mask>*.yml</mask>
-    <mask>*.java,*.h,*.cpp</mask>
-    <mask>*.jsx,*.tsx</mask>
-    <mask>*.web.jsx,*.web.tsx</mask>
-    <mask>*.local</mask>
-    <mask>!.env.*.local</mask>
-    <mask>serverless.yml</mask>
-    <mask>!.env.test</mask>
     <mask>*.ts</mask>
-    <mask>*.tsx</mask>
-    <mask>*.test.ts</mask>
-    <mask>*yml</mask>
-    <mask>*serverless*</mask>
-    <mask>package.json</mask>
-    <mask>*ts</mask>
-    <mask>*sh</mask>
-    <mask>*</mask>
-    <mask>serverless*</mask>
+    <mask>selectors.*</mask>
+    <mask>!.env*</mask>
   </component>
 </application>

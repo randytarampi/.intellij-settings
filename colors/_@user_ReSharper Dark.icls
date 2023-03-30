@@ -4,7 +4,7 @@
     <property name="created">2020-04-14T14:45:04</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2022-03-11T17:40:27</property>
+    <property name="modified">2020-11-15T19:37:48</property>
     <property name="originalScheme">ReSharper Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -168,32 +168,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="37383c" />
+        <option name="BACKGROUND" value="2e2e20" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="353c3a" />
+        <option name="BACKGROUND" value="252e25" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="3b3d38" />
+        <option name="BACKGROUND" value="2e252e" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="403a36" />
-      </value>
-    </option>
-    <option name="INDENT_RAINBOW_COLOR_5">
-      <value>
-        <option name="BACKGROUND" value="403534" />
-      </value>
-    </option>
-    <option name="INDENT_RAINBOW_COLOR_6">
-      <value>
-        <option name="BACKGROUND" value="403032" />
+        <option name="BACKGROUND" value="212d2d" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_ERROR">
