@@ -16,8 +16,14 @@
   <component name="StatusBar">
     <option name="widgets">
       <map>
+        <entry key="FlowJSInfo" value="false" />
+        <entry key="GridAggregator" value="false" />
+        <entry key="IdeaVim-Icon" value="false" />
+        <entry key="JSONSchemaSelector" value="false" />
         <entry key="Memory" value="true" />
+        <entry key="QaAutomationFramework" value="false" />
         <entry key="SerialMonitorStatusWidget" value="false" />
+        <entry key="TypeScriptInfo" value="false" />
         <entry key="aws.codewhisperer" value="false" />
         <entry key="webDeployment.default.server.widget" value="false" />
       </map>
