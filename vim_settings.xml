@@ -1,36 +1,14 @@
 <application>
   <component name="VimEditorSettings">
     <editor>
-      <key-repeat enabled="true" />
+      <key-repeat enabled="false" />
     </editor>
-  </component>
-  <component name="VimHistorySettings">
-    <history>
-      <history-search />
-      <history-cmd />
-      <history-expr />
-      <history-input />
-    </history>
   </component>
   <component name="VimKeySettings">
     <shortcut-conflicts />
   </component>
-  <component name="VimMarksSettings">
-    <globalmarks />
-    <filemarks />
-    <jumps />
-  </component>
-  <component name="VimRegisterSettings">
-    <registers />
-  </component>
-  <component name="VimSearchSettings">
-    <search>
-      <last-dir>0</last-dir>
-      <show-last>false</show-last>
-    </search>
-  </component>
   <component name="VimSettings">
-    <state version="6" enabled="false" />
+    <state version="7" enabled="false" />
     <notifications>
       <idea-join enabled="false" />
       <idea-put enabled="false" />

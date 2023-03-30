@@ -1,7 +1,5 @@
 <application>
   <component name="Projector">
-    <option name="autostart" value="true" />
-    <option name="host" value="0.0.0.0" />
-    <option name="secureConnection" value="true" />
+    <option name="autostart" value="false" />
   </component>
 </application>

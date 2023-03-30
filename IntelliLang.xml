@@ -60,7 +60,7 @@
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>JDBI (org.jdbi.v3.core)</display-name>
-      <ignore-pattern>&lt;\w+&gt;</ignore-pattern>
+      <ignore-pattern>&lt;[a-zA-Z0-9_]+&gt;</ignore-pattern>
       <single-file value="true" />
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("add").withParameters("java.lang.String").definedInClass("org.jdbi.v3.core.statement.Batch"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareBatch", "createQuery", "createCall", "createScript", "createUpdate").withParameters("java.lang.String").definedInClass("org.jdbi.v3.core.Handle"))]]></place>

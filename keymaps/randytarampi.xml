@@ -1,7 +1,4 @@
 <keymap version="1" name="randytarampi" parent="Mac OS X 10.5+">
-  <action id="ActivateBigDataToolWindowToolWindow">
-    <keyboard-shortcut first-keystroke="shift ctrl meta b" />
-  </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="shift alt back_quote" />
   </action>
