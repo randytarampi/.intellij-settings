@@ -3,10 +3,12 @@
     <extensionMap>
       <mapping pattern=".env*" type="AUTO_DETECTED" />
       <mapping pattern="demo-demo-network-tfplan" type="AUTO_DETECTED" />
+      <mapping ext="config" type="Erlang Terms" />
       <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="jupyter-kts" type="Kotlin" />
+      <removed_mapping ext="config" type="LOMBOK_CONFIG" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
       <mapping pattern=".env.testing.local" type="PLAIN_TEXT" />
@@ -22,7 +24,9 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="conf" approved="true" type="HOCON" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
       <removed_mapping ext="graphqlconfig" approved="true" type="JSON" />
       <removed_mapping ext="html" approved="true" type="HTML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
@@ -31,6 +35,7 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern="Kptfile" approved="true" type="YAML" />
