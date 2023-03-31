@@ -3,35 +3,37 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.test.js*</mask>
-    <mask>*config*</mask>
-    <mask>*.test.jsx</mask>
-    <mask>.git*.yml</mask>
-    <mask>*stories*</mask>
-    <mask>*.svg</mask>
-    <mask>*.jsx</mask>
-    <mask>!colors.js</mask>
-    <mask>README.md</mask>
-    <mask>*.test.js</mask>
-    <mask>!*.env*</mask>
-    <mask>*.css</mask>
-    <mask>*.html</mask>
-    <mask>*.xml</mask>
-    <mask>*.jsp</mask>
-    <mask>*.properties</mask>
-    <mask>*.java</mask>
-    <mask>!*.env.*</mask>
-    <mask>*.ts*</mask>
-    <mask>*.graphql</mask>
-    <mask>tsconfig.*</mask>
-    <mask>package.json</mask>
-    <mask>*.js</mask>
-    <mask>!package.json</mask>
-    <mask>*.js,*.ts</mask>
-    <mask>*.mdx</mask>
-    <mask>*.yml</mask>
-    <mask>*.ts</mask>
-    <mask>selectors.*</mask>
-    <mask>!.env*</mask>
+    <recentFileMasks>
+      <mask>en.json</mask>
+      <mask>en.json, en.js, en.yaml</mask>
+      <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
+      <mask>.js</mask>
+      <mask>!en*,!utilico*,!bg*,!consumersenergy*,!directenergy*,!dukeenergy*,!ergon*,!pge*,!pse*</mask>
+      <mask>it_IT</mask>
+      <mask>it_IT.json</mask>
+      <mask>it_IT.yaml</mask>
+      <mask>it_IT.*</mask>
+      <mask>*.jade</mask>
+      <mask>default</mask>
+      <mask>*.json</mask>
+      <mask>*.yaml</mask>
+      <mask>*.less</mask>
+      <mask>!venv/*.py</mask>
+      <mask>!node_modules/**, !coverage**, !*.py</mask>
+      <mask>!node_modules/**, !coverage*/**, !*.py</mask>
+      <mask>!node_modules/**, !dist/**, !coverage**/**, !*.py</mask>
+      <mask>!node_modules/**, !dist/**, !coverage*, !coverage/**, !*.py</mask>
+      <mask>!node_modules/**, !dist/**, !coverage*/**, !*.py</mask>
+      <mask>!node_modules/**, !dist/**, !coverage/**, !coverage*, !*.py</mask>
+      <mask>!*.py, !node_modules/**, !dist/**, !coverage/**, !coverage*</mask>
+      <mask>!node_modules/**, !dist/**, !coverage/**, !*.py</mask>
+      <mask>*.scss</mask>
+      <mask>package.json</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
+      <mask>*.jsx</mask>
+    </recentFileMasks>
   </component>
 </application>

@@ -1,19 +1,27 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern=".env*" type="AUTO_DETECTED" />
+      <mapping pattern="alerterTest" type="HTML" />
+      <mapping pattern="layout" type="HTML" />
+      <mapping pattern=".nycrc" type="JSON" />
+      <mapping pattern="authenticationService" type="JavaScript" />
+      <mapping pattern="vehicleInformation" type="JavaScript" />
+      <mapping pattern="www" type="JavaScript" />
+      <mapping pattern="buyerProfileService" type="JavaScript" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="jupyter-kts" type="Kotlin" />
+      <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
+      <mapping pattern="CNAME" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
-      <mapping pattern=".env.testing.local" type="PLAIN_TEXT" />
       <mapping pattern="Puppetfile.lock" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="build" type="PLAIN_TEXT" />
+      <mapping pattern=".sequelizerc" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
-      <mapping pattern=".env.demo" type="RbenvGemsets" />
       <mapping pattern="Puppetfile" type="Ruby" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
@@ -21,22 +29,32 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="conf" approved="true" type="HOCON" />
       <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
+      <removed_mapping ext="fnc" approved="true" type="SQL" />
       <removed_mapping ext="graphqlconfig" approved="true" type="JSON" />
       <removed_mapping ext="html" approved="true" type="HTML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="pkb" approved="true" type="SQL" />
+      <removed_mapping ext="pks" approved="true" type="SQL" />
+      <removed_mapping ext="prc" approved="true" type="SQL" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="tpb" approved="true" type="SQL" />
+      <removed_mapping ext="tps" approved="true" type="SQL" />
+      <removed_mapping ext="trg" approved="true" type="SQL" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
-      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern=".analysis_options" approved="true" type="YAML" />
-      <removed_mapping pattern=".env" approved="true" type=".env file" />
+      <removed_mapping ext="vw" approved="true" type="SQL" />
+      <removed_mapping pattern=".editorconfig" approved="true" type="EditorConfig" />
+      <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="Kptfile" approved="true" type="YAML" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
     </extensionMap>
   </component>
 </application>
