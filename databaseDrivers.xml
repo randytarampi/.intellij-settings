@@ -11,7 +11,7 @@
       <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="2.4.1" />
     </driver>
     <driver id="mongo">
-      <artifact id="MongoDB" name="MongoDB" use="true" version="1.12" />
+      <artifact id="MongoDB" name="MongoDB" use="true" version="1.8.3" />
     </driver>
     <driver id="sqlserver.ms" name="SQL Server (Microsoft)">
       <artifact id="SQL Server" name="SQL Server" use="true" version="8.2.2" />
@@ -35,10 +35,7 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.22" />
-    </driver>
-    <driver id="greenplum">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.22" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.5" />
     </driver>
     <driver id="redshift">
       <artifact id="Redshift" name="Redshift" use="true" version="1.2.41.1065" />
@@ -61,6 +58,22 @@
     </driver>
     <driver id="sybase.ase" name="Sybase (Native)">
       <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="614686d9-6489-4ffc-a2d4-8dccfa37c18e" name="shared-local-instance driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
+      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
+      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true">
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
+        </library>
+      </artifact>
+      <property name="enable_load_extension" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.31.1/sqlite-jdbc-3.31.1.jar</url>
+      </library>
     </driver>
   </component>
 </application>
