@@ -7,6 +7,7 @@
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="showTreeIndentGuides" value="true" />
     <option name="smoothScrolling" value="false" />
+    <option name="UI_DENSITY" value="COMPACT" />
     <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
