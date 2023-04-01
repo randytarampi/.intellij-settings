@@ -1,0 +1,7 @@
+<application>
+  <component name="ConfigurableState">
+    <option name="host" value="https://gitlab.com" />
+    <option name="token" value="aAsEzs8Goxevv61UZk3t" />
+    <option name="ignoreCertificateErrors" value="false" />
+  </component>
+</application>

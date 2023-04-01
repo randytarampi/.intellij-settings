@@ -1,0 +1,14 @@
+<application>
+  <component name="RInterpreterSettings">
+    <option name="interpreters">
+      <list>
+        <RSerializableInterpreter>
+          <option name="name" value="Suggested" />
+          <option name="path" value="/usr/local/bin/R" />
+          <option name="timestamp" value="1679144407088" />
+          <option name="version" value="4.2.3" />
+        </RSerializableInterpreter>
+      </list>
+    </option>
+  </component>
+</application>

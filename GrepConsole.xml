@@ -133,7 +133,7 @@
               </GrepExpressionGroup>
             </list>
           </option>
-          <option name="id" value="1680367056407" />
+          <option name="id" value="1680208629586" />
           <option name="inputFilterGroups">
             <list>
               <GrepExpressionGroup>
@@ -158,5 +158,6 @@
         </Profile>
       </list>
     </option>
+    <option name="version" value="2" />
   </component>
 </application>
