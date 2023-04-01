@@ -2,9 +2,12 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern=".env*" type="AUTO_DETECTED" />
+      <mapping ext="csv" type="CSV" />
+      <removed_mapping ext="tsv" type="CSV/TSV" />
+      <removed_mapping ext="csv" type="CSV/TSV" />
       <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="jupyter-kts" type="Kotlin" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
@@ -15,6 +18,7 @@
       <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern=".env.demo" type="RbenvGemsets" />
       <mapping pattern="Puppetfile" type="Ruby" />
+      <mapping ext="tsv" type="TSV" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cfg" approved="true" type="NimConfig" />
@@ -22,6 +26,7 @@
       <removed_mapping ext="conf" approved="true" type="HOCON" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
       <removed_mapping ext="graphqlconfig" approved="true" type="JSON" />
       <removed_mapping ext="html" approved="true" type="HTML" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
