@@ -8,9 +8,9 @@
       <mapping pattern="vehicleInformation" type="JavaScript" />
       <mapping pattern="www" type="JavaScript" />
       <mapping pattern="buyerProfileService" type="JavaScript" />
-      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="jupyter-kts" type="Kotlin" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern="buildwoof" type="PLAIN_TEXT" />
