@@ -21,8 +21,10 @@
       <mapping pattern="build" type="PLAIN_TEXT" />
       <mapping pattern=".sequelizerc" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
+      <removed_mapping ext="txt" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="Puppetfile" type="Ruby" />
+      <mapping ext="txt" type="requirements.txt" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cfg" approved="true" type="NimConfig" />
