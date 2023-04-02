@@ -49,6 +49,7 @@
       <removed_mapping ext="tps" approved="true" type="SQL" />
       <removed_mapping ext="trg" approved="true" type="SQL" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="vw" approved="true" type="SQL" />
       <removed_mapping pattern=".editorconfig" approved="true" type="EditorConfig" />
       <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
