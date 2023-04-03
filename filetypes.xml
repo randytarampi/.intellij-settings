@@ -2,19 +2,16 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="srcjar" type="ARCHIVE" />
-      <removed_mapping ext="rs" type="Android RenderScript" />
-      <mapping ext="config" type="Erlang Terms" />
-      <removed_mapping ext="config" type="LOMBOK_CONFIG" />
-      <removed_mapping ext="txt" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
-      <mapping ext="rs" type="Rust" />
-      <mapping ext="txt" type="requirements.txt" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
