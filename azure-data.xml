@@ -11,6 +11,8 @@
         <entry key="guidance.guidance_shown" value="true" />
         <entry key="monitor.monitor_table_rows" value="200" />
         <entry key="other.enable_auth_persistence" value="true" />
+        <entry key="rate.action_total_score" value="0" />
+        <entry key="rate.next_rewind_date" value="1681744650439" />
         <entry key="telemetry.telemetry_allow_telemetry" value="true" />
         <entry key="telemetry.telemetry_plugin_version" value="3.75.0-2023.1" />
       </map>
