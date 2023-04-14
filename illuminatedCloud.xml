@@ -61,10 +61,7 @@
         </IlluminatedCloudConnectionConfig>
       </list>
     </option>
-    <option name="promptOverrideSaveAllAction" value="false" />
     <option name="selectedConnectionIndex" value="3" />
-    <option name="sfdxAllowDeployRetrieveDelete" value="true" />
-    <option name="sfdxExecutablePath" value="/usr/local/bin/sfdx" />
     <option name="skippedUnitTestPolicy" value="FAIL" />
     <option name="useSeparateSourceRootForStaticResourceBundles" value="true" />
     <option name="validateApexOnEdit" value="true" />
