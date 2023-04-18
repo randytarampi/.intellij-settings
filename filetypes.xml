@@ -2,9 +2,9 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="srcjar" type="ARCHIVE" />
-      <removed_mapping ext="app" type="Erlang/OTP app" />
       <mapping ext="plantuml" type="PlantUML file" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="app" type="Erlang/OTP app" />
       <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
       <removed_mapping ext="config" approved="true" type="XML" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
