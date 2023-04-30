@@ -1,4 +1,4 @@
-<filetype binary="false" default_extension="saql" description="SAQL (syntax highlighting only)" name="SAQL">
+<filetype binary="false" description="SAQL (syntax highlighting only)" name="SAQL">
   <highlighting>
     <options>
       <option name="LINE_COMMENT" value="--" />
