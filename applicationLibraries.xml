@@ -73,7 +73,6 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pyflakes" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/Pygments" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/requests" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/selenium" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/tabulate" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/toposort" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/waitress" />
@@ -204,7 +203,6 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pyflakes" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/Pygments" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/requests" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/selenium" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/tabulate" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/toposort" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/waitress" />
@@ -336,7 +334,6 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pyflakes" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/Pygments" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/requests" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/selenium" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/tabulate" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/toposort" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/waitress" />
@@ -467,7 +464,6 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pyflakes" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/Pygments" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/requests" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/selenium" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/tabulate" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/toposort" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/waitress" />
@@ -533,8 +529,6 @@
     </library>
     <library name="deed-hive interpreter library">
       <CLASSES>
-        <root url="file:///usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11" />
-        <root url="file:///usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload" />
         <root url="file://$USER_HOME$/.local/share/virtualenvs/deed-hive-wny8nbox/lib/python3.11/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2023.1/python_stubs/740041619" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
@@ -599,7 +593,6 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pyflakes" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/Pygments" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/requests" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/selenium" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/tabulate" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/toposort" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/waitress" />
@@ -664,8 +657,6 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file:///usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11" />
-        <root url="file:///usr/local/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload" />
         <root url="file://$USER_HOME$/.local/share/virtualenvs/deed-hive-wny8nbox/lib/python3.11/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2023.1/python_stubs/740041619" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
@@ -730,7 +721,6 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pyflakes" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/Pygments" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/requests" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/selenium" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/tabulate" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/toposort" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/waitress" />
@@ -862,7 +852,6 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pyflakes" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/Pygments" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/requests" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/selenium" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/tabulate" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/toposort" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/waitress" />
@@ -993,7 +982,6 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pyflakes" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/Pygments" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/requests" />
-        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/selenium" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/tabulate" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/toposort" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/waitress" />
