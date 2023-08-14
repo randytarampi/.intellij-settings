@@ -4,6 +4,7 @@
     <preferred-light-laf class-name="com.intellij.ide.ui.laf.IntelliJLaf" themeId="JetBrainsLightTheme" />
     <preferred-dark-laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" />
     <lafs-to-previous-schemes>
+      <laf-to-scheme laf="Darcula" scheme="_@user_Darcula" />
       <laf-to-scheme laf="IntelliJ Light" scheme="_@user_IntelliJ Light" />
       <laf-to-scheme laf="Light" scheme="_@user_Light" />
     </lafs-to-previous-schemes>
