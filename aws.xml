@@ -5,6 +5,14 @@
     <option name="telemetryEnabled" value="false" />
     <option name="useDefaultCredentialRegion" value="Prompt" />
   </component>
+  <component name="codewhispererUserGroupSettings">
+    <option name="settings">
+      <map>
+        <entry key="userGroup" value="CrossFile" />
+      </map>
+    </option>
+    <option name="version" value="1.77-232" />
+  </component>
   <component name="executables">
     <option name="value">
       <list>
