@@ -1,0 +1,5 @@
+<application>
+  <component name="ExtraTciSettings">
+    <option name="uiTypeIconsPreference" value="BASED_ON_ACTIVE_UI_TYPE" />
+  </component>
+</application>

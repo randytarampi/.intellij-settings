@@ -14,7 +14,6 @@
     <entry key="debugger.new.tool.window.layout" value="true" />
     <entry key="ide.experimental.ui.inter.font" value="false" />
     <entry key="idea.plugins.compatible.build" value="" />
-    <entry key="ide.tree.experimental.layout.cache" value="false" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
@@ -27,6 +26,7 @@
         <entry key="Memory" value="true" />
         <entry key="QaAutomationFramework" value="false" />
         <entry key="SerialMonitorStatusWidget" value="false" />
+        <entry key="Translation.Widget" value="false" />
         <entry key="TranslationWidget" value="false" />
         <entry key="TypeScriptInfo" value="false" />
         <entry key="aws.codewhisperer" value="false" />
