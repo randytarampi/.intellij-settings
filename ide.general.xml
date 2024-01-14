@@ -12,6 +12,7 @@
     <entry key="feature.suggester.enable.suggesters" value="true" />
     <entry key="editor.minimap.enabled" value="true" />
     <entry key="debugger.new.tool.window.layout" value="true" />
+    <entry key="eslint.additional.file.extensions" value="svelte" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
