@@ -4,7 +4,7 @@
     <preferred-light-laf themeId="JetBrainsLightTheme" />
     <preferred-dark-laf themeId="Darcula" />
     <lafs-to-previous-schemes>
-      <laf-to-scheme laf="Darcula" scheme="_@user_Darcula" />
+      <laf-to-scheme laf="Darcula" scheme="_@user_Colorful Darcula" />
       <laf-to-scheme laf="JetBrainsLightTheme" scheme="_@user_Default" />
       <laf-to-scheme laf="Light" scheme="_@user_Light" />
     </lafs-to-previous-schemes>
