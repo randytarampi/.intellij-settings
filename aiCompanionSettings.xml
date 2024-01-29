@@ -1,0 +1,13 @@
+<application>
+  <component name="AiCompanionSettings">
+    <option name="enabled" value="true" />
+    <option name="settings">
+      <map>
+        <entry key="cloudcode.duetAI.codeGeneration.automatic" value="false" />
+        <entry key="cloudcode.duetAI.endpoint" value="" />
+        <entry key="cloudcode.duetAI.project" value="" />
+        <entry key="cloudcode.duetAI.recitation.logFilePath" value="" />
+      </map>
+    </option>
+  </component>
+</application>
