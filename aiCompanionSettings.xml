@@ -1,6 +1,5 @@
 <application>
   <component name="AiCompanionSettings">
-    <option name="enabled" value="true" />
     <option name="settings">
       <map>
         <entry key="cloudcode.duetAI.codeGeneration.automatic" value="false" />
