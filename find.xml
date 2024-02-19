@@ -3,7 +3,9 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*--http.ts" />
     <mask>package.json</mask>
     <mask>*.less</mask>
+    <mask>*--http.ts</mask>
   </component>
 </application>
