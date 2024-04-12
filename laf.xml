@@ -3,6 +3,7 @@
     <laf themeId="ExperimentalLightWithLightHeader" />
     <preferred-light-laf themeId="ExperimentalLightWithLightHeader" />
     <preferred-dark-laf themeId="Darcula" />
+    <preferred-light-editor-scheme editorSchemeId="Default" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="Darcula" scheme="_@user_Colorful Darcula" />
       <laf-to-scheme laf="JetBrainsLightTheme" scheme="_@user_Default" />
