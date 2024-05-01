@@ -13,7 +13,7 @@
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <option name="EDITOR_LIGATURES" value="true" />
   <attributes>
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="" />
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3c4248" />
