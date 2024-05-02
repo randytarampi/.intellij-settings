@@ -7,6 +7,13 @@
     <option name="telemetryEnabled" value="false" />
     <option name="useDefaultCredentialRegion" value="Prompt" />
   </component>
+  <component name="codewhispererStates">
+    <option name="value">
+      <map>
+        <entry key="IsFirstRestartAfterQInstall" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="codewhispererUserGroupSettings">
     <option name="settings">
       <map>
