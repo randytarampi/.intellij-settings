@@ -1,7 +1,6 @@
 <application>
   <component name="LLM Completion Third Parties">
     <thirdParties>
-      <entry id="aws.toolkit" is-enabled="true" />
       <entry id="com.google.gct.core" is-enabled="true" />
     </thirdParties>
   </component>
