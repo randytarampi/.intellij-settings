@@ -359,24 +359,31 @@
       </additional>
     </jdk>
     <jdk version="2">
-      <name value="Android API 29 Platform" />
+      <name value="Android API 34, extension level 7 Platform" />
       <type value="Android SDK" />
-      <version value="java version &quot;22.0.1&quot;" />
-      <homePath value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
       <roots>
         <annotationsPath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-34/data/annotations.zip!/" type="simple" />
+          </root>
         </annotationsPath>
         <classPath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-34/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Android/sdk/platforms/android-34/data/res" type="simple" />
+          </root>
         </classPath>
         <javadocPath>
           <root type="composite" />
         </javadocPath>
         <sourcePath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="file://$USER_HOME$/Library/Android/sdk/sources/android-34" type="simple" />
+          </root>
         </sourcePath>
       </roots>
+      <additional sdk="android-34" />
     </jdk>
     <jdk version="2">
       <name value="22" />
@@ -1302,22 +1309,56 @@
     <jdk version="2">
       <name value="Android API 28 Platform" />
       <type value="Android SDK" />
-      <version value="java version &quot;22.0.1&quot;" />
-      <homePath value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
       <roots>
         <annotationsPath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-34/data/annotations.zip!/" type="simple" />
+          </root>
         </annotationsPath>
         <classPath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-34/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Android/sdk/platforms/android-34/data/res" type="simple" />
+          </root>
         </classPath>
         <javadocPath>
           <root type="composite" />
         </javadocPath>
         <sourcePath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="file://$USER_HOME$/Library/Android/sdk/sources/android-34" type="simple" />
+          </root>
         </sourcePath>
       </roots>
+      <additional sdk="android-34" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 29 Platform" />
+      <type value="Android SDK" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-34/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-34/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Library/Android/sdk/platforms/android-34/data/res" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/Library/Android/sdk/sources/android-34" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional sdk="android-34" />
     </jdk>
   </component>
 </application>
