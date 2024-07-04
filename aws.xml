@@ -31,4 +31,11 @@
       </list>
     </option>
   </component>
+  <component name="resources">
+    <option name="selected">
+      <list>
+        <option value="AWS::EC2::Host" />
+      </list>
+    </option>
+  </component>
 </application>
