@@ -18,6 +18,9 @@
     </option>
     <option name="defaultPosition" value="Right" />
   </component>
+  <component name="CursiveManagers">
+    <option name="feat1" value="false" />
+  </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
