@@ -6,6 +6,14 @@
       <place><![CDATA[groovyElement().annotationParam("groovy.lang.Newify", "pattern")]]></place>
       <place><![CDATA[groovyLiteralExpression().regExpOperatorArgument()]]></place>
     </injection>
+    <injection language="Spring-MongoDB-JSON" injector-id="java">
+      <display-name>Aggregation (org.springframework.data.mongodb.repository)</display-name>
+      <ignore-pattern>(:#\{#\w+\}|\?#\{.+\})</ignore-pattern>
+      <single-file value="false" />
+      <place><![CDATA[psiMethod().withName("collation").withParameters().definedInClass("org.springframework.data.mongodb.repository.Aggregation")]]></place>
+      <place><![CDATA[psiMethod().withName("pipeline").withParameters().definedInClass("org.springframework.data.mongodb.repository.Aggregation")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.data.mongodb.repository.Aggregation")]]></place>
+    </injection>
     <injection language="http-reference" injector-id="java">
       <display-name>Android Volley (com.android.volley)</display-name>
       <single-file value="true" />
@@ -15,6 +23,21 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("StringRequest").withParameterCount(3).definedInClass("com.android.volley.toolbox.StringRequest"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("JsonObjectRequest").withParameterCount(5).definedInClass("com.android.volley.toolbox.JsonObjectRequest"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("StringRequest").withParameterCount(4).definedInClass("com.android.volley.toolbox.StringRequest"))]]></place>
+    </injection>
+    <injection language="http-header-reference" injector-id="java">
+      <display-name>Apache HttpClient 4 HTTP Header (org.apache.http)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHeader", "addHeader", "getFirstHeader", "getLastHeader", "removeHeaders").definedInClass("org.apache.http.HttpMessage"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHeader", "addHeader", "getFirstHeader", "getLastHeader", "removeHeaders").definedInClass("org.apache.http.message.AbstractHttpMessage"))]]></place>
+    </injection>
+    <injection language="http-header-reference" injector-id="java">
+      <display-name>Apache HttpClient 5 HTTP Header (org.apache.hc.core5)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHeader", "addHeader").definedInClass("org.apache.hc.core5.http.message.BasicHttpRequest"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHeader", "addHeader", "getFirstHeader", "getLastHeader", "removeHeaders").definedInClass("org.apache.hc.client5.http.async.methods.SimpleRequestBuilder"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHeader", "addHeader", "getFirstHeader", "getLastHeader", "removeHeaders").definedInClass("org.apache.hc.core5.http.io.support.ClassicRequestBuilder"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHeader", "addHeader", "getFirstHeader", "getLastHeader", "removeHeaders").definedInClass("org.apache.hc.core5.http.nio.support.AsyncRequestBuilder"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setHeader", "addHeader", "getFirstHeader", "getLastHeader", "removeHeaders").definedInClass("org.apache.hc.core5.http.support.BasicRequestBuilder"))]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>AsyncQueryRunner (org.apache.commons.dbutils)</display-name>
@@ -60,7 +83,7 @@
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>JDBI (org.jdbi.v3.core)</display-name>
-      <ignore-pattern>&lt;[a-zA-Z0-9_]+&gt;</ignore-pattern>
+      <ignore-pattern>&lt;\w+&gt;</ignore-pattern>
       <single-file value="true" />
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("add").withParameters("java.lang.String").definedInClass("org.jdbi.v3.core.statement.Batch"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareBatch", "createQuery", "createCall", "createScript", "createUpdate").withParameters("java.lang.String").definedInClass("org.jdbi.v3.core.Handle"))]]></place>
@@ -96,6 +119,14 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("header").definedInClass("org.mockserver.model.Header"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("withHeader").definedInClass("org.mockserver.model.HttpRequest"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("withHeader", "getHeader", "getFirstHeader", "containsHeader", "removeHeader").definedInClass("org.mockserver.model.HttpResponse"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>MyBatis @Select/@Delete/@Insert/@Update</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Delete")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Insert")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Select")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Update")]]></place>
     </injection>
     <injection language="http-reference" injector-id="java">
       <display-name>OkHttp (okhttp3)</display-name>
@@ -360,6 +391,12 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("attr", "setAttribute").definedInClass("com.epam.jdi.light.elements.common.UIElement"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("hasAttribute", "attr").withParameters("java.lang.String").definedInClass("com.epam.jdi.light.elements.interfaces.base.ICoreElement"))]]></place>
     </injection>
+    <injection language="selenium-html-attribute-value" injector-id="java">
+      <display-name>Selenium HTML Attribute Value (com.codeborne.selenide)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("by").withParameters("java.lang.String", "java.lang.String").definedInClass("com.codeborne.selenide.Selectors"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("byAttribute").withParameters("java.lang.String", "java.lang.String").definedInClass("com.codeborne.selenide.Selectors"))]]></place>
+    </injection>
     <injection language="selenium-html-tag" injector-id="java">
       <display-name>Selenium HTML Tag (org.openqa.selenium)</display-name>
       <single-file value="true" />
@@ -427,6 +464,7 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.mutiny.Mutiny.StatelessSession"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.Session"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.reactive.stage.Stage.StatelessSession"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery", "createSelectionQuery", "createMutationQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>SmallRye Axle SqlClient (io.vertx.axle.sqlclient)</display-name>
@@ -475,6 +513,22 @@
       <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.messaging.handler.annotation.Payload")]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.core.JdbcOperations)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batchUpdate").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("execute").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForInt").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForList").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForLong").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForMap").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForObject").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForRowSet").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryForStream").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("sql").definedInClass("org.springframework.jdbc.core.simple.JdbcClient"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("update").definedInClass("org.springframework.jdbc.core.JdbcOperations"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
       <display-name>Spring JDBC (org.springframework.jdbc.core.PreparedStatementCreatorFactory)</display-name>
       <single-file value="true" />
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("PreparedStatementCreatorFactory").withParameters("java.lang.String").definedInClass("org.springframework.jdbc.core.PreparedStatementCreatorFactory"))]]></place>
@@ -488,6 +542,24 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("customTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("logTranslation").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException", "boolean").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>Spring Security @PostAuthorize/@PostFilter/@PreAuthorize/@PreFilter/@AuthenticationPrincipal</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiMethod().withName("expression").withParameters().definedInClass("org.springframework.security.core.annotation.AuthenticationPrincipal")]]></place>
+      <place><![CDATA[psiMethod().withName("expression").withParameters().definedInClass("org.springframework.security.core.annotation.CurrentSecurityContext")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.security.access.prepost.PostAuthorize")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.security.access.prepost.PostFilter")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.security.access.prepost.PreAuthorize")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.security.access.prepost.PreFilter")]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>Spring State Machine</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("event").withParameters("java.lang.String").definedInClass("org.springframework.statemachine.config.configurers.SecurityConfigurer"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("guardExpression").withParameters("java.lang.String").definedInClass("org.springframework.statemachine.config.configurers.TransitionConfigurer"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("secured").withParameters("java.lang.String").definedInClass("org.springframework.statemachine.config.configurers.TransitionConfigurer"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("transition").withParameters("java.lang.String").definedInClass("org.springframework.statemachine.config.configurers.SecurityConfigurer"))]]></place>
     </injection>
     <injection language="RegExp" injector-id="java">
       <display-name>String (java.lang)</display-name>
@@ -505,6 +577,14 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doesNotContainMatch").definedInClass("com.google.common.truth.StringSubject"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doesNotMatch").definedInClass("com.google.common.truth.StringSubject"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("matches").definedInClass("com.google.common.truth.StringSubject"))]]></place>
+    </injection>
+    <injection language="Spring-MongoDB-JSON" injector-id="java">
+      <display-name>Update.value (org.springframework.data.mongodb.repository)</display-name>
+      <ignore-pattern>(:#\{#\w+\}|\?#\{.+\})</ignore-pattern>
+      <single-file value="true" />
+      <place><![CDATA[psiMethod().withName("pipeline").withParameters().definedInClass("org.springframework.data.mongodb.repository.Update")]]></place>
+      <place><![CDATA[psiMethod().withName("update").withParameters().definedInClass("org.springframework.data.mongodb.repository.Update")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.data.mongodb.repository.Update")]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>Vert.x SQL Extensions (io.vertx.ext.sql)</display-name>
@@ -550,6 +630,7 @@
       <display-name>WireMock (com.github.tomakehurst.wiremock.client)</display-name>
       <single-file value="false" />
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("equalToJson").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("equalToJson").withParameters("java.lang.String", "boolean", "boolean").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("jsonResponse").withParameters("java.lang.String", "int").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okJson").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
     </injection>
@@ -559,6 +640,14 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("equalToXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okTextXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("okXml").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="java">
+      <display-name>WireMock (com.github.tomakehurst.wiremock.client)</display-name>
+      <single-file value="false" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("matching").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("notMatching").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("urlMatching").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("urlPathMatching").withParameters("java.lang.String").definedInClass("com.github.tomakehurst.wiremock.client.WireMock"))]]></place>
     </injection>
     <injection language="JSONPath" injector-id="java">
       <display-name>WriteContext (com.jayway.jsonpath)</display-name>
@@ -597,6 +686,12 @@
       <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("Regex").definedInClass("kotlin.text.Regex"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toPattern").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
       <place><![CDATA[receiver().ofFunction(kotlinFunction().withName("toRegex").withReceiver("kotlin.String").definedInPackage("kotlin.text"))]]></place>
+    </injection>
+    <injection language="RoomSql" injector-id="kotlin">
+      <display-name>Room Query annotation</display-name>
+      <single-file value="true" />
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("DatabaseView").definedInClass("androidx.room.DatabaseView"))]]></place>
+      <place><![CDATA[kotlinParameter().ofFunction(0, kotlinFunction().withName("Query").definedInClass("androidx.room.Query"))]]></place>
     </injection>
     <injection language="SQL" injector-id="python">
       <display-name>&quot;SQL select/delete/insert/update/create&quot;</display-name>
@@ -736,6 +831,7 @@
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("json_table"))]]></place>
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, -1, 2, sqlFunctionCall().name("json_object"))]]></place>
       <place><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("json_object_agg"))]]></place>
+      <place><![CDATA[sqlExpression().forDialects("Oracle").functionArgument(0, -1, 1, sqlFunctionCall().name("json_object")).withNextMeaningfulSibling(leafTokens("format"), 0).withNextMeaningfulSibling(leafTokens("json"), 1)]]></place>
     </injection>
     <injection language="RegExp" injector-id="sql">
       <display-name>Oracle RegExp</display-name>
