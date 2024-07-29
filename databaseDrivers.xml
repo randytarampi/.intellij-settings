@@ -41,7 +41,7 @@
     </driver>
     <driver id="postgresql">
       <url-template name="Azure" template="jdbc:postgresql://[{host::localhost}[:{port::5432}]][/{database:database/[^?]+:postgres}?][/{account:az_postgre_server}?][\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.5" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
     </driver>
     <driver id="redshift">
       <artifact id="Redshift" name="Redshift" use="true" version="1.2.41.1065" />
