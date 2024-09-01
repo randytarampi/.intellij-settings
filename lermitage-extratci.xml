@@ -1,6 +1,5 @@
 <application>
   <component name="ExtraTciSettings">
     <option name="uiTypeIconsPreference" value="BASED_ON_ACTIVE_UI_TYPE" />
-    <option name="freemiumNotifDisplayed" value="true" />
   </component>
 </application>

@@ -49,6 +49,12 @@
     <driver id="snowflake">
       <artifact id="Snowflake" name="Snowflake" use="true" version="3.11.0" />
     </driver>
+    <driver id="sybase.jtds">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="sybase.ase" name="Sybase (Native)">
+      <option name="auto-sync" value="false" />
+    </driver>
     <driver id="sqlite.xerial" name="Sqlite (Xerial)">
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true">
         <library>
@@ -58,12 +64,6 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
         </library>
       </artifact>
-    </driver>
-    <driver id="sybase.jtds">
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="sybase.ase" name="Sybase (Native)">
-      <option name="auto-sync" value="false" />
     </driver>
     <driver id="614686d9-6489-4ffc-a2d4-8dccfa37c18e" name="shared-local-instance driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
       <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />

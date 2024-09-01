@@ -1,6 +1,6 @@
 <application>
   <component name="GithubAccounts">
-    <account id="c6071cba-4329-4fe6-ae47-780ad1493650" name="randytarampi">
+    <account name="$AWS_PROFILE$" id="c6071cba-4329-4fe6-ae47-780ad1493650">
       <server host="github.com" />
     </account>
   </component>
