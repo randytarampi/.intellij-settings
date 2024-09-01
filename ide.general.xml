@@ -14,6 +14,7 @@
     <entry key="eslint.additional.file.extensions" value="svelte" />
     <entry key="org.toml.json.schema" value="false" />
     <entry key="i18n.locale" value="" />
+    <entry key="ide.experimental.ui" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
