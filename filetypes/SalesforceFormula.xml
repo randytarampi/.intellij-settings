@@ -1,0 +1,17 @@
+<filetype binary="false" description="Salesforce formula (syntax highlighting only)" name="SalesforceFormula">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="" />
+      <option name="COMMENT_START" value="/*" />
+      <option name="COMMENT_END" value="*/" />
+      <option name="HEX_PREFIX" value="0x" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_PARENS" value="true" />
+      <option name="HAS_STRING_ESCAPES" value="true" />
+    </options>
+    <keywords keywords="FALSE;NULL;TRUE" ignore_case="true" />
+    <keywords2 keywords="ABS;ACOS;ADDMONTHS;AND;ASCII;ASIN;ATAN;ATAN2;BEGINS;BLANKVALUE;BR;CASE;CASESAFEID;CEILING;CHR;CONTAINS;COS;CURRENCYRATE;DATE;DATETIMEVALUE;DATEVALUE;DAY;DAYOFYEAR;DISTANCE;EXP;FIND;FLOOR;FORMATDURATION;FROMUNIXTIME;GEOLOCATION;GETRECORDIDS;GETSESSIONID;HOUR;HTMLENCODE;HYPERLINK;IF;IMAGE;IMAGEPROXYURL;INCLUDE;INCLUDES;INITCAP;ISBLANK;ISCHANGED;ISCLONE;ISNEW;ISNULL;ISNUMBER;ISOWEEK;ISOYEAR;ISPICKVAL;JSENCODE;JSINHTMLENCODE;JUNCTIONIDLIST;LEFT;LEN;LINKTO;LN;LOG;LOWER;LPAD;MAX;MCEILING;MFLOOR;MID;MILLISECOND;MIN;MINUTE;MOD;MONTH;NOT;NOW;NULLVALUE;OR;PARENTGROUPVAL;PI;PICKLISTCOUNT;PREDICT;PREVGROUPVAL;PRIORVALUE;REGEX;REQUIRESCRIPT;REVERSE;RIGHT;ROUND;RPAD;SECOND;SIN;SQRT;SUBSTITUTE;TAN;TEXT;TIMENOW;TIMEVALUE;TODAY;TRIM;TRUNC;UNIXTIMESTAMP;UPPER;URLENCODE;URLFOR;VALUE;VLOOKUP;WEEKDAY;YEAR" />
+    <keywords3 keywords="!=;&amp;;&amp;&amp;;*;+;-;/;&lt;;&lt;=;&lt;&gt;;=;==;&gt;;&gt;=;^;{!;||;}" />
+    <keywords4 keywords="$Action;$Api;$Component;$ComponentLabel;$CurrentPage;$CustomMetadata;$Label;$MessageChannel;$Network;$ObjectType;$Organization;$Permission;$Profile;$RecordType;$Request;$Resource;$SControl;$Setup;$Site;$System.OriginDateTime;$User.UITheme;$User.UIThemeDisplayed;$UserRole" />
+  </highlighting>
+</filetype>
