@@ -1,6 +1,6 @@
 <application>
   <component name="LafManager" autodetect="true">
-    <laf themeId="ExperimentalLightWithLightHeader" />
+    <laf themeId="Darcula" />
     <preferred-light-laf themeId="ExperimentalLightWithLightHeader" />
     <preferred-dark-laf themeId="Darcula" />
     <lafs-to-previous-schemes>
