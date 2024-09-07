@@ -1089,6 +1089,7 @@
           </root>
         </sourcePath>
       </roots>
+      <additional />
     </jdk>
     <jdk version="2">
       <name value="Android API 31 Platform" />
