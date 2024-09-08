@@ -3,7 +3,6 @@
     <jdk version="2">
       <name value="deed-dagster" />
       <type value="Python SDK" />
-      <version value="Python 3.10.15" />
       <homePath value="$USER_HOME$/Library/Caches/pypoetry/virtualenvs/deed-crawlers-9_deH1C2-py3.10/bin/python" />
       <roots>
         <annotationsPath>
