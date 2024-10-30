@@ -1,199 +1,166 @@
 <application>
   <component name="ProjectJdkTable">
     <jdk version="2">
-      <name value="deed-dagster" />
-      <type value="Python SDK" />
-      <homePath value="$USER_HOME$/Library/Caches/pypoetry/virtualenvs/deed-crawlers-9_deH1C2-py3.10/bin/python" />
+      <name value="homebrew-23" />
+      <type value="JavaSDK" />
+      <version value="Homebrew OpenJDK 23.0.1 - aarch64" />
+      <homePath value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home" />
       <roots>
         <annotationsPath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root url="file:///opt/homebrew/Cellar/python@3.10/3.10.15/Frameworks/Python.framework/Versions/3.10/lib/python3.10" type="simple" />
-            <root url="file:///opt/homebrew/Cellar/python@3.10/3.10.15/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lib-dynload" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/deed-crawlers-9_deH1C2-py3.10/lib/python3.10/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2024.2/python_stubs/801438923" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/gdb" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/six" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/boto" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/cffi" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/hvac" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/mock" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pika" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pytz" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/toml" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/tqdm" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/zstd" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/first" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/fpdf2" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/ldap3" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/polib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyjks" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyxdg" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/redis" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/regex" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/retry" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/ujson" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/uWSGI" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/WebOb" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/bleach" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/caldav" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/docker" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/docopt" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/gevent" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/hdbcli" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/ibm-db" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/nanoid" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/passpy" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/peewee" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Pillow" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/psutil" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyasn1" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pycurl" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pygit2" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pynput" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pysftp" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/PyYAML" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/qrbill" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/qrcode" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/zxcvbn" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/boltons" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/chevron" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/inifile" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/libsass" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/netaddr" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/olefile" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/passlib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pexpect" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyaudio" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/PyMySQL" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pywin32" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/seaborn" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/shapely" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/slumber" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/unidiff" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/vobject" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/WTForms" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/aiofiles" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/assertpy" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/capturer" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/colorama" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/croniter" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/docutils" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/ExifRead" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/greenlet" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/html5lib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/httplib2" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/jmespath" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/keyboard" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/lzstring" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Markdown" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/networkx" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/oauthlib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/openpyxl" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/paramiko" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/psycopg2" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyflakes" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Pygments" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyserial" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/requests" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/RPi.GPIO" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/str2bool" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/tabulate" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/toposort" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/untangle" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/waitress" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/braintree" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/decorator" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/fanstatic" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/icalendar" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/paho-mqtt" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/playsound" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/PyAutoGUI" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyOpenSSL" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyRFC3339" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/PyScreeze" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/reportlab" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/ttkthemes" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/wurlitzer" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/xmltodict" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/cachetools" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/commonmark" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/dateparser" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/defusedxml" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Deprecated" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Flask-Cors" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/jsonschema" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/portpicker" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyfarmhash" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Send2Trash" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/setuptools" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/simplejson" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/SQLAlchemy" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/tensorflow" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/entrypoints" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8-2020" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/JACK-Client" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/mysqlclient" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/opentracing" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pep8-naming" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pycocotools" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyinstaller" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/python-jose" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/python-nmap" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/python-xlib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/workalendar" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/aws-xray-sdk" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/console-menu" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/editdistance" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/parsimonious" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/usersettings" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/whatthepatch" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/click-spinner" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Flask-Migrate" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/humanfriendly" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/python-gflags" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/beautifulsoup4" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8-bugbear" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Flask-SocketIO" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/python-crontab" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/python-slugify" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/singledispatch" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8-builtins" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8-simplify" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/influxdb-client" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/mypy-extensions" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/python-datemath" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/python-dateutil" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/dockerfile-parse" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Flask-SQLAlchemy" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/s2clientprotocol" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8-docstrings" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/requests-oauthlib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/translationstring" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/click-default-group" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pytest-lazy-fixture" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8-rst-docstrings" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8-typing-imports" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/tree-sitter-languages" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/antlr4-python3-runtime" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.base" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.datatransfer" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.desktop" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.instrument" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.logging" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.management" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.management.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.naming" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.net.http" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.prefs" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.scripting" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.se" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.security.jgss" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.security.sasl" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.smartcardio" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.sql" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.sql.rowset" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.transaction.xa" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.xml" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/java.xml.crypto" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.accessibility" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.attach" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.charsets" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.dynalink" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.editpad" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler.management" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.httpserver" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.incubator.vector" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.internal.le" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.internal.md" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jartool" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.javadoc" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jcmd" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jconsole" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jdeps" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jdi" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jfr" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jlink" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jpackage" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jshell" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jsobject" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.jstatd" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.localedata" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.management" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.management.agent" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.net" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.nio.mapmode" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.sctp" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.security.auth" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home!/jdk.zipfs" type="simple" />
           </root>
         </classPath>
         <javadocPath>
           <root type="composite" />
         </javadocPath>
         <sourcePath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.base" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.naming" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.logging" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jpackage" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.md" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.nio.mapmode" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.incubator.vector" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
+            <root url="jar:///opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler.management" type="simple" />
+          </root>
         </sourcePath>
       </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Development/deed-marketplace/dagster" SDK_UUID="5dfc76c8-e28f-4657-94b6-f9843a48f86c" IS_POETRY="true">
-        <setting name="FLAVOR_ID" value="MacPythonSdkFlavor" />
-        <setting name="FLAVOR_DATA" value="{}" />
-      </additional>
     </jdk>
     <jdk version="2">
       <name value="Android API 30 Platform" />
@@ -221,168 +188,6 @@
         </sourcePath>
       </roots>
       <additional sdk="android-30" />
-    </jdk>
-    <jdk version="2">
-      <name value="22" />
-      <type value="JavaSDK" />
-      <version value="Oracle OpenJDK 22.0.1 - aarch64" />
-      <homePath value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home" />
-      <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
-          </root>
-        </annotationsPath>
-        <classPath>
-          <root type="composite">
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.base" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.compiler" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.datatransfer" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.desktop" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.instrument" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.logging" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.management" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.management.rmi" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.naming" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.net.http" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.prefs" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.rmi" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.scripting" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.se" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.security.jgss" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.security.sasl" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.smartcardio" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.sql" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.sql.rowset" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.transaction.xa" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.xml" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/java.xml.crypto" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.accessibility" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.attach" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.charsets" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.compiler" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.crypto.ec" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.dynalink" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.editpad" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.graal.compiler" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.graal.compiler.management" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.hotspot.agent" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.httpserver" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.incubator.vector" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.internal.ed" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.internal.jvmstat" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.internal.le" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.internal.opt" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.internal.vm.ci" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jartool" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.javadoc" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jcmd" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jconsole" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jdeps" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jdi" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jdwp.agent" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jfr" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jlink" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jpackage" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jshell" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jsobject" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.jstatd" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.localedata" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.management" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.management.agent" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.management.jfr" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.naming.dns" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.naming.rmi" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.net" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.nio.mapmode" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.random" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.sctp" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.security.auth" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.security.jgss" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.unsupported" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.unsupported.desktop" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.xml.dom" type="simple" />
-            <root url="jrt:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home!/jdk.zipfs" type="simple" />
-          </root>
-        </classPath>
-        <javadocPath>
-          <root type="composite" />
-        </javadocPath>
-        <sourcePath>
-          <root type="composite">
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.sql" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.xml" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.base" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.random" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.naming" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.logging" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jpackage" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.management" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.nio.mapmode" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.incubator.vector" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
-            <root url="jar:///Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler.management" type="simple" />
-          </root>
-        </sourcePath>
-      </roots>
     </jdk>
     <jdk version="2">
       <name value="14" />
@@ -943,169 +748,6 @@
         </sourcePath>
       </roots>
       <additional sdk="android-29" />
-    </jdk>
-    <jdk version="2">
-      <name value="homebrew-22" />
-      <type value="JavaSDK" />
-      <version value="Homebrew OpenJDK 22.0.2 - aarch64" />
-      <homePath value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home" />
-      <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
-          </root>
-        </annotationsPath>
-        <classPath>
-          <root type="composite">
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.base" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.compiler" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.datatransfer" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.desktop" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.instrument" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.logging" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.management" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.management.rmi" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.naming" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.net.http" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.prefs" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.rmi" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.scripting" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.se" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.security.jgss" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.security.sasl" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.smartcardio" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.sql" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.sql.rowset" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.transaction.xa" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.xml" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/java.xml.crypto" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.accessibility" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.attach" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.charsets" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.compiler" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.cryptoki" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.crypto.ec" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.dynalink" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.editpad" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.graal.compiler.management" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.hotspot.agent" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.httpserver" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.incubator.vector" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.internal.ed" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.internal.jvmstat" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.internal.le" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.internal.opt" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.internal.vm.ci" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jartool" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.javadoc" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jcmd" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jconsole" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jdeps" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jdi" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jdwp.agent" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jfr" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jlink" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jpackage" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jshell" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jsobject" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.jstatd" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.localedata" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.management" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.management.agent" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.management.jfr" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.naming.dns" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.naming.rmi" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.net" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.nio.mapmode" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.random" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.sctp" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.security.auth" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.security.jgss" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.unsupported.desktop" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.xml.dom" type="simple" />
-            <root url="jrt:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home!/jdk.zipfs" type="simple" />
-          </root>
-        </classPath>
-        <javadocPath>
-          <root type="composite" />
-        </javadocPath>
-        <sourcePath>
-          <root type="composite">
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.se" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdi" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jfr" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.net" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.rmi" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jcmd" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.sctp" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.base" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdeps" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jlink" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.zipfs" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.prefs" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.attach" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jshell" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jstatd" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.random" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.naming" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.editpad" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jartool" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.javadoc" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.xml.dom" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.desktop" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.logging" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.charsets" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.compiler" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.dynalink" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jconsole" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jpackage" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jsobject" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.compiler" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.net.http" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.ec" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.scripting" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.httpserver" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.jdwp.agent" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.localedata" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.dns" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.naming.rmi" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.instrument" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.sql.rowset" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.xml.crypto" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.ed" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.le" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.nio.mapmode" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.smartcardio" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.opt" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.datatransfer" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.accessibility" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.auth" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.security.jgss" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.jgss" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.security.sasl" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.vm.ci" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.jfr" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.management.rmi" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/java.transaction.xa" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.crypto.cryptoki" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.incubator.vector" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.internal.jvmstat" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.management.agent" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.unsupported.desktop" type="simple" />
-            <root url="jar:///opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib/src.zip!/jdk.graal.compiler.management" type="simple" />
-          </root>
-        </sourcePath>
-      </roots>
-      <additional />
     </jdk>
     <jdk version="2">
       <name value="Android API 31 Platform" />
