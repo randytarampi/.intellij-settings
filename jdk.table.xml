@@ -203,7 +203,6 @@
             <root url="file:///opt/homebrew/Cellar/python@3.10/3.10.15/Frameworks/Python.framework/Versions/3.10/lib/python3.10" type="simple" />
             <root url="file:///opt/homebrew/Cellar/python@3.10/3.10.15/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lib-dynload" type="simple" />
             <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/deed-crawlers-9_deH1C2-py3.10/lib/python3.10/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/Development/deed-marketplace/dagster" type="simple" />
             <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2024.2/python_stubs/-925197112" type="simple" />
             <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" type="simple" />
             <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" type="simple" />
