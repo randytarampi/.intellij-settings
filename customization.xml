@@ -1,6 +1,6 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="Flutter.MainToolbarActions" is_group="true" forse_popup="false" action_type="-1" position="7">
+    <group value="&lt;anonymous-group-13&gt;" is_group="true" forse_popup="false" action_type="-1" position="7">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Right" />
