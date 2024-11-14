@@ -126,6 +126,7 @@
       <debugger id="ObjectiveC">
         <configuration>
           <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
+          <child-process-debugging-settings />
           <macOS-symbol-settings />
           <nt-symbol-settings />
           <option name="VALUES_FILTER_ENABLED" value="false" />
