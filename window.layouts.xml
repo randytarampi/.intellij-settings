@@ -78,6 +78,31 @@
           "weight": 0.2
         },
         {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems View",
+          "order": 2,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Services",
+          "order": 4,
+          "anchor": "BOTTOM"
+        },
+        {
           "id": "Notifications",
           "order": 0,
           "anchor": "RIGHT",
@@ -113,31 +138,6 @@
           "order": 5,
           "anchor": "RIGHT",
           "weight": 0.3
-        },
-        {
-          "id": "Version Control",
-          "order": 0,
-          "anchor": "BOTTOM"
-        },
-        {
-          "id": "Problems",
-          "order": 1,
-          "anchor": "BOTTOM"
-        },
-        {
-          "id": "Problems View",
-          "order": 2,
-          "anchor": "BOTTOM"
-        },
-        {
-          "id": "Terminal",
-          "order": 3,
-          "anchor": "BOTTOM"
-        },
-        {
-          "id": "Services",
-          "order": 4,
-          "anchor": "BOTTOM"
         }
       ]
     }
