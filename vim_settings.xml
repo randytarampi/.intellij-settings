@@ -12,6 +12,8 @@
     <notifications>
       <idea-join enabled="false" />
       <idea-put enabled="false" />
+      <idea-undo enabled="false" />
+      <was-automatically-subscribed-to-eap enabled="false" />
     </notifications>
   </component>
 </application>

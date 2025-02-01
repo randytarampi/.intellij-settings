@@ -1,0 +1,15 @@
+<application>
+  <component name="github-copilot">
+    <option name="screenReaderEnabled" value="true" />
+    <option name="signinNotificationShown" value="true" />
+    <languageAllowList>
+      <map>
+        <entry key="*" value="true" />
+      </map>
+    </languageAllowList>
+    <option name="showIdeCompletions" value="true" />
+    <option name="enableScreenReader" value="true" />
+    <option name="preferredAccount" value="c6071cba-4329-4fe6-ae47-780ad1493650" />
+    <option name="chatNaturalLanguage" value="English" />
+  </component>
+</application>
