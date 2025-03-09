@@ -354,7 +354,7 @@
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Development/deed-marketplace/packages/prisma-client" SDK_UUID="daf98f2b-ba55-4743-999f-ef8bbb284b62" IS_POETRY="true">
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Development/deed-marketplace/dagster" SDK_UUID="daf98f2b-ba55-4743-999f-ef8bbb284b62" IS_POETRY="true">
         <setting name="FLAVOR_ID" value="VirtualEnvSdkFlavor" />
         <setting name="FLAVOR_DATA" value="{}" />
       </additional>
