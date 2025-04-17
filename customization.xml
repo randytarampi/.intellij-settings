@@ -33,6 +33,9 @@
     <group value="Markdown.Toolbar.Floating" is_group="true" forse_popup="false" action_type="-1" position="16">
       <path value="root" />
     </group>
+    <group value="Floating.CodeToolbar.JS" is_group="true" forse_popup="false" action_type="-1" position="15">
+      <path value="root" />
+    </group>
     <group value="J2EEViewPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="15">
       <path value="root" />
     </group>
@@ -54,8 +57,18 @@
     <group value="CommanderPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="9">
       <path value="root" />
     </group>
+    <group value="Blaze.MainToolBarActionGroup" is_group="true" forse_popup="false" action_type="-1" position="9">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+    </group>
     <group value="NavBarToolBar" is_group="true" forse_popup="false" action_type="-1" position="8">
       <path value="root" />
+    </group>
+    <group value="&lt;anonymous-group-11&gt;" is_group="true" forse_popup="false" action_type="-1" position="8">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
     </group>
     <group value="NavbarPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="7">
       <path value="root" />
