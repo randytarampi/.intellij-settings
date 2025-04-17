@@ -13,7 +13,7 @@
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
-    <option name="CARET_ROW_COLOR" value="f0f0f0" />
+    <option name="CARET_ROW_COLOR" value="F0F0F0" />
   </colors>
   <attributes>
     <option name="DEFAULT_STATIC_METHOD">

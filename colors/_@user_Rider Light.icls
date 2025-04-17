@@ -13,18 +13,18 @@
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
-    <option name="BORDER_LINES_COLOR" value="ffffff" />
-    <option name="DOCUMENTATION_COLOR" value="ffffff" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="e0e0e0" />
-    <option name="INDENT_GUIDE" value="e0e0e0" />
-    <option name="METHOD_SEPARATORS_COLOR" value="e0e0e0" />
-    <option name="SELECTED_INDENT_GUIDE" value="c1c1c1" />
-    <option name="SELECTED_TEARLINE_COLOR" value="c1c1c1" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="8e8e80" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="8e8e80" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="8e8e80" />
-    <option name="ScrollBar.Transparent.trackColor" value="8e8e80" />
-    <option name="TEARLINE_COLOR" value="e0e0e0" />
+    <option name="BORDER_LINES_COLOR" value="FFFFFF" />
+    <option name="DOCUMENTATION_COLOR" value="FFFFFF" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="E0E0E0" />
+    <option name="INDENT_GUIDE" value="E0E0E0" />
+    <option name="METHOD_SEPARATORS_COLOR" value="E0E0E0" />
+    <option name="SELECTED_INDENT_GUIDE" value="C1C1C1" />
+    <option name="SELECTED_TEARLINE_COLOR" value="C1C1C1" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="8E8E80" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="8E8E80" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="8E8E80" />
+    <option name="ScrollBar.Transparent.trackColor" value="8E8E80" />
+    <option name="TEARLINE_COLOR" value="E0E0E0" />
   </colors>
   <attributes>
     <option name="CODE_VISION_HOVERED">
