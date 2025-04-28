@@ -5,6 +5,49 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="Python 3.13 (hive-O0YTSdsn-py3.13) interpreter library">
+      <CLASSES>
+        <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13" />
+        <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload" />
+        <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/hive-O0YTSdsn-py3.13/lib/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/-1590197891" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13" />
+        <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload" />
+        <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/hive-O0YTSdsn-py3.13/lib/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/-1590197891" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </SOURCES>
+    </library>
+    <library name="Python 3.13 (vuln-mgmt-4sCunP2w-py3.13) interpreter library">
+      <CLASSES>
+        <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13" />
+        <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload" />
+        <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/vuln-mgmt-4sCunP2w-py3.13/lib/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/898623648" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13" />
+        <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload" />
+        <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/vuln-mgmt-4sCunP2w-py3.13/lib/python3.13/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/898623648" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </SOURCES>
+    </library>
+    <library name="Python 3.9 interpreter library">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="deed-dagster interpreter library">
       <CLASSES>
         <root url="file:///opt/homebrew/Cellar/python@3.10/3.10.15/Frameworks/Python.framework/Versions/3.10/lib/python3.10" />
@@ -569,6 +612,25 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/pytest-lazy-fixture" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/flake8-rst-docstrings" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/flake8-typing-imports" />
+      </SOURCES>
+    </library>
+    <library name="deed-jupyter interpreter library">
+      <CLASSES>
+        <root url="file:///opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11" />
+        <root url="file:///opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload" />
+        <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/deed-jupyter-notebooks-4J_YeHA_-py3.11/lib/python3.11/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/386052429" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11" />
+        <root url="file:///opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload" />
+        <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/deed-jupyter-notebooks-4J_YeHA_-py3.11/lib/python3.11/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/386052429" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" />
       </SOURCES>
     </library>
     <library name="deed-vuln-mgmt interpreter library">
