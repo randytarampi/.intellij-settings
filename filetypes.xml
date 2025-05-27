@@ -2,6 +2,9 @@
   <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping ext="srcjar" type="ARCHIVE" />
+      <mapping ext="swift-format" type="JSON" />
+      <mapping ext="xcscheme" type="XML" />
+      <mapping ext="gpx" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="app" approved="true" type="Erlang/OTP app" />
       <removed_mapping ext="config" approved="true" type="LOMBOK_CONFIG" />
