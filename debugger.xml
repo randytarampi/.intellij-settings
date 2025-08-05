@@ -123,11 +123,6 @@
       <scroll-to-center>true</scroll-to-center>
     </general>
     <debuggers>
-      <debugger id="javascript">
-        <configuration>
-          <custom-object-presentation />
-        </configuration>
-      </debugger>
       <debugger id="ObjectiveC">
         <configuration>
           <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
@@ -135,6 +130,11 @@
           <macOS-symbol-settings />
           <nt-symbol-settings />
           <option name="VALUES_FILTER_ENABLED" value="false" />
+        </configuration>
+      </debugger>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
         </configuration>
       </debugger>
     </debuggers>

@@ -1,18 +1,5 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
-    <driver id="cassandra">
-      <artifact id="Cassandra" name="Cassandra" use="true" version="1.3.5" />
-    </driver>
-    <driver id="db2" name="DB2 (LUW)" />
-    <driver id="db2.jtopen" name="DB2 (JTOpen)" />
-    <driver id="derby.embedded" name="Derby (Embedded)" />
-    <driver id="derby.remote" name="Derby (Remote)" />
-    <driver id="mariadb">
-      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="2.4.1" />
-    </driver>
-    <driver id="mongo">
-      <artifact id="MongoDB" name="MongoDB" use="true" version="1.8.3" />
-    </driver>
     <driver id="sqlserver.ms" name="SQL Server (Microsoft)">
       <url-template name="Azure" template="jdbc:sqlserver://{host:ssrp_host:localhost}[\\{instance:ssrp_instance}][:{port:ssrp_port}][/{account:az_sqlserver_server}?][;&lt;;,user[Name]={user:param},password={password:param},database[Name]={database},{:identifier}={:param}&gt;];?" />
       <artifact id="SQL Server" name="SQL Server" use="true" version="8.2.2" />
@@ -25,6 +12,19 @@
     <driver id="azure.ms">
       <url-template name="Azure" template="jdbc:sqlserver://{host:host_ipv6:server.database.windows.net}[:{port::1433}][/{account:az_sqlserver_server}?][;&lt;;,user[Name]={user:param},password={password:param},database[Name]={database},{:identifier}={:param}&gt;];?" />
     </driver>
+    <driver id="sqlite.xerial" name="Sqlite (Xerial)">
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true">
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
+        </library>
+      </artifact>
+    </driver>
+    <driver id="mariadb">
+      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="2.4.1" />
+    </driver>
     <driver id="mysql.8">
       <url-template name="Azure" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][/{account:az_mysql_server}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:param}&gt;]" />
       <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" version="8.0.21" />
@@ -35,13 +35,23 @@
     <driver id="mysql_aurora">
       <artifact id="MariaDB Connector J" name="MariaDB Connector J" channel="MariaDB_2.X" rolling="true" use="true" version="2.6.0" />
     </driver>
+    <driver id="postgresql">
+      <url-template name="Azure" template="jdbc:postgresql://[{host::localhost}[:{port::5432}]][/{database:database/[^?]+:postgres}?][/{account:az_postgre_server}?][\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
+    </driver>
     <driver id="oracle">
       <artifact id="Oracle" name="Oracle" use="true" version="12.2.0.1" />
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="postgresql">
-      <url-template name="Azure" template="jdbc:postgresql://[{host::localhost}[:{port::5432}]][/{database:database/[^?]+:postgres}?][/{account:az_postgre_server}?][\?&lt;&amp;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
+    <driver id="cassandra">
+      <artifact id="Cassandra" name="Cassandra" use="true" version="1.3.5" />
+    </driver>
+    <driver id="db2" name="DB2 (LUW)" />
+    <driver id="db2.jtopen" name="DB2 (JTOpen)" />
+    <driver id="derby.embedded" name="Derby (Embedded)" />
+    <driver id="derby.remote" name="Derby (Remote)" />
+    <driver id="mongo">
+      <artifact id="MongoDB" name="MongoDB" use="true" version="1.8.3" />
     </driver>
     <driver id="redshift">
       <artifact id="Redshift" name="Redshift" use="true" version="1.2.41.1065" />
@@ -54,16 +64,6 @@
     </driver>
     <driver id="sybase.ase" name="Sybase (Native)">
       <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="sqlite.xerial" name="Sqlite (Xerial)">
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true">
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
-        </library>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
-        </library>
-      </artifact>
     </driver>
     <driver id="614686d9-6489-4ffc-a2d4-8dccfa37c18e" name="shared-local-instance driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
       <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />

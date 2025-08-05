@@ -14,18 +14,8 @@
             <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13" type="simple" />
             <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload" type="simple" />
             <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/vuln-mgmt-4sCunP2w-py3.13/lib/python3.13/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/898623648" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.2/python_stubs/898623648" type="simple" />
             <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/six" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyflakes" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/requests" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/jsonschema" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/simplejson" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/SQLAlchemy" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/mypy-extensions" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/Flask-SQLAlchemy" type="simple" />
           </root>
         </classPath>
         <javadocPath>
@@ -54,8 +44,7 @@
             <root url="file:///opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10" type="simple" />
             <root url="file:///opt/homebrew/Cellar/python@3.10/3.10.18/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lib-dynload" type="simple" />
             <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/deed-crawlers-9_deH1C2-py3.10/lib/python3.10/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/-925197112" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.2/python_stubs/-925197112" type="simple" />
             <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" type="simple" />
           </root>
         </classPath>
@@ -645,12 +634,8 @@
             <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13" type="simple" />
             <root url="file:///opt/homebrew/Cellar/python@3.13/3.13.5/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload" type="simple" />
             <root url="file://$USER_HOME$/Library/Caches/pypoetry/virtualenvs/hive-O0YTSdsn-py3.13/lib/python3.13/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.1/python_stubs/-1590197891" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/python-skeletons" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2025.2/python_stubs/-1590197891" type="simple" />
             <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stdlib" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/flake8" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/pyflakes" type="simple" />
-            <root url="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/mypy-extensions" type="simple" />
           </root>
         </classPath>
         <javadocPath>
