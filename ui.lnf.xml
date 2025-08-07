@@ -3,7 +3,7 @@
     <option name="SCOPE_TYPE" value="file" />
   </component>
   <component name="UISettings">
-    <option name="DIFFERENTIATE_PROJECTS" value="false" />
+    <option name="compactTreeIndents" value="true" />
     <option name="FULL_PATHS_IN_TITLE_BAR" value="true" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="OPEN_IN_PREVIEW_TAB_IF_POSSIBLE" value="true" />

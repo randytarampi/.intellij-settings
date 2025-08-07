@@ -1,0 +1,16 @@
+<application>
+  <component name="ParadoxSettings">
+    <option name="defaultGameDirectories">
+      <map>
+        <entry key="ck2" value="" />
+        <entry key="ck3" value="" />
+        <entry key="eu4" value="" />
+        <entry key="hoi4" value="" />
+        <entry key="ir" value="" />
+        <entry key="stellaris" value="" />
+        <entry key="vic2" value="" />
+        <entry key="vic3" value="" />
+      </map>
+    </option>
+  </component>
+</application>
