@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="srcjar" type="ARCHIVE" />
       <mapping ext="swift-format" type="JSON" />
+      <mapping ext="hoi4" type="Paradox Script" />
       <mapping ext="xcscheme" type="XML" />
       <mapping ext="gpx" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
