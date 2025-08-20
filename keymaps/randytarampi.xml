@@ -1,4 +1,7 @@
 <keymap version="1" name="randytarampi" parent="Mac OS X 10.5+">
+  <action id="AIAssistant.ToolWindow.ShowOrFocus">
+    <keyboard-shortcut first-keystroke="meta alt back_slash" />
+  </action>
   <action id="ActivateBigDataToolWindowToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl meta b" />
   </action>
@@ -9,6 +12,7 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
   </action>
+  <action id="Flutter.Toolbar.ReloadAllAction" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
