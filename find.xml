@@ -13,7 +13,7 @@
     <mask>*.tf</mask>
     <mask>*.tf*</mask>
     <mask>*.py</mask>
-    <mask>package.json</mask>
     <mask>*.yml</mask>
+    <mask>package.json</mask>
   </component>
 </application>
